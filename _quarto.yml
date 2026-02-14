@@ -100,6 +100,30 @@ format:
     include-in-header:
       text: |
         <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    include-after-body:
+      text: |
+        <script src="auth0-config.js"></script>
+        <script>
+          // Update navbar "Sign In" link based on auth status
+          document.addEventListener('DOMContentLoaded', async function() {
+            if (typeof auth0Client !== 'undefined' && auth0Client) {
+              const isAuthenticated = await auth0Client.isAuthenticated();
+              const signInLink = document.querySelector('a[href="login.html"]');
+              
+              if (signInLink && isAuthenticated) {
+                const user = await auth0Client.getUser();
+                signInLink.textContent = user.name || user.email || 'Account';
+                signInLink.href = '#';
+                signInLink.onclick = async (e) => {
+                  e.preventDefault();
+                  if (confirm('Sign out?')) {
+                    await logout();
+                  }
+                };
+              }
+            }
+          });
+        </script>
 
 execute:
   freeze: auto

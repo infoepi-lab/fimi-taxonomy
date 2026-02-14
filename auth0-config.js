@@ -6,7 +6,7 @@
 // the Allowed Callback URLs configured in your Auth0 dashboard
 const auth0Config = {
   domain: 'dev-qpwdmmy00vcxxbp0.eu.auth0.com',
-  clientId: '4w10LIgGMLo4gwukZHRjiNGc0dQ76nm6',
+  clientId: 'GDuKIxdR8792TiX9D8t6ObrauXoDJCI0',
   // Removed audience - not needed for basic authentication
   // audience: 'https://dev-qpwdmmy00vcxxbp0.eu.auth0.com/api/v2/',
   redirectUri: window.location.origin,
@@ -25,12 +25,12 @@ async function initAuth0() {
       scope: auth0Config.scope
     }
   };
-  
+
   // Only add audience if it exists
   if (auth0Config.audience) {
     clientConfig.authorizationParams.audience = auth0Config.audience;
   }
-  
+
   auth0Client = await auth0.createAuth0Client(clientConfig);
 
   // Check if returning from Auth0 callback
@@ -47,7 +47,7 @@ async function initAuth0() {
 // Update UI elements based on login status
 async function updateUI() {
   const isAuthenticated = await auth0Client.isAuthenticated();
-  
+
   // Show/hide login/logout buttons
   document.getElementById('login-btn')?.classList.toggle('hidden', isAuthenticated);
   document.getElementById('logout-btn')?.classList.toggle('hidden', !isAuthenticated);
@@ -55,7 +55,7 @@ async function updateUI() {
 
   if (isAuthenticated) {
     const user = await auth0Client.getUser();
-    
+
     // Display user info
     const profileElement = document.getElementById('user-profile');
     if (profileElement && user) {
