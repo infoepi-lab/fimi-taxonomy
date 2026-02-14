@@ -1,0 +1,12 @@
+---
+title: "Prestige Signaling"
+description: "Using international events to simulate state acceptance and power through prestige signaling."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+Use of international events (Olympics, summits, awards) to simulate acceptance and power. Complements “Awards and Philanthropy” but focuses on state-driven mega-events that legitimize rule through spectacle.
+

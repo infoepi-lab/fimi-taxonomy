@@ -1,0 +1,13 @@
+---
+title: "Election Meddling"
+description: "Electoral meddling involves foreign influence in a country's political process through narrative manipulation and institutional support, aiming to shape perceptions rather than directly interfere with voting."
+categories: ["Projection Abroad"]
+---
+
+::: {.function-badge}
+[Projection Abroad](../function/projection-abroad.qmd)
+:::
+
+Electoral meddling refers to the covert projection of a foreign state’s influence into another country’s political process through narrative and institutional manipulation rather than direct vote interference. It operates by laundering regime-authored content—such as research papers, opinion pieces, leaks, or documentaries—through trusted domestic intermediaries like think tanks, universities, NGOs, or media outlets, concealing its origin while borrowing their credibility.
+The goal is not to alter ballots but to precondition perception: to shape how voters, elites, and institutions interpret the stakes of the election, the character of its participants, and the legitimacy of its outcome. By embedding foreign narratives within the language of expertise and civic discourse, electoral meddling reframes democratic competition as corruption, chaos, or foreign aggression while promoting authoritarian stability as its antidote.
+

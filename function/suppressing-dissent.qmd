@@ -1,0 +1,115 @@
+---
+title: "Suppressing Dissent"
+description: "The systematic targeting of individuals, organizations, and information channels that challenge regime narratives, policies, or legitimacy."
+categories: [function]
+listing:
+  - id: related-mechanisms
+    contents: "../mechanisms/*.qmd"
+    type: table
+    fields: [title, description]
+    filter-ui: false
+    sort: "title"
+    table-hover: true
+    include:
+      categories: "Suppressing Dissent"
+---
+
+## Definition
+
+The systematic targeting of individuals, organizations, and information
+channels that challenge regime narratives, policies, or legitimacy. This
+function encompasses the full spectrum of coercive measures—from
+surveillance and legal harassment to economic strangulation and lethal
+violence—deployed to eliminate opposition voices, deter potential
+critics, and induce anticipatory self-censorship across society. Unlike
+sabotage, which degrades adversary capacity, suppressing dissent
+disciplines information production at its source by making the personal
+costs of independent inquiry prohibitive. The function operates
+domestically to enforce narrative conformity within regime territory and
+transnationally to pursue exiles, intimidate diaspora communities, and
+neutralize critics beyond jurisdictional reach. The cumulative effect is
+not silence in the traditional sense but the managed domestication of
+discourse—a condition in which the boundaries of acceptable speech are
+enforced less by explicit censorship than by internalized risk
+calculation. True command and control is impossible without this
+disciplinary architecture; regimes must not only generate narratives but
+prevent unauthorized accounts from gaining traction.
+
+## Explainer
+
+-   **Banned Platforms**: Government-ordered restrictions or complete
+    shutdowns of digital communication platforms to control information
+    flow, prevent collective organizing, and maintain narrative
+    dominance during periods of political sensitivity.
+
+-   **Demoralization Campaigns**: The systematic dissemination of
+    narratives emphasizing decline, futility, or inevitable defeat to
+    weaken psychological resilience and collective morale. By amplifying
+    despair and cynicism, demoralization campaigns seek to paralyze
+    social response, reduce trust in leadership, and erode willingness
+    to resist or recover from crisis.
+
+-   **Economic Coercion**: State actors deploy economic leverage—such as
+    conditional aid, preferential trade terms, or the threat of
+    withholding essential goods—to induce compliance, punish dissent, or
+    extract political concessions. This coercion exploits economic
+    dependencies or vulnerabilities to suppress opposition without
+    direct physical force, targeting individuals, organizations, or
+    entire states whose positions conflict with regime interests.
+
+-   **Extrajudicial Killings**: Precision assassinations of defectors,
+    dissidents, journalists, intelligence insiders, or others who
+    challenge the regime's ability to dictate truth. These operations
+    are covert in planning but conspicuous in effect—exotic poisons,
+    symbolic timing, and signature methods choreograph fear rather than
+    merely eliminate threats. The killings operate across physical,
+    cognitive, and relational planes: removing strategic threats, sowing
+    fear and uncertainty, and signaling that betrayal carries
+    irrevocable cost.
+
+-   **Forced Confessions**: Coerced admissions—extracted through
+    physical duress, psychological manipulation, or threats to
+    family—broadcast through state-controlled media to delegitimize
+    dissent, construct false narratives, and discipline both the
+    confessor and the broader population.
+
+-   **Hostage Diplomacy**: The arbitrary detention of foreign
+    nationals—journalists, dual citizens, business travelers, or aid
+    workers—as political leverage to extract concessions, deter
+    criticism, or signal coercive reach.
+
+-   **Lawfare**: The strategic weaponization of legal processes and
+    regulatory frameworks to burden, intimidate, or delegitimize
+    independent organizations and media. This includes Strategic
+    Lawsuits Against Public Participation (SLAPPs), "foreign agent"
+    designations, and criminal charges deployed to tie dissenters down
+    in legal or financial precarity. The mechanism uses judicial and
+    administrative measures to restrict dissenting voices and create
+    climates of self-censorship without overt censorship.
+
+-   **Repression**: The use of violence, coercion, and systematic
+    pressure by state forces against civilians, protesters, and
+    knowledge producers. Repression encompasses physical intimidation
+    (arrests, raids, disappearances, detention), surveillance and
+    harassment, discrediting campaigns, infrastructural throttling
+    (revoking licenses, dissolving NGOs, denying funding), and digital
+    interference (account suspensions, spyware, deepfakes). The
+    targeting of journalists, academics, scientists, activists, and
+    whistleblowers fosters self-censorship and erodes independent
+    inquiry, ensuring public knowledge aligns with regime interests. The
+    purpose is to instill anticipatory obedience—a condition where
+    individuals self-censor not because they are explicitly silenced but
+    because they have learned to calculate risk.
+
+-   **Visa Denials**: The strategic use of mobility restrictions to
+    prevent journalists, scholars, activists, and civil society actors
+    from accessing international forums, conducting research, or
+    building cross-border solidarity networks.
+
+## Mechanisms
+
+Suppressing Dissent operates through coercive mechanisms that discipline
+information production at its source. Browse the mechanisms below:
+
+::: {#related-mechanisms}
+:::

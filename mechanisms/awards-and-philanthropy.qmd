@@ -1,0 +1,12 @@
+---
+title: "Awards and Philanthropy"
+description: "Awards and philanthropy are used to shape perceptions, extend influence, and reinforce the awarding entity's prestige and ideological objectives."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+Awards and philanthropy serve as tools to shape perceptions and extend influence by publicly recognizing individuals or organizations aligned with specific ideological or political agendas. These honors enhance credibility, foster loyalty, and propagate desired narratives, thereby reinforcing the awarding entity’s prestige and ideological objectives.
+

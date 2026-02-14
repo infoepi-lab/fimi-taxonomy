@@ -1,0 +1,12 @@
+---
+title: "Coopting Language"
+description: "Co-opting language to legitimize an actor's agenda by appropriating the moral or cultural authority of established values."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+Co-opting language refers to the strategic adoption or redefinition of terminology, slogans, and rhetorical frames associated with trusted institutions, social movements, or democratic discourse to legitimize an actor’s own agenda. Under the Legitimation function, it serves to appropriate the moral or cultural authority of established values—such as freedom, sovereignty, or human rights—while subtly altering their meaning to align with disinformation goals or regime narratives. This tactic manipulates linguistic familiarity to obscure intent, normalize false equivalencies, and blur distinctions between genuine and manufactured legitimacy.
+

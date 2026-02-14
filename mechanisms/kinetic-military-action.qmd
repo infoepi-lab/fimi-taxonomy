@@ -1,0 +1,14 @@
+---
+title: "Kinetic Military Action"
+description: "Kinetic Military Action is the direct use of conventional military force to enforce regime control, neutralize leadership, and assert strategic dominance when other methods fail."
+categories: ["Command and Control"]
+---
+
+::: {.function-badge}
+[Command and Control](../function/command-and-control.qmd)
+:::
+
+While many command mechanisms are subtle or indirect, conventional military action remains a central pillar of military strategy. It is the most explicit tool of regime enforcement—used when narrative warfare, proxies, and diplomacy have failed or are insufficient.
+Historical examples such as the 1968 invasion of Czechoslovakia and the attempted three-day takeover of Ukraine in 2022 show that kinetic action is used to decapitate rival leadership, replace governments, or physically reassert strategic dominance [81,82]. These operations are choreographed to neutralize command nodes, control critical infrastructure, and prevent organized resistance.
+Although overt and high-risk, kinetic operations generate shockwaves across all planes; it is the only action that does so. But this comes at a high cost.
+

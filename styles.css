@@ -1,0 +1,119 @@
+/* CSS Variables - InfoEpi.org Branding */
+:root {
+  --primary-color: #551638;       /* mulberry - primary brand color */
+  --function-color: #551638;      /* mulberry for functions */
+  --mechanism-color: #7B2D5F;     /* lighter mulberry for mechanisms */
+  --terrain-color: #27ae60;       /* green for terrain */
+  --channel-color: #8e44ad;       /* purple for channels */
+}
+
+/* Style category badges — keep visible for function/chapter labels */
+.quarto-categories {
+  margin-top: 0.5rem;
+}
+.quarto-category {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Hide date-modified display */
+.quarto-title-meta-contents .date-modified,
+div.quarto-title-meta-heading:has(+ .date-modified) {
+  display: none !important;
+}
+
+/* Function badge for mechanism pages */
+.function-badge {
+  margin-bottom: 1rem;
+}
+.function-badge a {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--function-color);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+.function-badge a:hover {
+  opacity: 0.85;
+  color: #fff;
+}
+
+/* Grid listing cards */
+.quarto-grid-item {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  border-top: 4px solid #6c757d;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  overflow: hidden;
+}
+.quarto-grid-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+.quarto-grid-item .card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+.quarto-grid-item .card-text {
+  font-size: 0.88rem;
+  color: #555;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Color-coded top borders by section - using InfoEpi.org mulberry palette */
+#functions-listing .quarto-grid-item {
+  border-top-color: var(--function-color);
+}
+#mechanisms-listing .quarto-grid-item {
+  border-top-color: var(--mechanism-color);
+}
+#terrain-listing .quarto-grid-item {
+  border-top-color: var(--terrain-color);
+}
+#channels-listing .quarto-grid-item {
+  border-top-color: var(--channel-color);
+}
+
+/* Sub-index pages: color by body class (set via body-classes in each section index.qmd) */
+body.section-function .quarto-grid-item {
+  border-top-color: var(--function-color);
+}
+body.section-mechanisms .quarto-grid-item {
+  border-top-color: var(--mechanism-color);
+}
+body.section-terrain .quarto-grid-item {
+  border-top-color: var(--terrain-color);
+}
+body.section-channels .quarto-grid-item {
+  border-top-color: var(--channel-color);
+}
+
+/* Callout styling refinement */
+.callout-note {
+  border-left-color: var(--primary-color);
+}
+
+/* Navbar branding alignment */
+.navbar-brand {
+  font-weight: 600;
+  color: var(--primary-color) !important;
+}
+
+/* Dark mode: keep card borders and badge contrast readable */
+.quarto-dark .quarto-grid-item {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.quarto-dark .quarto-grid-item .card-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+.quarto-dark .navbar-brand {
+  color: var(--primary-color) !important;
+}

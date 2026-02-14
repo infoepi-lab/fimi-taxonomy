@@ -1,0 +1,96 @@
+---
+title: "Operational Multipliers"
+description: "Operational Multipliers are not message creators—they are force expanders."
+bibliography: operational-multipliers.bib
+csl: ../apa.csl
+categories: [function]
+listing:
+  - id: related-mechanisms
+    contents: "../mechanisms/*.qmd"
+    type: table
+    fields: [title, description]
+    filter-ui: false
+    sort: "title"
+    table-hover: true
+    include:
+      categories: "Operational Multipliers"
+---
+
+Operational Multipliers are not message creators—they expand the reach
+and impact of that which already exists in an operation–the people, the
+message, the harm. They increase the scale, persistence, and perceived
+legitimacy of influence operations without altering the core narrative.
+They do not produce propaganda but make it louder, more persistent, and
+harder to counter. These mechanisms act across digital, institutional,
+and commercial environments to simulate popularity, engineer
+credibility, and embed influence into the informational terrain.
+
+Unlike Legitimation, which draws power from social or institutional
+prestige, or Obfuscation, which hides the origin of influence,
+Operational Multipliers extend the effects of influence horizontally and
+vertically. They make a narrative feel urgent, ubiquitous, and
+endorsed—not through trust in the source, but through repetition, reach,
+and engineered resonance.
+
+These tools are modular, reusable, and often deniable. Many are
+third-party actors, including commercial entities, freelance
+influencers, criminal enablers, and loosely aligned civil groups. Some
+are automated, others organic but coordinated. Their power is not in the
+argument, but in the architecture. They are designed to alter the
+informational environment itself.
+
+Operational Multipliers are actors and mechanisms that amplify the
+impact of influence operations without producing the original message.
+Their role is not to create content but to increase its visibility,
+credibility, and persistence, making propaganda appear popular,
+trustworthy, and widely accepted. These tools operate across digital,
+institutional, and commercial environments, enhancing the reach and
+durability of core narratives.
+
+Key types of operational multipliers include:
+
+-   **Commercial Malign Influence**: Private firms and digital
+    mercenaries who offer information manipulation as a service,
+    commodifying influence operations and enabling deniability.
+-   **Data Grooming and Poisoning**: Strategic seeding of biased or
+    false content into AI training datasets to subtly shape future
+    machine outputs and limit epistemic boundaries.
+-   **Influencer Networks**: Synchronized online personas who simulate
+    consensus and credibility by mutually reinforcing aligned
+    narratives.
+-   **Mil-Bloggers**: Nationalist or veteran commentators who appear
+    independent but validate regime goals while masking them as
+    grassroots critique.
+-   **Organized Criminal Activity**: Embedded criminal groups that
+    execute influence functions covertly, often serving as proxies for
+    state operations.
+-   **Social Media Manipulation**: Botnets, trolls, and algorithm gaming
+    used to fabricate engagement, suppress dissent, and engineer
+    virality.
+-   **State-Aligned Social Groups**: Foreign-facing activist-style
+    organizations that co-opt local grievances to disseminate
+    regime-aligned narratives under the guise of solidarity.
+-   **State-Content Aggregators**: Alternative media platforms that
+    normalize and embed state propaganda within broader ideological
+    media diets.
+-   **State-Media Partnerships**: Formal collaborations between
+    authoritarian regimes and foreign media outlets to lend legitimacy
+    to state narratives.
+-   **Train-the-Trainers Programs**: Long-term influence structures that
+    cultivate local actors to propagate aligned messaging organically
+    within their communities.
+
+These multipliers work horizontally (spreading messages across networks)
+and vertically (embedding them into trusted institutions or systems).
+Their power lies in architecture, not authorship, making influence
+campaigns harder to detect, challenge, or reverse. They form the
+backbone of modern information warfare by turning isolated signals into
+full-spectrum cognitive environments.
+
+## Mechanisms
+
+Operational Multipliers work horizontally and vertically across digital,
+institutional, and commercial environments. Browse the mechanisms below:
+
+::: {#related-mechanisms}
+:::

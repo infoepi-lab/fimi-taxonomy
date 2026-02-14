@@ -1,0 +1,12 @@
+---
+title: "Foment Violence"
+description: "Foment Violence refers to the strategic provocation and normalization of violence by external actors in a target society, using various methods to incite domestic actors to engage in violence, thereby destabilizing social cohesion and legitimizing further intervention."
+categories: ["Sabotage"]
+---
+
+::: {.function-badge}
+[Sabotage](../function/sabotage.qmd)
+:::
+
+The deliberate provocation, incitement, or normalization of violence within a target society by external actors seeking destabilization. This mechanism operates through multiple channels: infiltrating or manipulating genuine domestic movements to encourage violent tactics; amplifying calls to violence across social media and messaging platforms; glorifying or justifying political violence to shift perceived norms of acceptable action; and seeding rhetoric that frames violence as necessary, inevitable, or defensive. The goal is not direct perpetration but catalysis—triggering domestic actors to engage in violence that fractures social cohesion, delegitimizes institutions, overwhelms security capacity, and creates pretexts for further intervention or narrative exploitation. By outsourcing violence to local actors, external operators maintain deniability while generating chaos that serves strategic objectives.
+

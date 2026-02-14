@@ -1,0 +1,14 @@
+---
+title: "Financial Distribution"
+description: "Financial distribution involves fragmenting and rerouting resource flows through various channels to maintain liquidity and minimize traceability, ensuring operational solvency and influence despite scrutiny or sanctions."
+categories: ["Longevity"]
+---
+
+::: {.function-badge}
+[Longevity](../function/longevity.qmd)
+:::
+
+Financial distribution refers to the fragmentation and rerouting of resource flows through intermediaries, informal channels, or parallel entities to prevent interruption under scrutiny or sanction. Funds may be dispersed across multiple organizations, fiscal sponsors, or cryptocurrency systems to ensure liquidity and minimize traceability.
+This mechanism maintains operational solvency after exposure or asset freezes, ensuring that no single funding node becomes a vulnerability. By separating control from visibility, financial distribution sustains influence operations through disruption and reconstitution.
+In practice, it transforms financial opacity into endurance—money flows continue even when oversight tightens.
+

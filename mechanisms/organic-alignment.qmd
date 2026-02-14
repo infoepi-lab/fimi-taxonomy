@@ -1,0 +1,12 @@
+---
+title: "Organic Alignment"
+description: "Organic alignment occurs when individuals or groups independently adopt narratives that align with a regime's goals, driven by shared ideology, grievances, or opportunism, thereby enhancing the regime's narrative credibility."
+categories: ["Spillover"]
+---
+
+::: {.function-badge}
+[Spillover](../function/spillover.qmd)
+:::
+
+Individuals, influencers, or organizations independently adopt positions or narratives that coincide with a regime’s objectives without coordination or payment. Alignment arises through ideology, grievance resonance, or opportunism, giving state-driven narratives authentic social traction.
+

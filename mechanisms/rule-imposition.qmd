@@ -1,0 +1,22 @@
+---
+title: "Rule Imposition"
+description: "Rule Imposition involves using coercive leverage to integrate external political or security constraints into a target state's legal framework, ensuring lasting compliance."
+categories: ["Command and Control"]
+---
+
+::: {.function-badge}
+[Command and Control](../function/command-and-control.qmd)
+:::
+
+Rule Imposition is the use of coercive leverage to embed externally defined political or security constraints into a target state’s legal or constitutional framework, converting temporary pressure into durable, self-enforcing compliance.
+
+## Documented Examples
+
+> After the 1992 war in Transnistria in which Moscow sided with separatist forces, Moldova succumbed to Russian pressure and included a guarantee for permanent neutrality in its 1994 Constitution. The plan was to barter neutrality in exchange for Russian troop withdrawals from the region, but these withdrawals never took place, as evident in Russia’s continuing military presence in the region.
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+
+> The plan was to barter neutrality in exchange for Russian troop withdrawals from the region, but these withdrawals never took place, as evident in Russia’s continuing military presence in the region. Arguing on the principle of Moldova’s constitutionally mandated neutrality, Russia has consistently stifled support for Moldova’s efforts to increase its defense and military capabilities. Pro-Kremlin propaganda in Chisinau has targeted Moldova with a narrative that it does not need an army because it is a neutral nation. Critics claim that successive Moldovan governments, under the pretext of neutrality, have deliberately ignored the security and defense sectors over the years, refusing to acknowledge the evolving Russian threat.
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+

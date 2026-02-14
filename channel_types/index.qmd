@@ -1,0 +1,19 @@
+---
+title: "Channel Types"
+description: "Communication channels and platforms used for information manipulation"
+listing:
+  contents:
+    - "*.qmd"
+    - "cyber/index.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "title"
+  fields: [title, description]
+format:
+  html:
+    body-classes: section-channels
+---
+
+Channel types describe the **platforms and media** through which
+information manipulation is delivered. Each channel type encompasses
+specific platforms, formats, or venues.

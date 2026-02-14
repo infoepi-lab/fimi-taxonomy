@@ -1,0 +1,14 @@
+---
+title: "Youth Targeting"
+description: "A form of succession planning that regenerates leadership and sustains ideological coherence through youth recruitment, training, and indoctrination."
+categories: ["Longevity"]
+---
+
+::: {.function-badge}
+[Longevity](../function/longevity.qmd)
+:::
+
+Youth targeting is a form of succession planning in which ideological and generational renewal are institutionalized through youth recruitment, training, and indoctrination pipelines. These initiatives regenerate leadership and sustain ideological coherence across time.
+Through educational exchanges, fellowships, and cultural programs, regimes and aligned movements cultivate new adherents who carry forward operational culture and loyalty. Such programs embed ideology within opportunity structures—linking career advancement, belonging, and influence to participation in regime-aligned ecosystems.
+By continuously replenishing its human capital, the influence architecture maintains vitality even as older cadres retire or are discredited.
+

@@ -1,0 +1,12 @@
+---
+title: "Demoralization Campaigns"
+description: "Demoralization campaigns aim to weaken collective morale and suppress dissent by spreading narratives of decline and defeat, thereby fostering despair and reducing trust in leadership."
+categories: ["Suppressing Dissent"]
+---
+
+::: {.function-badge}
+[Suppressing Dissent](../function/suppressing-dissent.qmd)
+:::
+
+The systematic dissemination of narratives emphasizing decline, futility, or inevitable defeat to weaken psychological resilience and collective morale. By amplifying despair and cynicism, demoralization campaigns seek to paralyze social response, reduce trust in leadership, and erode willingness to resist or recover from crisis.
+

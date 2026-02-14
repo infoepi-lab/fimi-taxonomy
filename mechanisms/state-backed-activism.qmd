@@ -1,0 +1,14 @@
+---
+title: "State-Backed Activism"
+description: "State-backed activism fabricates the appearance of independent civic mobilization to legitimize regime policies or discredit adversaries."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+State-backed activism fabricates the appearance of independent civic mobilization to legitimize regime policies or discredit adversaries. Rather than issuing directives through overt state channels, regimes outsource moral authority to front groups, sympathetic NGOs, or manipulated grassroots movements that mimic authentic social activism. These operations borrow the language, aesthetics, and organizational forms of civil society—human rights campaigns, peace marches, environmental protests—to project bottom-up legitimacy for top-down objectives.
+The tactic converts dissent into theater. Petitions, rallies, and social media campaigns appear spontaneous yet follow centrally defined scripts, often coordinated through state-funded cultural or “patriotic” organizations. Participants may be unaware of the orchestration, believing they are advancing moral or humanitarian causes while reinforcing state narratives about sovereignty, anti-colonialism, or traditional values.
+Historically, the World Peace Council and similar Soviet fronts institutionalized this practice, using disarmament and solidarity language to launder geopolitical messaging. Contemporary successors include regime-aligned “anti-imperialist” networks, youth movements, and so-called peace coalitions that mobilize abroad to normalize repression or justify military aggression. The power of state-backed activism lies in its plausible authenticity: it reframes propaganda as public conscience and recasts state power as popular will
+

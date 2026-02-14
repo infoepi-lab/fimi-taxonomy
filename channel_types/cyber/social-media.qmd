@@ -1,0 +1,44 @@
+---
+title: "Social Media"
+description: "Mainstream and alternative social media platforms where influence operations exploit algorithmic amplification, network effects, and the collapse of editorial gatekeeping."
+categories: [channel_type, cyber]
+---
+
+Social media platforms are the primary digital battleground for influence operations, offering unparalleled reach, speed, and the ability to simulate organic consensus. Their algorithmic architectures reward engagement over accuracy, creating structural incentives that influence operators exploit systematically. Platforms like X (formerly Twitter), Facebook, Instagram, TikTok, and YouTube serve as both amplification engines and targeting systems, enabling precise audience segmentation and message delivery at scale.
+
+The distinction between mainstream and alternative social media is strategically significant. Mainstream platforms offer massive audiences but face increasing moderation pressure, pushing some influence operations toward alternative platforms like Telegram channels, VKontakte, Gab, and Rumble, where content moderation is minimal and ideological communities are concentrated. Cross-platform migration—seeding content on fringe platforms and engineering its movement into mainstream discourse—has become a standard operational pattern.
+
+Russian-origin platforms like VKontakte and Odnoklassniki serve dual functions: as domestic information control mechanisms and as tools for projecting influence into Russian-speaking diaspora communities abroad. Chinese platforms like WeChat and Weibo operate similarly within their respective ecosystems, while TikTok's global reach has introduced new vectors for algorithmic influence that transcend traditional platform boundaries.
+
+## Platforms
+
+- Twitter / X
+- Facebook
+- Instagram
+- TikTok
+- YouTube
+- LinkedIn
+- VKontakte (VK)
+- Odnoklassniki
+- Gab
+- Rumble
+- Truth Social
+- Parler
+- Gettr
+- BitChute
+- Minds
+- Snapchat
+- Pinterest
+- Threads
+- Bluesky
+- Mastodon
+- WeChat
+- Weibo
+- Douyin
+- Kwai
+- Flickr
+- Tumblr
+- Lemon8
+- Clubhouse
+- Kick
+- Truth Social

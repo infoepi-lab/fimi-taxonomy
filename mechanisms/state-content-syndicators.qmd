@@ -1,0 +1,16 @@
+---
+title: "State-Content Syndicators"
+description: "State-Content Syndicators are entities that collect and redistribute state-controlled content, either by remixing it with unrelated information or by directly republishing it, thereby obscuring its origin and enhancing its reach."
+categories: ["Operational Multipliers"]
+---
+
+::: {.function-badge}
+[Operational Multipliers](../function/operational-multipliers.qmd)
+:::
+
+State-Content Syndicators are entities—ranging from high-volume aggregators to direct republishers—that systematically collect, recycle, paraphrase, or syndicate material originating from state-controlled or state-aligned sources. They embed this content within broader streams of unrelated information, obscuring provenance and amplifying reach.
+Syndicators operate along a spectrum:
+- Aggregator-mode: They pull in and remix state-aligned material alongside generic news, commentary, or scraped content, reducing the visibility of the original source and normalizing propaganda within an apparently diverse feed.
+- Republisher-mode: They directly mirror or lightly edit state-produced articles, videos, or statements, often targeting foreign audiences and using their own platform’s credibility to launder the narrative.
+- Across both modes, the core function remains the same: extend the visibility, lifespan, and perceived independence of state narratives by routing them through intermediate outlets that appear structurally or editorially separate from the originating state.
+

@@ -1,0 +1,60 @@
+---
+title: "Spillover"
+description: "Spillover describes the diffusion of regime-favored narratives into public discourse through mechanisms that do not rely on explicit coordination, direct state control, or coercive amplification."
+bibliography: spillover.bib
+csl: ../apa.csl
+categories: [function]
+listing:
+  - id: related-mechanisms
+    contents: "../mechanisms/*.qmd"
+    type: table
+    fields: [title, description]
+    filter-ui: false
+    sort: "title"
+    table-hover: true
+    include:
+      categories: "Spillover"
+---
+
+Spillover describes the diffusion of regime-favored narratives into
+public discourse through mechanisms that do not rely on explicit
+coordination, direct state control, or coercive amplification. Unlike
+traditional propaganda or high-intensity information manipulation
+campaigns, spillover mechanisms operate in the background, often
+imperceptibly, embedding manipulated or ideologically loaded narratives
+into the epistemic routines of everyday media consumption. Their power
+lies in subtlety: they exploit systemic vulnerabilities in how
+information is sourced, circulated, and socially validated to extend the
+reach and legitimacy of regime interests without triggering the
+defensive reflexes typically associated with overt state messaging.
+
+Spillover functions through multiple discrete but overlapping
+techniques. Each leverages different facets of the modern information
+ecosystem—from attribution ambiguity to infrastructural dependency—to
+enable authoritarian narratives to appear organic, credible, and widely
+shared.
+
+## Mechanisms
+
+Spillover operates through mechanisms that embed regime narratives into
+everyday information flows without overt coordination. Browse the
+mechanisms below:
+
+::: {#related-mechanisms}
+:::
+
+## Discussion
+
+Spillover represents one of the regime's most insidious and structurally
+effective tools of narrative diffusion. It avoids overt confrontation,
+instead operating through saturation, ambiguity, and integration into
+the ambient rhythms of daily communication. By embedding manipulated
+content within the routine operations of journalism, social media, and
+civic discourse, spillover allows regime-aligned narratives to circulate
+widely, appear organic, and resist direct refutation.
+
+Adding noise—the repeated, low-friction recirculation of ideas—adds
+atmospheric density, creating the illusion of consensus through sheer
+presence. Together, these mechanisms dissolve the distinction between
+independent thought and managed perception, subtly reshaping the
+informational environment while remaining difficult to trace.

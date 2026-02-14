@@ -1,0 +1,12 @@
+---
+title: "Paid Influencers"
+description: "Undisclosed paid influencers are covertly compensated individuals or entities used by states or actors to promote specific narratives and manipulate public opinion while concealing their financial ties."
+categories: ["Obfuscation"]
+---
+
+::: {.function-badge}
+[Obfuscation](../function/obfuscation.qmd)
+:::
+
+Undisclosed paid influencers are individuals or entities covertly compensated by a state or actor to promote specific narratives while concealing their financial or organizational ties. This form of information manipulation leverages the perceived independence of these influencers to legitimize and amplify targeted messages, thereby shaping public opinion without revealing the orchestrated nature of the communication.
+

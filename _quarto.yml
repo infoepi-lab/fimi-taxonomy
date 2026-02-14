@@ -1,0 +1,88 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+    - "!blog/index.qmd"
+
+title: "FIMI Taxonomy"
+date: 2026-02-24
+author:
+  name:
+    given: E. Rosalie
+    family: Li
+  url: https://infoepi.org
+  affiliation: Information Epidemiology Lab
+
+citation:
+  type: article-journal
+
+website:
+  site-url: "https://fimi.wiki"
+  open-graph: true
+  twitter-card: true
+  reader-mode: true
+  search:
+    location: navbar
+    type: overlay
+  body-footer: |
+    FIMI Taxonomy by [Information Epidemiology Lab](https://infoepi.org).
+  favicon: favicon.png
+  announcement:
+    content: "**FIMI Taxonomy v4.1** — Modular taxonomy of foreign information manipulation and interference"
+    icon: info-circle
+    position: below-navbar
+    dismissable: true
+    type: primary
+  navbar:
+    background: dark
+    search: true
+    left:
+      - file: index.qmd
+        text: "Home"
+      - file: function/index.qmd
+        text: "Functions"
+      - file: mechanisms/index.qmd
+        text: "Mechanisms"
+      - file: terrain/index.qmd
+        text: "Terrain"
+      - file: channel_types/index.qmd
+        text: "Channels"
+    right:
+      - file: notes.qmd
+        text: "Notes"
+  page-footer:
+    left: "FIMI Taxonomy"
+    right:
+      - file: function/index.qmd
+        text: "Functions"
+      - file: mechanisms/index.qmd
+        text: "Mechanisms"
+      - file: terrain/index.qmd
+        text: "Terrain"
+      - file: channel_types/index.qmd
+        text: "Channels"
+      - file: notes.qmd
+        text: "Notes"
+
+format:
+  html:
+    theme:
+      light: [paper, brand]
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-location: right
+    lang: en
+    page-layout: full
+    grid:
+      sidebar-width: 280px
+      body-width: 900px
+      margin-width: 260px
+      gutter-width: 1.5rem
+
+execute:
+  freeze: auto
+
+editor: visual

@@ -1,0 +1,12 @@
+---
+title: "Information Alibi"
+description: "False narratives are strategically created and spread to provide deniability for unlawful acts, shift blame, and obscure the perpetrator's responsibility, thereby hindering accountability and investigations."
+categories: ["Obfuscation"]
+---
+
+::: {.function-badge}
+[Obfuscation](../function/obfuscation.qmd)
+:::
+
+False narratives are preemptively crafted and disseminated to create plausible deniability for unlawful acts, shift blame onto adversaries, and obscure the perpetrator’s responsibility. This form of information manipulation constructs an alternative account of events before or immediately after the commission of a crime, enabling the responsible party to deflect accusations, hinder investigations, and undermine accountability by saturating the information environment with misleading explanations.
+

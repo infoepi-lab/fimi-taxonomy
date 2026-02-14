@@ -1,0 +1,12 @@
+---
+title: "Economic Coercion"
+description: "Economic coercion involves state actors using economic leverage to enforce compliance, punish dissent, or gain political concessions from other states by exploiting their economic dependencies."
+categories: ["Suppressing Dissent"]
+---
+
+::: {.function-badge}
+[Suppressing Dissent](../function/suppressing-dissent.qmd)
+:::
+
+State actors deploy economic leverage—such as conditional aid, preferential trade terms, or the threat of withholding essential goods—to induce compliance, punish dissent, or extract political concessions from other states. This form of coercion exploits economic dependencies or vulnerabilities to achieve strategic objectives without direct military force.
+

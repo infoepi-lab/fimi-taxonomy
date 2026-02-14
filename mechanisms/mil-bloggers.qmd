@@ -1,0 +1,23 @@
+---
+title: "Mil-Bloggers"
+description: "Mil-bloggers are seemingly independent military commentators who, while appearing grassroots, actually serve as controlled outlets for state narratives, enhancing credibility and shaping public perception while suppressing genuine dissent."
+categories: ["Operational Multipliers"]
+---
+
+::: {.function-badge}
+[Operational Multipliers](../function/operational-multipliers.qmd)
+:::
+
+Mil-bloggers are ostensibly independent military commentators—often veterans, embedded reporters, or nationalist influencers—who operate as semi-autonomous amplifiers of state narratives. While appearing grassroots or oppositional, they function as a controlled outlet for sanctioned critique, voicing tactical frustrations or battlefield insights that reinforce the regime’s overarching legitimacy and strategic goals. This calculated autonomy enhances credibility: by sounding authentic and unscripted, mil-bloggers can shape public perception more effectively than overt propaganda.
+The state leverages this illusion of independence to diffuse accountability and test narrative boundaries, allowing limited dissent within safe ideological limits while suppressing genuinely critical discourse. In practice, mil-bloggers serve as proxy communicators of power—translating official objectives into culturally resonant, emotionally charged commentary that sustains public engagement, deflects blame, and normalizes prolonged conflict without ever disclosing their coordination with state structures.
+
+## Documented Examples
+
+> Russian Telegram channels frequently spread speculation concerning Romanian military participation in the conflict.
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+
+> Previously in October 2022, a well-known Russian Telegram channel called WarGonzo wrote, “The [Western] curators have directed [Moldovan President] Sandu to work out the details of a large-scale military mobilization in Moldova to build a second front for Russia alongside Romanian forces.”
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+

@@ -1,0 +1,29 @@
+---
+title: "Document and Archive Manipulation"
+description: "Document and archive manipulation targets the evidentiary foundations of truth through fabrication, alteration, suppression, or selective presentation of official documents, historical records, or archival material."
+categories: ["Sabotage"]
+bibliography: ../function/sabotage.bib
+csl: ../apa.csl
+---
+
+Document and archive manipulation is a sabotage technique that targets the evidentiary foundations of truth. It involves the fabrication, alteration, suppression, or selective presentation of official documents, historical records, or archival material to construct false narratives, obscure responsibility, or launder disinformation through seemingly authoritative channels.
+
+This technique exploits the perceived permanence and legitimacy of documents—state memos, intelligence files, historical archives, or journalistic records—to embed disinformation into the factual record. Once introduced, these distortions can be recycled over decades, shaping how events are remembered, adjudicated, or understood. The aim is not to generate temporary confusion but to reshape institutional memory and legitimize fiction as fact.
+
+### Examples
+
+During the Cold War, the KGB's "Operation INFEKTION" involved forging a document purporting to be a classified U.S. military report claiming the Pentagon created the AIDS virus as a bioweapon [@ellick2018; @kramer2020; @selvage2021; @selvage2019]. This fabricated memo was planted in a fringe Indian newspaper and eventually picked up by international outlets. The disinformation was later rebroadcast by Soviet domestic media, giving it the appearance of external confirmation—a technique known as narrative laundering.
+
+Soviet intelligence also fabricated "CIA memos" implicating U.S. diplomats in assassination plots or regime-change conspiracies, which were inserted into European media to discredit American foreign policy [@news1981; @graphika2020; @agency1988; @anderson1985]. These forgeries were rarely meant to hold up under scrutiny; their power lay in initial impact and cumulative erosion of credibility.
+
+More recently, Russian military intelligence (GRU) has been implicated in the manipulation of digital forensic trails, such as planting misleading metadata in leaked documents or editing captured communications to distort their meaning before public release [@graphika2020; @warfakes2022].
+
+### Discussion
+
+This variety of sabotage weaponizes the very tools designed to preserve accountability. By corrupting the documentary record, attackers do not merely distort public discourse—they reshape the substrate on which future truth claims will be judged. This can obstruct international investigations, delay legal proceedings, and create plausible deniability for war crimes, covert actions, or domestic repression.
+
+In the digital era, this technique has only grown more potent. Archival manipulation now extends to hacked document dumps, selective leaks, and deepfake textual artifacts. The goal is not only to lie, but to embed the lie in a medium that appears neutral, static, and verifiable.
+
+Document and archive manipulation is especially corrosive when deployed against liberal institutions that rely on transparency, documentation, and rule-of-law procedures. When false documents infiltrate evidence chains or historical records, the integrity of the truth-seeking process itself comes under attack.
+
+Ultimately, this is sabotage not of infrastructure or personnel, but of epistemic trust—the slow poisoning of the record upon which justice, history, and governance depend. In a world where anyone can say, "That's fake," accountability cannot exist.

@@ -1,0 +1,80 @@
+---
+title: "FIMI Taxonomy"
+description: "A modular, impact-focused taxonomy of foreign information manipulation and interference"
+author:
+  - name: 
+    given name: E. Rosalie
+    family name: Li
+    url: https://infoepi.org
+    affiliation: Information Epidemiology Lab
+listing:
+  - id: functions-listing
+    contents: "function/*.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "title"
+    fields: [title, description]
+    include:
+      categories: "function"
+  - id: mechanisms-listing
+    contents:
+      - "mechanisms/*.qmd"
+      - "!mechanisms/index.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "title"
+    fields: [title, description]
+  - id: terrain-listing
+    contents:
+      - "terrain/*.qmd"
+      - "!terrain/index.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "title"
+    fields: [title, description]
+  - id: channels-listing
+    contents:
+      - "channel_types/*.qmd"
+      - "!channel_types/index.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "title"
+    fields: [title, description]
+---
+
+The Foreign Information Manipulation and Interference (FIMI) Taxonomy
+v4.1 documents the architecture of state-sponsored information
+manipulation operations. It catalogs 9 strategic functions, 105+
+mechanisms, 7 structural terrain factors, and 8 channel types into a
+navigable, cross-referenced knowledge base.
+
+## Functions
+
+The strategic purposes behind information manipulation.
+
+::: {#functions-listing}
+:::
+
+## Mechanisms
+
+The specific tactics and tools used to carry out each function.
+
+::: {#mechanisms-listing}
+:::
+
+## Structural Terrain
+
+Environmental conditions shaping vulnerability or resilience.
+
+::: {#terrain-listing}
+:::
+
+## Channel Types
+
+Platforms and media through which manipulation is delivered.
+
+::: {#channels-listing}
+:::
+
+This site is generated from research by the Information Epidemiology
+Lab.

@@ -1,0 +1,14 @@
+---
+title: "Educational Travel Programs"
+description: "A soft-power mechanism using educational travel to advance political or ideological influence abroad through curated cultural and experiential exposure."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+A soft-power mechanism that uses academic, cultural, or experiential travel to advance political or ideological influence abroad. These programs facilitate exposure to curated environments that reinforce specific narratives, values, or geopolitical alignments. While presented as educational or cultural exchange, they often serve dual purposes: shaping participants’ perceptions, cultivating long-term sympathizers, and embedding favorable viewpoints within foreign civil society or academic institutions.
+
+Educational travel programs operate as projection instruments—they externalize domestic ideology, build personal networks of influence, and create emotionally bonded intermediaries who act as informal advocates or amplifiers upon return. By merging pedagogy with persuasion, these initiatives extend the sponsoring actor’s reach into foreign populations through ostensibly benign, non-state channels.
+

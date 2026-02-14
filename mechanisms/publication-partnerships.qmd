@@ -1,0 +1,12 @@
+---
+title: "Publication Partnerships"
+description: "Circular citations create a false narrative by repeatedly referencing unverified claims through multiple sources, amplifying their credibility without independent verification."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+Circular citations occur when information is repeatedly propagated through multiple media outlets and organizational layers, each referencing the previous source, thereby creating a perceived consensus. This process relies on the repetition of unverified or fabricated claims—such as Soviet disinformation alleging U.S. biological weapons in Korea based on fake Chinese investigations—and amplifies their credibility by establishing an interconnected chain of sources that reinforce the narrative without independent verification.
+

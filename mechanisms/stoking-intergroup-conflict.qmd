@@ -1,0 +1,12 @@
+---
+title: "Stoking Intergroup Conflict"
+description: "Stoking intergroup conflict involves amplifying or fabricating grievances between groups to foster hostility and mistrust, exploiting perceived injustices to fragment social cohesion and destabilize governance."
+categories: ["Sabotage"]
+---
+
+::: {.function-badge}
+[Sabotage](../function/sabotage.qmd)
+:::
+
+A divisive influence mechanism that amplifies or fabricates grievances between social, ethnic, religious, or political groups to foster hostility, mistrust, and fear of one another. It deliberately encourages anxiety and suspicion between communities by highlighting or inventing threats, real or imagined, exploiting real or perceived injustices to fragment social cohesion, redirect public attention, and destabilize governance structures.
+

@@ -1,0 +1,12 @@
+---
+title: "Irregular Attacks"
+description: "Irregular attacks are deliberate acts of physical sabotage aimed at damaging infrastructure and intimidating populations, differing from cyber operations by causing material harm and visible disruption without typically being classified as acts of war."
+categories: ["Sabotage"]
+---
+
+::: {.function-badge}
+[Sabotage](../function/sabotage.qmd)
+:::
+
+Irregular attacks are deliberate, physical acts of sabotage (explosions, arson, cutting or damaging infrastructure, directed collisions, or physical tampering) intended to degrade, disable, or destroy material systems and to intimidate or coerce populations and governments. As a sabotage mechanism, they differ from cyber-only operations because they cause material damage, pose physical risks to people, and produce highly visible disruption that can shift political calculations and public sentiment. These are generally not considered to rise to the level of an act of war.
+

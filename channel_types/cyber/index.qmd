@@ -1,0 +1,12 @@
+---
+title: "Cyber Channels"
+description: "Digital platforms and online environments exploited for information manipulation"
+listing:
+  contents: "*.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "title"
+  fields: [title, description]
+---
+
+Cyber channels encompass the digital platforms and online environments through which information manipulation is delivered, amplified, and sustained. Each channel type reflects distinct structural properties—algorithmic amplification, pseudonymity, encryption, editorial absence—that create specific vulnerabilities exploitable by influence operators.

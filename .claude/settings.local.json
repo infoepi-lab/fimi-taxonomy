@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(Get-ChildItem -Recurse -Filter \"*.html\")",
+      "Bash(Where-Object { $_FullName -notlike \"*\\\\_site\\\\*\" })",
+      "Bash(Select-Object -First 5 FullName)",
+      "WebFetch(domain:infoepi.org)",
+      "Bash(ls:*)",
+      "Bash(python update_mechanism_metadata.py:*)",
+      "Bash(python generate_pages.py:*)",
+      "WebFetch(domain:quarto.org)",
+      "Bash(quarto render:*)",
+      "Bash(grep:*)",
+      "mcp__Desktop_Commander__start_process",
+      "mcp__Desktop_Commander__read_process_output",
+      "mcp__Desktop_Commander__move_file",
+      "mcp__mcp-registry__search_mcp_registry",
+      "mcp__Desktop_Commander__list_directory",
+      "mcp__Desktop_Commander__write_file",
+      "mcp__Desktop_Commander__edit_block",
+      "mcp__Desktop_Commander__get_file_info",
+      "mcp__Desktop_Commander__list_sessions",
+      "Bash(\"/c/Program Files/RStudio/resources/app/bin/quarto/bin/quarto.cmd\" render mechanisms/academic-initiatives.qmd)",
+      "Bash(python:*)",
+      "Bash(for file in awareness-levels.qmd concurrent-events.qmd geography.qmd legal.qmd population-features.qmd reaction.qmd technology-access.qmd)",
+      "Bash(do sed -i '/^## Related Mechanism$/,/^See also:.*$/d' \"$file\")",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(git add:*)"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+---
+title: "Document Manipulation"
+description: "Document manipulation involves altering or omitting records to create false narratives, distort history, and conceal wrongdoing by exploiting the authority of official documents."
+categories: ["Obfuscation"]
+---
+
+::: {.function-badge}
+[Obfuscation](../function/obfuscation.qmd)
+:::
+
+The fabrication, alteration, or selective omission of records within official, institutional, or archival repositories to construct false narratives or obscure evidence. This mechanism exploits the perceived authority and permanence of documentary sources to legitimize false interpretations, distort historical understanding, and conceal wrongdoing.
+

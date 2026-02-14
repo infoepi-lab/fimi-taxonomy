@@ -1,0 +1,10 @@
+---
+title: ""
+description: ""
+categories: [""]
+---
+
+::: {.function-badge}
+[](../function/.qmd)
+:::
+

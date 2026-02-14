@@ -1,0 +1,27 @@
+---
+title: "Information Fracturing"
+description: "Information fracturing is the deliberate dissemination of multiple, conflicting narratives into the information environment to disorient audiences and degrade their ability to distinguish truth from falsehood."
+categories: ["Sabotage"]
+bibliography: ../function/sabotage.bib
+csl: ../apa.csl
+---
+
+Information fracturing is the deliberate dissemination of multiple, conflicting narratives into the information environment to disorient audiences and degrade their ability to distinguish truth from falsehood. Unlike classical disinformation, which advances a singular false narrative, this technique operates by flooding the zone—introducing a chaotic mix of half-truths, contradictions, and speculative claims [@paul2016]. The objective is not persuasion but cognitive overload [@christopher2022; @johnson2024]. When individuals are exposed to a glut of incompatible explanations, they become more likely to rely on trusted sources [@dhhs2020]. This may be true whether the source is credible or even appropriate for the topic.
+
+This method thrives in moments of crisis or confusion, when demand for reliable information is high but verification is difficult [@copeland2020]. Rather than resolve uncertainty, information fracturing sustains and weaponizes it, undermining the very conditions required for informed public judgment.
+
+### Examples
+
+A notable instance of information fracturing occurred after the downing of Malaysia Airlines Flight MH17 in 2014. Russian state and proxy media circulated a barrage of divergent explanations—Ukrainian jet fighters, mistaken identity, a CIA conspiracy—none of which were substantiated [@higgins2015; @bellingcat2020; @furlong2020]. The goal was not to establish a convincing counter-narrative but to create so many competing versions that the truth was lost in the noise [@euvsdisinfo2021].
+
+Similar techniques have been employed in the aftermath of chemical weapons attacks in Syria, where Russian and Syrian regime-aligned outlets offered multiple, mutually contradictory theories—false-flag operations, staged videos, accidental gas leaks—casting doubt on responsibility and paralyzing international response [@campaign2022; @team2018; @starbird2020; @whitaker2021].
+
+In the COVID-19 pandemic, foreign actors injected conflicting narratives about the virus's origin (lab leak vs. bioweapon vs. zoonotic), the reliability of vaccines, and the intentions of public health authorities [@li2021; @lewis2021; @bricsinfo2025; @milmo2021; @cotton2020]. And when U.S. leadership began implying that SARS-CoV-2 was a biological weapon, it kicked off a narratives arms race [@bandeira2021]. The collateral damage what the public's ability to differentiate signal from noise.
+
+### Discussion
+
+Information fracturing corrodes not only truth but the very architecture of knowability. It is especially destructive in democratic societies, where the public sphere depends on a shared baseline of facts to make collective decisions. By overwhelming discourse with contradictions, the attacker erodes institutional legitimacy, reduces the salience of expert consensus, and encourages disengagement or hyper-partisanship.
+
+This variety of sabotage offers autocratic regimes a strategic advantage. Where democracies require transparency and truth to function, authoritarian actors benefit from ambiguity and doubt. When no narrative dominates, they are free to assert control over perception, dismiss accusations as speculative, and deflect scrutiny indefinitely.
+
+At scale, information fracturing creates an epistemic smog in which denial becomes plausible, and the very notion of factual accountability is weakened. It is not a battle of ideas—it is the collapse of the conditions for debate itself.

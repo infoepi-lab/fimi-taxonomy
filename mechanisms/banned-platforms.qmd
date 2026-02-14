@@ -1,0 +1,12 @@
+---
+title: "Banned Platforms"
+description: "Platform banning is the intentional restriction of digital platforms by governments to suppress dissent and control narratives, often justified by claims of national security or cultural preservation."
+categories: ["Suppressing Dissent"]
+---
+
+::: {.function-badge}
+[Suppressing Dissent](../function/suppressing-dissent.qmd)
+:::
+
+Platform banning refers to the deliberate restriction or outright prohibition of specific digital platforms—such as social media sites, messaging apps, or content-sharing services—by state actors to suppress dissent, control narratives, and limit access to alternative sources of information. These bans often target platforms perceived as enabling protest organization, whistleblowing, investigative journalism, or transnational solidarity. Governments may justify these actions under the guise of protecting national security, combating disinformation, or preserving cultural values, but the underlying objective is frequently to sever channels of communication that challenge regime authority.
+

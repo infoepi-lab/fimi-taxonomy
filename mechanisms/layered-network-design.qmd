@@ -1,0 +1,14 @@
+---
+title: "Layered Network Design"
+description: "Layered network design is a hierarchical strategy that creates an illusion of autonomy among entities while enabling centralized control, ensuring operational continuity and legitimacy through multiple visible and invisible layers."
+categories: ["Longevity"]
+---
+
+::: {.function-badge}
+[Longevity](../function/longevity.qmd)
+:::
+
+Layered network design is a hierarchical organizational strategy in which multiple tiers of entities—often appearing autonomous—are structured to conceal centralized coordination and control. This design creates a façade of diversity and independence while enabling unified strategic direction and information flow.
+By embedding control across visible and invisible layers, regimes and intermediaries can protect their core operations from disruption. Outer layers provide public legitimacy; inner layers direct financing, communications, and operational priorities.
+Layered networks provide redundancy and deniability, allowing successor or front organizations to continue activity even after exposure or sanction. The result is an ecosystem that appears pluralistic but functions as a coherent whole.
+

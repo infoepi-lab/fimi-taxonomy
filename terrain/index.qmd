@@ -1,0 +1,15 @@
+---
+title: "Structural Terrain"
+description: "Environmental and structural factors that shape information manipulation"
+listing:
+  contents: "*.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "title"
+  fields: [title, description]
+format:
+  html:
+    body-classes: section-terrain
+---
+
+Structural terrain describes the **environmental conditions** that shape the vulnerability or resilience of a population to information manipulation. These are not tactics — they are the landscape on which operations take place.

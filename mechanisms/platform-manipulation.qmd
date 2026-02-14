@@ -1,0 +1,12 @@
+---
+title: "Platform Manipulation"
+description: "Algorithmic manipulation on digital platforms involves coordinated actions to artificially influence the visibility of information, shaping public perception by amplifying preferred narratives and suppressing opposing ones."
+categories: ["Operational Multipliers"]
+---
+
+::: {.function-badge}
+[Operational Multipliers](../function/operational-multipliers.qmd)
+:::
+
+Algorithmic manipulation exploits the rules and features of digital platforms to artificially amplify, suppress, or distort the visibility of information. Coordinated actors systematically engage with content—such as mass liking, sharing, commenting, or reporting—to trigger algorithmic responses that elevate preferred narratives or diminish opposing ones, thereby shaping public perception and discourse without transparent attribution.
+

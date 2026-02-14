@@ -1,0 +1,12 @@
+---
+title: "Visa Denials"
+description: "Visa denials serve as a covert method of suppressing dissent by restricting the movement of journalists, academics, and activists based on their political beliefs, often justified under the guise of national security."
+categories: ["Suppressing Dissent"]
+---
+
+::: {.function-badge}
+[Suppressing Dissent](../function/suppressing-dissent.qmd)
+:::
+
+Visa denials are deployed as a silent form of coercion aimed at restricting mobility, silencing dissent, and excluding critical voices from global discourse. Investigative journalists, academics, activists, and human rights defenders may be denied entry to—or exit from—countries based on their political beliefs or affiliations. These denials rarely come with clear justification and are often framed as matters of national security or administrative discretion. By limiting access to international platforms and collaborations, regimes curtail exposure of abuses, discredit alternative narratives, and isolate critics.
+

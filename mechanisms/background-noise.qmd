@@ -1,0 +1,12 @@
+---
+title: "Background Noise"
+description: "Persistent low-level repetition of regime-aligned messages normalizes falsehoods and diminishes audience skepticism through ambient familiarity."
+categories: ["Spillover"]
+---
+
+::: {.function-badge}
+[Spillover](../function/spillover.qmd)
+:::
+
+Persistent low-level repetition of regime-aligned messages—across entertainment, commentary, or casual discourse—creates ambient familiarity that normalizes falsehoods and weakens audience skepticism. This slow-drip exposure shapes perception even without persuasion.
+

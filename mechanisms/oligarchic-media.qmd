@@ -1,0 +1,36 @@
+---
+title: "Oligarchic Media"
+description: "Privately held media outlets aligned with state interests that shape perception while maintaining a façade of independence, forming a distributed layer of regime-aligned influence with greater flexibility and reduced attribution."
+categories: ["Command and Control"]
+bibliography: ../function/command-and-control.bib
+csl: ../apa.csl
+---
+
+Parallel to state media, oligarchic media form a distributed layer of regime-aligned influence with greater flexibility and reduced attribution. Outlets like Tsargrad TV or think tanks like Katehon serve ideological goals while preserving the appearance of independence.
+
+These platforms are often funded by Kremlin-friendly oligarchs and staffed by nationalist intellectuals, ultra-conservative clerics, or information manipulation veterans. Their role is to inject regime-aligned narratives into broader cultural and political debates, particularly in foreign environments where overt state branding would raise suspicion.
+
+Oligarchic media operates in the information and financial planes, allowing command functions to spread organically through loyalty, patronage, and ideology networks.
+
+| Outlet | Affiliated Oligarch | Known Functions |
+|:---|----|----|
+| **Tsargrad TV** | Konstantin Malofeev | Russian Orthodox ultraconservative broadcasting; anti-Western, anti-liberal values |
+| **Katehon** | Malofeev network; Aleksandr Dugin affiliated | Think tank publishing ideological content promoting Eurasianism and traditionalism |
+| **National Liberation Movement (NOD)** | Yevgeny Fyodorov (State Duma deputy, Kremlin-linked) | Claims grassroots status; promotes Kremlin-aligned nationalism and anti-NATO messaging |
+| **Regnum News Agency** | Sergei Rudnov (associate of Igor Sechin) | Covers regional nationalism, publishes pro-separatist material (in Belarus, Ukraine) |
+| **Zavtra (Tomorrow)** | Aleksandr Prokhanov | Neostalinist and nationalist editorial line; ideological testing ground for regime-sympathetic narratives |
+| **Geopolitica.ru** | Leonid Savin (linked to Dugin's network) | Promotes anti-globalism, multipolarity, and Russian strategic culture abroad |
+
+[@grozev2015; @treasury2022; @regnum]
+
+### Example in Practice: Malofeev's Media Network
+
+Konstantin Malofeev, sanctioned by the U.S. and EU, funds Tsargrad and Katehon, and maintains relationships with pro-Russian religious and paramilitary groups. His outlets:
+
+-   Promote specific Orthodox religious views
+-   Demonize minority groups
+-   Promote Russian exceptionalism and civilizational conflict.
+-   Justify armed conflict in Ukraine, Syria, and the Balkans
+-   Support "Russkiy Mir" ideology, advancing the idea of a unified cultural-political space across post-Soviet and Slavic territories
+
+These operations contribute to softening foreign resistance, justifying military action, and maintaining coherence among ideological hardliners within Russia and its sphere of influence.

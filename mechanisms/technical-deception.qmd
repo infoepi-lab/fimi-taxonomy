@@ -1,0 +1,12 @@
+---
+title: "Technical Deception"
+description: "Technical Deception refers to the intentional use of digital methods to obscure the source and management of influence activities, including tactics like domain spoofing, fake analytics, botnets, and synthetic content creation."
+categories: ["Obfuscation"]
+---
+
+::: {.function-badge}
+[Obfuscation](../function/obfuscation.qmd)
+:::
+
+Technical Deception involves the deliberate use of digital and infrastructural techniques to conceal the origin, coordination, or control of influence activity. It includes domain/URL spoofing and mimicry, shared or falsified analytics/ad IDs, proxy/VPN/hosting chaining, anonymized registrant details, coordinated botnets and automated accounts with forged metadata, synthetic content generation (AI-written articles, deepfakes) deployed to mask human authorship, and deliberate manipulation of web-signal telemetry (referrers, headers, timestamps) to create false provenance or attribution.
+

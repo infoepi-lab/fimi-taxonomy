@@ -1,0 +1,22 @@
+---
+title: "False Flag"
+description: "A false flag is a deceptive act where misleading evidence is used to obscure the true identity of the operator and misdirect blame onto another party."
+categories: ["Obfuscation"]
+---
+
+::: {.function-badge}
+[Obfuscation](../function/obfuscation.qmd)
+:::
+
+A false flag is a deliberate act of deception in which the operator introduces misleading evidence—technical, linguistic, or institutional—to conceal their true identity and redirect blame toward another actor. In information operations, this can include spoofed infrastructure, fake affiliations, forged documents, or stylized rhetoric designed to mimic rival entities or dissidents.
+
+## Documented Examples
+
+> On February 14, when Moldova’s airspace was temporarily closed due to the detection of “an unidentified small object,” Telegram channel Старая площадь (“Old Square”), which has 136,000 subscribers, published a panic-inducing message stating in Russian, “Moldova is on the verge of some terrible events. All civilian planes have disappeared from the sky…Under the leadership of President Maia Sandu [a Romanian citizen], a conflict with Transnistria with the participation of British special services will be provoked. After that, Romanian troops will enter the territory of Moldova under the guise of military assistance to the ‘fraternal’ people.”
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+
+> On Sunday, February 26, a post on the Novorossia_Region Telegram channel stated, “The Ukronazi regime in Kyiv, stirred up by the American military, is preparing an armed provocation against Transnistria.” As supposed proof, it showed a picture of what it claimed to be a document from the Ukrainian army. The Center for Strategic Communications and Information Security of Ukraine, however, denied the veracity of the document. Declaring that through this fake, “the propagandists are trying to discredit the Armed Forces of Ukraine.” According to the institution, the document does not correspond to the standard model used by the military command of Ukraine, and the wording in the document does not correspond to formal Ukrainian, including grammatical errors. On February 27, the Canal Fort channel published a video titled “The Romanian anti-aircraft missile system is advancing to the border (with Moldova).” In the video, with a Romanian war song in the background, a column of military equipment can be seen moving through the central streets of a Romanian city. The same video, with the same description, was uploaded to a YouTube channel called Anonymous Network | News, which was created on February 27, 2023. The video was also actively circulated on Twitter by openly pro-Russian or far-right accounts, as well as ones that spread COVID-19 conspiracy narratives.
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+

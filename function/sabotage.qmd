@@ -1,0 +1,47 @@
+---
+title: "Sabotage"
+description: "Sabotage encompasses deliberate actions designed to destabilize, fragment, or degrade adversaries through destructive rather than persuasive means."
+bibliography: sabotage.bib
+csl: ../apa.csl
+categories: [function]
+listing:
+  - id: related-mechanisms
+    contents: "../mechanisms/*.qmd"
+    type: table
+    fields: [title, description]
+    filter-ui: false
+    sort: "title"
+    table-hover: true
+    include:
+      categories: "Sabotage"
+---
+
+Sabotage refers to the deliberate degradation of a target society's
+internal cohesion, decision-making capacity, or epistemic stability
+through indirect, non-kinetic means. It is not necessarily destructive
+in the traditional sense, but corrosive—eroding the connective tissue of
+a polity from within. While it may appear incidental or decentralized,
+sabotage functions as a strategic weapon in the broader architecture of
+hybrid warfare, using information, psychology, and institutional
+vulnerabilities to destabilize from the inside out. This section
+outlines six core mechanisms through which sabotage operates as an
+instrument of state influence.
+
+## Mechanisms
+
+Sabotage operates through multiple mechanisms that degrade institutional capacity, fragment social cohesion, and corrode epistemic stability. Browse the mechanisms below:
+
+::: {#related-mechanisms}
+:::
+
+## Discussion
+
+Sabotage, in the context of influence operations, is not episodic. It is
+systemic, recursive, and designed to become self-reinforcing. By
+embedding friction, confusion, and mistrust into the target society, it
+ensures that governance becomes harder, trust more fragile, and reform
+less likely. It is the corrosion of adversary capacity through ambient
+destabilization, accomplished not with bombs or bullets, but with
+narratives, networks, and institutional infection. This is sabotage as
+doctrine—not disruption for its own sake, but as preparation of the
+terrain for deeper influence or eventual intervention.

@@ -1,0 +1,17 @@
+---
+title: "Functions"
+description: "The core functions of the information manipulation taxonomy"
+listing:
+  contents: "*.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "title"
+  fields: [title, description]
+  include:
+    categories: "function"
+format:
+  html:
+    body-classes: section-function
+---
+
+Functions describe the **strategic purpose** behind information manipulation operations. Each function encompasses multiple mechanisms that serve that purpose.

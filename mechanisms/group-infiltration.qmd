@@ -1,0 +1,14 @@
+---
+title: "Group Infiltration"
+description: "A covert operation where operatives infiltrate and manipulate political organizations to influence their agendas and undermine democratic integrity."
+categories: ["Command and Control"]
+---
+
+::: {.function-badge}
+[Command and Control](../function/command-and-control.qmd)
+:::
+
+A covert mechanism in which operatives or aligned actors penetrate political organizations to manipulate internal processes, influence policy direction, or gain access to sensitive information. Infiltration may occur through membership recruitment, campaign financing, advisory roles, or cultivation of personal ties within leadership structures.
+
+Its purpose is to redirect organizational agendas, co-opt legitimate actors, and neutralize opposition from within. Political party infiltration erodes democratic integrity and enables sustained manipulation under the appearance of lawful participation, functioning as a long-term strategy for destabilization and covert control.
+

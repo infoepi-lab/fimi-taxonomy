@@ -1,0 +1,52 @@
+---
+title: "Projection Abroad"
+description: "Projection Abroad encompasses instruments used to extend domestic influence capacity into foreign environments."
+bibliography: projection-abroad.bib
+csl: ../apa.csl
+categories: [function]
+listing:
+  - id: related-mechanisms
+    contents: "../mechanisms/*.qmd"
+    type: table
+    fields: [title, description]
+    filter-ui: false
+    sort: "title"
+    table-hover: true
+    include:
+      categories: "Projection Abroad"
+---
+
+Projection Abroad encompasses instruments used to extend domestic influence capacity into foreign environments. These include diaspora mobilization, state-aligned aid, and cyber units like Fancy Bear and Killnet. Cultural and religious networks are utilized to establish soft power and influence foreign public perceptions. Nuclear and infrastructure deals become levers of control through elite co-optation. Religious manipulation reframes moral hierarchies to undercut adversaries. All projection efforts aim to reproduce control, legitimacy, and narrative dominance beyond national borders.
+
+# Overview
+
+Projection Abroad encompasses the deployment of influence mechanisms outside a state's borders to shape foreign environments in ways that advance domestic strategic priorities. This is not about conventional soft power. It is about strategic extrusion: extending control, legitimacy, and narrative dominance into foreign systems using a range of instruments, from covert cyber units to cultural diplomacy and religious manipulation.
+
+Unlike Operational Multipliers, which scale influence within an ecosystem, or Legitimation, which manufactures credibility around a message, Projection Abroad places assets inside foreign societies. These mechanisms manipulate host-country institutions, identities, and public opinion by embedding strategic narratives and capabilities in organic or independent entities.
+
+Projection is not passive outreach—it is embedded activation. These tactics simulate local resonance while serving foreign state agendas through diaspora mobilization, targeted foreign aid, cyber campaigns, or cultural and religious proxies.
+
+## Mechanisms
+
+Browse the mechanisms below:
+
+::: {#related-mechanisms}
+:::
+
+## State-Sanctioned Cyber Activity
+
+Cyber operations executed by state-directed units or regime-aligned "hacktivist" groups represent the digital vanguard of projection. These campaigns target foreign governments, journalists, companies, and civil infrastructure to exfiltrate data, disrupt operations, or leak curated material that serves the regime's strategic narrative.
+
+Notable units, such as Fancy Bear (APT28), conduct persistent intrusions, intelligence gathering, and targeted leaks designed to undermine trust, foment division, or damage political adversaries [@methods; @ROUSSI2022]. Groups like Killnet, while presenting as grassroots or criminally independent, execute coordinated disruptive campaigns (DDoS attacks) in alignment with state interests.
+
+These actors operate in the liminal space between espionage and narrative warfare—covert in operation, but overt in impact. Their goal is not merely to collect secrets but to reshape public perception through digital coercion.
+
+## A Platform for Asymmetric Leverage
+
+Projection mechanisms do not simply send messages—they install capabilities. They recreate the operational logic of domestic control in foreign environments, utilizing familiar institutions—such as aid, religion, civil society, and cyber infrastructure—as platforms for asymmetric leverage.
+
+They are often challenging to identify because they co-opt legitimate forms. Cultural exchange becomes cultural conditioning. Humanitarian aid becomes a political tethering. Religious affinity becomes ideological fusion. Electoral engagement becomes information laundering.
+
+Projection abroad is not an invasion. It is integration with intent—the quiet reproduction of regime influence beneath the skin of another society.
+
+In the chapters ahead, we examine more disruptive functions: Sabotage, which targets cohesion, and Obfuscation, which hides the hand. Projection is neither, but it sets the conditions for both.

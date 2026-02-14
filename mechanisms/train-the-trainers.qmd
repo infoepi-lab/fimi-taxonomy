@@ -1,0 +1,12 @@
+---
+title: "Train-the-Trainers"
+description: "State actors utilize trained intermediaries to embed within communities, promoting state-aligned narratives through trusted social channels, thereby creating a multiplier effect that enhances influence while maintaining plausible deniability."
+categories: ["Operational Multipliers"]
+---
+
+::: {.function-badge}
+[Operational Multipliers](../function/operational-multipliers.qmd)
+:::
+
+State actors develop and deploy intermediaries trained in ideological, strategic, or technical influence techniques who then embed within target communities or organizations to propagate narratives aligned with state objectives. This mechanism transforms external direction into localized, seemingly autonomous activity, allowing influence to spread through trusted social channels rather than overt propaganda. By equipping participants to teach, mobilize, and message within their own networks, it creates a multiplier effect—sustaining and expanding state-aligned narratives while preserving plausible deniability and the appearance of grassroots authenticity.
+

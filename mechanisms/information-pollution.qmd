@@ -1,0 +1,12 @@
+---
+title: "Information Pollution"
+description: "Information pollution is a sabotage tactic that overwhelms governance systems through procedural flooding, humanitarian strain, and response saturation, forcing institutions to prioritize volume over merit and leading to their degradation, particularly in democracies."
+categories: ["Sabotage"]
+---
+
+::: {.function-badge}
+[Sabotage](../function/sabotage.qmd)
+:::
+
+The deliberate saturation of institutional capacity through volume, obligation, or persistence to degrade governance function without direct attack. This mechanism exploits the structural commitments of rule-of-law societies—due process, humanitarian duty, transparency requirements, emergency response protocols—by engineering conditions that compel continuous institutional engagement regardless of strategic intent or available resources. Overload operates through three primary vectors: procedural flooding, which saturates legal, regulatory, or administrative systems with formally valid but substantively abusive filings, complaints, or challenges that institutions are obligated to process; humanitarian strain, which manipulates or prolongs human need to force morally and legally non-optional responses that consume state capacity and constrain political choice; and response saturation, which engineers persistent incident conditions that lock agencies into continuous reactive mode, eliminating recovery time and strategic planning. The common logic is the conversion of institutional obligation into governance burden—forcing systems to respond to volume rather than merit, crisis rather than priority, and procedure rather than substance. Institutions remain nominally operational but permanently degraded, trapped in reactive triage while core functions atrophy. The mechanism is particularly effective against democracies, whose commitments to process, rights, and humanitarian norms create exploitable attack surfaces that authoritarian systems do not share.
+

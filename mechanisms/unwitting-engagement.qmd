@@ -1,0 +1,12 @@
+---
+title: "Unwitting Engagement"
+description: "Individuals unknowingly enhance the credibility of manipulated content through genuine social interactions, obscuring its true origin and intent."
+categories: ["Spillover"]
+---
+
+::: {.function-badge}
+[Spillover](../function/spillover.qmd)
+:::
+
+Individuals share, like, or comment on manipulated content without realizing its origin or intent, lending credibility through genuine social interaction. This participation masks orchestration and transforms inauthentic material into perceived consensus.
+

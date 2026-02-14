@@ -1,0 +1,12 @@
+---
+title: "Semantic Contagion"
+description: "Semantic contagion refers to the organic migration of specific linguistic or conceptual frames into different ideological domains, illustrating memetic spread without direct coordination."
+categories: ["Spillover"]
+---
+
+::: {.function-badge}
+[Spillover](../function/spillover.qmd)
+:::
+
+Describes when specific linguistic or conceptual frames (e.g., “denazification,” “cancel culture”) migrate organically into other ideological domains. Captures memetic spread beyond direct coordination.
+

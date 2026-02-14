@@ -1,0 +1,22 @@
+---
+title: "Open Publishing"
+description: "Self-publishing platforms and preprint servers where influence operations exploit low editorial barriers to launder narratives through the appearance of independent authorship."
+categories: [channel_type, cyber]
+---
+
+Open publishing platforms remove traditional editorial gatekeeping, allowing anyone to distribute long-form content with the visual trappings of legitimate journalism, scholarship, or independent commentary. This creates fertile ground for narrative laundering—the process of giving state-sponsored or coordinated messaging the appearance of independent, organic expression.
+
+Platforms like Medium, Substack, and Ghost provide professional-looking publishing environments where influence operatives can build personas, cultivate audiences, and distribute content that would not survive editorial review at established outlets. Preprint servers like arXiv and Zenodo, designed to accelerate scientific communication, can be exploited to inject pseudo-scholarly content into academic discourse before peer review. WordPress and Blogger remain the infrastructure backbone for networks of inauthentic news sites that mimic local journalism.
+
+The strategic value of open publishing lies in its credibility arbitrage. Content published on these platforms benefits from the general association with independent thought and investigative journalism, even when it originates from coordinated campaigns. The low barrier to entry, combined with the ease of cross-platform amplification, makes open publishing a key node in the content supply chain of modern influence operations.
+
+## Platforms
+
+- Medium
+- Substack
+- Ghost
+- Preprint servers
+- Blogger
+- WordPress
+- arXiv
+- Zenodo

@@ -1,0 +1,12 @@
+---
+title: "Oligarchic Mercenary Company"
+description: "Oligarchic mercenary companies are privately controlled military organizations that operate independently to provide military services while pursuing the strategic interests of elite power brokers."
+categories: ["Projection Abroad"]
+---
+
+::: {.function-badge}
+[Projection Abroad](../function/projection-abroad.qmd)
+:::
+
+Oligarchic mercenary companies are private military organizations controlled by elite power brokers or oligarchs, operating independently of sovereign state command structures to provide military services, often pursuing their own strategic interests and maintaining significant influence through wealth and political connections.
+

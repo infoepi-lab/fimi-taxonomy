@@ -1,0 +1,17 @@
+---
+title: "Mechanisms"
+description: "Individual mechanisms used in information manipulation operations"
+listing:
+  contents: "*.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "title"
+  fields: [title, description]
+format:
+  html:
+    body-classes: section-mechanisms
+---
+
+Mechanisms are the specific **tactics and tools** employed to carry out
+each function. Browse the full list below, or use the search bar to find
+specific mechanisms.

@@ -1,0 +1,12 @@
+---
+title: "Intellectual Capture"
+description: "A form of influence where an entity shapes Western public narratives through academic exchanges, exploiting scholars' desire for access and prestige."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+A form of influence in which an entity uses academic exchanges, such as joint conferences and invitations, to shape Western public narratives, exploiting scholars’ desire for access and prestige to subtly direct intellectual discourse and policy perspectives.
+

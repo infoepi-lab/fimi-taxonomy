@@ -1,0 +1,19 @@
+---
+title: "Extrajudicial Killings"
+description: "Extrajudicial killings are precision assassinations used as instruments of command and control to eliminate threats, sow fear, and maintain regime loyalty."
+categories: ["Suppressing Dissent"]
+---
+
+::: {.function-badge}
+[Suppressing Dissent](../function/suppressing-dissent.qmd)
+:::
+
+Extrajudicial killings are among the most chilling instruments of command and control. These are precision assassinations of defectors, dissidents, journalists, intelligence insiders, or anyone who has seen or known too much. These killings often take place well beyond the regime’s territorial borders. Their aim is both tactical and psychological.
+These acts are deliberately narrow in scope but enormous in symbolic weight. A single hit, staged so that attribution is obvious but deniable, can have the impact of a thousand arrests. The assassinations of Alexander Litvinenko (poisoned with polonium-210 in London, 2006), Anna Politkovskaya (shot outside her Moscow apartment in 2006), and Sergei Skripal (targeted with Novichok nerve agent in the UK, 2018) are a few examples. In each case, someone was challenging the regime’s ability to dictate the truth [83–85].
+These operations are covert in planning and conspicuous in effect. Exotic poisons, symbolic timing, and signature methods are not accidents—they are semiotic. Politkovskaya was murdered on Putin’s birthday [83]. The nerve agent used against Skripal could only have come from Russia. The goal is not merely to kill, but to choreograph fear.
+Functionally, extrajudicial killings operate across three planes:
+- Physical: eliminating strategic threats.
+- Cognitive: sowing fear and uncertainty.
+- Relational: signaling betrayal carries irrevocable cost.
+The message is consistent: “No one is beyond reach. Loyalty is permanent. Betrayal is fatal.” These killings serve not only to erase individuals but to extinguish information, fracture opposition, and dissuade defection [86–89]. In modern command architecture, extrajudicial assassination is enforcement, narrative control, and elite discipline—made lethal by design.
+

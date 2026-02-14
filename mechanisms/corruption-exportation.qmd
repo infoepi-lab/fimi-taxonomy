@@ -1,0 +1,12 @@
+---
+title: "Corruption Exportation"
+description: "Corruption exportation is a strategy where state or aligned actors embed corrupt practices in foreign institutions to create dependency and exert influence, compromising their decision-making autonomy."
+categories: ["Projection Abroad"]
+---
+
+::: {.function-badge}
+[Projection Abroad](../function/projection-abroad.qmd)
+:::
+
+A mechanism through which state or aligned actors introduce, normalize, or reinforce corrupt financial, political, or administrative practices within foreign institutions. By embedding bribery, opaque transactions, or patronage networks, this approach cultivates dependency and leverage, compromising decision-making autonomy. Corruption exportation transforms systemic corruption into a strategic instrument of coercion and long-term influence.
+

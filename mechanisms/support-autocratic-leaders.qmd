@@ -1,0 +1,12 @@
+---
+title: "Support Autocratic Leaders"
+description: "Supporting autocratic leaders entails offering resources like diplomatic backing, financial aid, and media support to sustain authoritarian regimes and expand influence."
+categories: ["Projection Abroad"]
+---
+
+::: {.function-badge}
+[Projection Abroad](../function/projection-abroad.qmd)
+:::
+
+Supporting autocratic leaders involves providing political, economic, or informational resources to maintain or strengthen authoritarian regimes. This mechanism may include diplomatic backing, financial aid, media support, or security assistance, with the aim of preserving friendly governments or expanding influence.
+

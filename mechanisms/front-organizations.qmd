@@ -1,0 +1,14 @@
+---
+title: "Front Organizations"
+description: "Front organizations disguise themselves as independent entities to covertly promote the interests of a state or intelligence service, using a façade of legitimacy to influence public perception while masking their true agendas."
+categories: ["Obfuscation"]
+---
+
+::: {.function-badge}
+[Obfuscation](../function/obfuscation.qmd)
+:::
+
+Front organizations are entities that present themselves as independent civic, cultural, academic, or humanitarian bodies while covertly advancing the interests of a state, intelligence service, or aligned network. They function as intermediaries between overt propaganda and covert influence, providing a façade of legitimacy that conceals coordination, funding, or control. 
+
+These organizations often operate in plain sight—holding conferences, issuing reports, or engaging in public advocacy—while embedding regime-aligned narratives within seemingly neutral or benevolent activities. Their primary function is obfuscation through legitimacy transfer: laundering intent, authorship, and funding through institutional forms that audiences instinctively trust.
+

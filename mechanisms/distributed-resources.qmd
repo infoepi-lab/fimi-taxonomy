@@ -1,0 +1,14 @@
+---
+title: "Distributed Resources"
+description: "Distributed resources refer to the decentralization of critical assets across multiple actors and platforms to preserve operational capacity and ensure resilience."
+categories: ["Longevity"]
+---
+
+::: {.function-badge}
+[Longevity](../function/longevity.qmd)
+:::
+
+Distributed resources refer to the intentional decentralization of propaganda, communication tools, or financial and logistical data across multiple actors, platforms, and jurisdictions. By storing critical assets beyond the reach of institutional moderation or legal control, actors preserve operational capacity, ideological content, and institutional memory.
+Common among clandestine movements such as jihadist networks, distributed resources allow rapid recovery after takedowns or arrests by ensuring no single point of failure can end operations.
+This approach transforms fragmentation into resilience: redundancy is built into the architecture itself.
+

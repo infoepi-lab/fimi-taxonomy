@@ -1,0 +1,12 @@
+---
+title: "Cultural Infrastructure"
+description: "State actors create and fund cultural institutions abroad to extend their influence and promote their narratives under the guise of cultural diplomacy."
+categories: ["Projection Abroad"]
+---
+
+::: {.function-badge}
+[Projection Abroad](../function/projection-abroad.qmd)
+:::
+
+State actors establish or finance permanent cultural outposts, exchange networks, or educational institutions in foreign environments to extend ideological and operational reach beyond national borders. These entities—such as cultural centers, language institutes, or state-linked academic programs—serve as soft-power anchors that cultivate sympathetic elites, shape local discourse, and maintain durable channels of influence. Operating under the guise of cultural diplomacy, they embed the regime’s narratives within host societies, aligning foreign audiences with its strategic interests. Their primary function is presence projection—building enduring influence capacity under the appearance of cultural cooperation.
+

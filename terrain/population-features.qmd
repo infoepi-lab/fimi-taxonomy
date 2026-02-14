@@ -1,0 +1,8 @@
+---
+title: "Population Features"
+description: "Population characteristics such as age distribution, ethnic composition, linguistic groups, and social networks are analyzed to identify societal vulnerabilities and tailor information manipulation strategies."
+categories: [terrain]
+---
+
+Population characteristics such as age distribution, ethnic composition, linguistic groups, health status, and social networks are analyzed to identify societal vulnerabilities and tailor information manipulation strategies. By exploiting demographic, epidemiological, and social features, actors can maximize the impact of their campaigns, targeting specific groups or amplifying divisions to destabilize or influence a population.
+

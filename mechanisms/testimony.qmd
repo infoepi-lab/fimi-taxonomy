@@ -1,0 +1,12 @@
+---
+title: "Testimony"
+description: "A message amplification function using personal narratives to reinforce target messaging and create collective persuasion."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+A message amplification function in which participants in an operation, campaign, or event disseminate firsthand narratives to reinforce target messaging. Personal testimony serves as a credibility vehicle, transforming individual experience into collective persuasion. By framing curated or selective experiences as authentic accounts, report back strategies extend the influence cycle beyond the original event, creating secondary waves of reinforcement through public speaking, media engagement, and peer-to-peer communication. This approach fuses emotional resonance with ideological transmission, ensuring sustained message circulation and normalization within target audiences.
+

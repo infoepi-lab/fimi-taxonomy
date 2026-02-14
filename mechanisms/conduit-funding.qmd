@@ -1,0 +1,12 @@
+---
+title: "Conduit Funding"
+description: "Conduit funding involves intermediary nonprofit organizations that channel money from one source to another, obscuring the true origin and purpose of the funds, which can be exploited to support foreign state interests while appearing compliant with charitable missions."
+categories: ["Obfuscation"]
+---
+
+::: {.function-badge}
+[Obfuscation](../function/obfuscation.qmd)
+:::
+
+Conduit funding refers to the use of intermediary nonprofit entities—often U.S.-registered 501(c)(3) organizations—to channel money from one source to another while obscuring the true origin, purpose, or beneficiary of the funds. In this mechanism, a legitimate nonprofit serves as a financial conduit for a fiscally sponsored project, allowing the actual sponsor to provide resources without direct disclosure or scrutiny. This structure can be exploited to fund influence operations, research initiatives, or media projects that advance foreign state interests while maintaining the appearance of compliance with charitable or educational missions. The fiscal sponsorship arrangement enables plausible deniability, limits transparency requirements, and masks the strategic intent behind the funding flow.
+

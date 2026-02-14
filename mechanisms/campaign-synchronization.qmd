@@ -1,0 +1,18 @@
+---
+title: "Campaign Synchronization"
+description: "Campaign synchronization involves the strategic coordination of influence operations across various domains to create overwhelming psychological effects on target audiences."
+categories: ["Operational Multipliers"]
+---
+
+::: {.function-badge}
+[Operational Multipliers](../function/operational-multipliers.qmd)
+:::
+
+The deliberate coordination of influence operations across information, diplomatic, economic, and kinetic domains to produce mutually reinforcing psychological effects. Synchronization may involve timing cyberattacks to coincide with disinformation surges, aligning state media narratives with diplomatic messaging, or sequencing economic pressure alongside targeted propaganda. The compounding of effects across domains overwhelms target audiences' capacity to respond coherently, creating the impression of omnipresent pressure while obscuring the unified command behind disparate-seeming events.
+
+## Documented Examples
+
+> Ilan Shor, another opposition politician who is accused of organizing anti-government protests at the behest of the Russian secret service, used the same rhetoric, accusing the Moldovan government of conspiring with the Ukrainian authorities. “[President] Maia Sandu is trying to drag Moldova into a war with Russia; she is doing everything possible, at any cost, to spill blood on the territory of Moldova, just to stay in power,” Sor said in a video posted to his Facebook page. In the video, he also called on the population to protest: “Say NO to war, NO to the shedding of blood, NO to the murder of the Moldovan people in the name of the interests of Maia Sandu and her gang!”.
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+

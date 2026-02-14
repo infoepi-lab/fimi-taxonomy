@@ -1,0 +1,32 @@
+---
+title: "Diplomatic Theater"
+description: "Diplomatic channels are often used as platforms for political theater rather than genuine negotiation, allowing regimes to manipulate language and narratives to justify aggressive actions while maintaining a facade of legitimacy."
+categories: ["Command and Control"]
+---
+
+::: {.function-badge}
+[Command and Control](../function/command-and-control.qmd)
+:::
+
+Diplomatic channels, whether formal or informal, are commonly presented as tools for negotiation, coordination, and cooperation between states. In practice, they are frequently repurposed as stages for political theater. Treaties, memoranda, and joint statements often contain deliberately vague language, such as references to “military cooperation” or “technical assistance,” not to clarify intent but to preserve narrative flexibility. This ambiguity allows regimes to later reinterpret or weaponize diplomatic language to justify escalation, intervention, or denial.
+
+These channels operate less as mechanisms of problem-solving and more as performance spaces that span legal, political, and cultural domains. Through carefully staged engagements, regimes shape perception, cultivate influence among elites, and construct a veneer of legitimacy for future actions. Diplomacy, in this context, is not primarily about agreement, but about being seen as reasonable, restrained, and wronged.
+
+International forums, press conferences, and formal meetings are repeatedly used as theatrical megaphones for state narratives. False or misleading claims delivered in these settings gain power from the institutional legitimacy of the platform itself. Russia’s repeated use of nonproliferation meetings to advance false allegations about biological weapons programs in Ukraine, or its invitation of disinformation-promoting bloggers to speak at the United Nations, illustrate how diplomatic venues are used to stage credibility rather than establish truth.
+
+This theatrical use of diplomacy relies on performance conventions. Officials adopt the language of civility and procedural seriousness while leveling extreme accusations, rehearsing victimhood, and accusing adversaries of the very actions the regime itself is engaged in. The performances are often lengthy, repetitive, and intentionally exhausting, designed to flood the information space, generate quotable material for state media, and force opponents into reactive postures.
+
+Bad-faith demands for dialogue or evidence are integral to the performance. Engagement is framed as validation, while refusal is presented as proof of adversary hostility or guilt. This “sealioning” dynamic transforms diplomacy into a trap: participation sustains the spectacle, while nonparticipation becomes part of the narrative.
+
+The cumulative effect is the conversion of diplomatic infrastructure into a propaganda stage. By exploiting the rituals and legitimacy of diplomacy, regimes normalize their framing, invert aggressor–victim dynamics, and create false equivalence between verified conduct and fabricated accusations. Diplomacy becomes less a channel for resolving conflict and more a theater for sustaining it.
+
+## Documented Examples
+
+> In December 2022, in an interview with RIA Novosti, Russian Deputy Foreign Minister Mihail Galuzin said that NATO’s plans to provide Moldova with weapons threaten to lead to “catastrophe.”
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+
+> On February 24, the Russian defense ministry issued a statement saying, “Any actions that pose a threat to our compatriots, the Russian peacekeeping contingent, the Operational Group of Russian Forces, and military depots in Colbasna will be considered, in accordance with international law, an attack on the Russian Federation.” Later, foreign ministry spokeswoman Maria Zakharova expressed concern about the possibility of delivering radioactive substances to Ukraine through the ports of Odesa and Chernomorsk, fearing a provocation in Transnistria. Moscow’s rhetoric in recent months has been increasingly provocative. Its push of inflammatory and escalatory narratives is supported by a complex information ecosystem in Moldova, which includes state representatives, media outlets, social media platforms, and influencers with vested interests working to create, disseminate, and amplify Kremlin-induced narratives.
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+

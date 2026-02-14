@@ -1,0 +1,8 @@
+---
+title: "Legal"
+description: "Robust legal frameworks protecting speech and press freedom constrain the effectiveness of information manipulation by limiting the ability of adversaries to suppress or intimidate independent voices."
+categories: [terrain]
+---
+
+Robust legal frameworks protecting speech and press freedom constrain the effectiveness of information manipulation by limiting the ability of adversaries to suppress, censor, or intimidate independent voices through legal or extralegal means. These protections reduce the impact of tactics such as strategic lawsuits, regulatory harassment, or criminal prosecution designed to silence dissent or control narratives, thereby forcing manipulators to adapt their strategies or seek alternative avenues for influence.
+

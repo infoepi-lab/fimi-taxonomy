@@ -1,0 +1,18 @@
+---
+title: "Overt State Media"
+description: "Government-controlled media outlets that openly disseminate information to promote state interests, often using propaganda and disinformation."
+categories: ["Command and Control"]
+---
+
+::: {.function-badge}
+[Command and Control](../function/command-and-control.qmd)
+:::
+
+Overt State Media refers to government-controlled communication outlets that openly disseminate information, often serving as tools for propaganda and disinformation campaigns to shape public perception and advance state interests. Historically exemplified by Soviet outlets such as Pravda, TASS, and Radio Moscow, these media channels have regularly promoted false or misleading narratives—such as claims that the United States sought control of the Falkland Islands—to influence domestic and international audiences.
+
+## Documented Examples
+
+> The Kremlin adopted this version as its official narrative two days later on February 23, when the Russian Ministry of Defense warned that Ukraine was planning provocative actions in Transnistria. Russian state media, including 1TV, NTV, TASS, Vedomosti.ru, and RIA, as well as their affiliated Telegram channels from Moldova and the Transnistria region, quickly amplified the official statement.
+>
+> — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
+

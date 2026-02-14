@@ -1,0 +1,14 @@
+---
+title: "Notes"
+description: "Updates and changes to the FIMI Taxonomy"
+listing:
+  contents: "blog/*.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+  categories: false
+  filter-ui: false
+  date-format: "MMMM D, YYYY"
+---
+
+This page documents major updates, additions, and changes to the FIMI Taxonomy. Each entry describes what changed and why.

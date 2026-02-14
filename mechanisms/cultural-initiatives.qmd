@@ -1,0 +1,12 @@
+---
+title: "Cultural Initiatives"
+description: "Regimes use cultural programs to subtly embed ideological cues and project an image of refinement and shared human values, thereby legitimizing their authority."
+categories: ["Legitimation"]
+---
+
+::: {.function-badge}
+[Legitimation](../function/legitimation.qmd)
+:::
+
+Regimes organize, fund, or co-opt artistic, educational, and cultural programs to project an image of refinement, openness, and shared human values while subtly embedding ideological cues. These initiatives operate through exhibitions, performances, exchanges, and collaborative projects that appear apolitical but quietly reinforce state narratives about identity, virtue, or destiny. By aligning themselves with the moral authority of art, scholarship, and heritage, regimes launder ideology through aesthetics, transforming political power into cultural legitimacy. The outcome is affective rather than coercive: admiration replaces suspicion, and cultural sophistication stands in for ethical standing. Over time, these gestures normalize the regime’s worldview and blur the boundary between appreciation of culture and acceptance of authority.
+

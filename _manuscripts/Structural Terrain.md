@@ -1,0 +1,374 @@
+# Structural Terrain
+
+[Overview](#overview)
+
+[Varieties](#varieties)
+
+[Geography](#geography)
+
+[The Baltics and Russian Gray-Zone Influence](#the-baltics-and-russian-gray-zone-influence)
+
+[Crimea and the Annexation Narrative](#crimea-and-the-annexation-narrative)
+
+[China’s Influence in Southeast Asia via the Mekong River Geopolitics](#china’s-influence-in-southeast-asia-via-the-mekong-river-geopolitics)
+
+[U.S. Psychological Operations in the Korean Demilitarized Zone (DMZ)](#u.s.-psychological-operations-in-the-korean-demilitarized-zone-\(dmz\))
+
+[Legal](#legal)
+
+[Population Features](#population-features)
+
+[Characteristics That Increase Vulnerability](#characteristics-that-increase-vulnerability)
+
+[Educated Societies Are More Resilient](#educated-societies-are-more-resilient)
+
+[Examples](#examples)
+
+[Reaction](#reaction)
+
+[Dimensions of Reaction](#dimensions-of-reaction)
+
+[Why Reaction Matters](#why-reaction-matters)
+
+[Examples](#examples-1)
+
+[Reactive Archetypes](#reactive-archetypes)
+
+[Technology Access](#technology-access)
+
+[Access Profiles](#access-profiles)
+
+[Structural Factors That Shape Access](#structural-factors-that-shape-access)
+
+[Examples](#examples-2)
+
+[Awareness Levels](#awareness-levels)
+
+[How Awareness Shapes Manipulation Strategy](#how-awareness-shapes-manipulation-strategy)
+
+[Factors That Increase Societal Awareness](#factors-that-increase-societal-awareness)
+
+[Examples](#examples-3)
+
+[Concurrent Events](#concurrent-events)
+
+[Typology of Concurrent Events](#typology-of-concurrent-events)
+
+[Examples](#examples-4)
+
+# 
+
+# Overview {#overview}
+
+Structural terrain is the substrate of an influence architecture—the collection of persistent environmental features that shape the opportunities and constraints for all influence functions. It encompasses enduring conditions such as institutional cohesion, bureaucratic resilience, elite fragmentation or unity, infrastructure control, and media system design. While these features interact with legal, technological, and demographic terrains, structural terrain is distinct in its systemic depth and continuity. Laws may change, and technologies may evolve rapidly. Still, entrenched institutional cultures, communication architectures, and power-sharing arrangements often persist over decades, providing a stable backdrop for both defensive resilience and offensive manipulation.
+
+These persistent structures determine the feasibility, durability, and scaling potential of influence tactics. For instance, centralized versus pluralistic media systems define the number of access points a regime or foreign actor must control or exploit. The presence—or absence—of independent analytic ecosystems, such as think tanks or investigative journalism outlets, influences whether manipulation is exposed or allowed to flourish. Security architecture also matters: overlapping institutions may create redundancy or dysfunction, while siloed institutions may leave gaps that no single body can detect or mitigate. Privatized communication infrastructure introduces additional risk, as critical nodes of the information environment, such as platforms, ISPs, and algorithmic distribution channels, often operate without public accountability. This creates exploitable vectors through which hostile actors can achieve strategic impact without confrontation.
+
+Structural terrain underpins and constrains the scalability of core influence functions such as command, obfuscation, and projection. In permissive environments—characterized by weak institutions, fragmented elites, and unregulated information flows—adversaries can entrench operations, disguise attribution, and replicate messaging architectures across borders. Conversely, in structurally resilient states, cohesive institutions and high public trust blunt such operations by imposing friction and increasing the costs of manipulation. Thus, structural terrain operates as both a multiplier and a gatekeeper, determining whether an influence operation becomes a fleeting disruption or a durable architecture of control.
+
+# 
+
+# Varieties {#varieties}
+
+## Geography {#geography}
+
+Geography shapes a state’s susceptibility to information manipulation by defining its physical exposure, strategic relevance, and infrastructural dependencies. As a form of structural terrain, geographic features influence not only where influence operations are likely to occur but also how they unfold—what tactics are viable, which narratives resonate, and what physical or symbolic spaces adversaries may seek to exploit or disrupt. Key ways geography affects influence operations include
+
+**Proximity to Adversaries**: States bordering rival powers are exposed to persistent hybrid pressure, ranging from cross-border media broadcasts and cyber intrusions to gray-zone incursions and cultural proxy networks.
+
+**Control of Chokepoints and Infrastructure**: Influence often follows the flow of trade, fiber-optic cables, energy corridors, and migration routes. States that control—or are dependent on—such pathways become more vulnerable to coercion, surveillance, or narrative shaping tied to physical leverage.
+
+**Symbolic or Contested Borders**: Areas marked by disputed sovereignty or historical trauma serve as fertile ground for adversarial campaigns. Manipulators invoke past injustices, irredentist claims, or ethnic solidarity to stir division or undermine political cohesion.
+
+**Isolation vs. Interconnection**: Island nations or landlocked states with limited media inflows face different vulnerabilities than highly networked hubs. Interconnected states are prone to transnational virality; isolated ones may be more exposed to monopolized messaging or elite-driven foreign penetration.
+
+**Topographic Constraints on Infrastructure**: Mountains, deserts, and dense forests often restrict both physical and digital connectivity, creating informational blind spots where adversaries may rely on proxies, smuggling, or analog media to exert influence.
+
+### **The Baltics and Russian Gray-Zone Influence** {#the-baltics-and-russian-gray-zone-influence}
+
+Estonia, Latvia, and Lithuania—each bordering Russia—have faced continuous information and cyber pressure from Moscow. Their geography makes them both strategically vital (as NATO's eastern flank) and operationally vulnerable due to high concentrations of Russian-speaking minorities, many of whom live in border regions. In Estonia, the 2007 Bronze Soldier riots and subsequent cyberattacks were catalyzed by a dispute over Soviet war memory, tied directly to geography and symbolic space. 
+
+Russian state media leveraged proximity and shared language to broadcast narratives framing the Estonian government as fascist and anti-Russian, amplifying tensions and justifying coercive measures. The success of this hybrid influence campaign depended heavily on geographic closeness, linguistic permeability, and a contested historical geography.
+
+### **Crimea and the Annexation Narrative** {#crimea-and-the-annexation-narrative}
+
+Crimea’s peninsula geography, its majority Russian-speaking population, and its maritime importance to Russia (hosting the Black Sea Fleet) made it a prime target for territorial and narrative conquest. In 2014, geography shaped both the *military* seizure and the *information* annexation. Russian actors exploited Crimea’s geographic isolation from mainland Ukraine and its physical connectivity to Russia to dominate the communications infrastructure rapidly. 
+
+Within days, Ukrainian channels were replaced with Russian ones, and local media were taken over. The geography of the region enabled the near-instant imposition of information control, allowing Russian narratives of “protection,” “return,” and “historic unity” to flood the space unchallenged, thereby reinforcing the territorial fait accompli.
+
+### **China’s Influence in Southeast Asia via the Mekong River Geopolitics** {#china’s-influence-in-southeast-asia-via-the-mekong-river-geopolitics}
+
+The Mekong River flows through multiple Southeast Asian countries, including Laos, Cambodia, Vietnam, and Thailand, making the region ecologically and economically interdependent. China's upstream position gives it control over water flow through its dam infrastructure, which it has used not only as leverage in bilateral relations but also as a platform for both soft and hard influence. 
+
+Through the Lancang-Mekong Cooperation mechanism, Chinese state media, educational exchanges, and development aid have portrayed China as the benevolent steward of regional prosperity. However, during droughts—when satellite imagery revealed China was withholding water despite local shortages—Beijing launched targeted narrative campaigns to deflect blame and discredit independent hydrologists and Western researchers. 
+
+Geography enabled the projection of influence not just through physical control of water, but also through information campaigns that framed criticism as “Western interference” in sovereign cooperation. China's geographic dominance upstream thus shaped both material leverage and informational framing.
+
+### **U.S. Psychological Operations in the Korean Demilitarized Zone (DMZ)** {#u.s.-psychological-operations-in-the-korean-demilitarized-zone-(dmz)}
+
+During and after the Korean War, the geography of the Korean Peninsula—and particularly the DMZ—offered a fixed, high-stakes theater for psychological operations. The U.S. military and South Korean forces exploited line-of-sight and broadcast range to target North Korean troops with loudspeakers, leaflets, and radio signals. The mountainous terrain made certain valleys particularly susceptible to sound-based messaging, allowing precise calibration of reach. 
+
+Messages ranged from ideological subversion to information about economic conditions in the South. This use of geography as an amplifier of messaging, exploiting both proximity and terrain, shaped the form, timing, and content of influence efforts. In turn, North Korea responded by reshaping its terrain—building barriers, jamming systems, and eventually erecting one of the world’s most controlled information environments in part to mitigate these geographic vulnerabilities.
+
+## Legal {#legal}
+
+Legal terrain refers to the existence, scope, and enforcement of statutory protections, particularly those governing speech, press, privacy, political participation, and media regulation, that shape both the effectiveness and tactics of information manipulation. The law operates as both a barrier and a tool: it can constrain hostile influence by upholding civil liberties and institutional transparency, or enable it through strategic ambiguity, selective enforcement, or systemic capture.
+
+The same operation can have very different outcomes depending on the legal framework of the target state. 
+
+* In the United States, for example, the First Amendment creates a high bar for government interference in public expression, limiting the ability of domestic actors to suppress foreign propaganda through direct censorship. As a result, adversarial influence in the U.S. often relies on front groups, proxies, or exploitations of platform dynamics rather than legal instruments. 
+
+* In contrast, in the United Kingdom, the presence of libel laws, state secrecy statutes, and court-supervised injunctions has allowed for the more frequent use of lawfare tactics by both domestic and foreign actors. Russian-linked oligarchs, for instance, have used British courts to initiate Strategic Lawsuits Against Public Participation (SLAPPs) to silence journalists and researchers investigating their influence activities. 
+
+The same outlet or article that can be published freely in the U.S. may trigger crippling litigation or censorship in the U.K. Adversaries tailor their tactics accordingly. 
+
+In environments with strong legal protections, manipulation must be more covert, indirect, or algorithmic—employing techniques such as false amplification, microtargeting, and content laundering through influencers or sympathetic media. In legally permissive or captured environments, the law itself becomes a weapon: licenses are revoked, arrests are justified via vague national security provisions, and opposition actors are delegitimized through legal pretexts. 
+
+* Authoritarian states have formalized this tactic through the enactment of foreign agent laws, media classification statutes, and expansive definitions of treason or defamation.
+
+In some cases, exposure of legal vulnerability has triggered significant reform. Following revelations of extensive foreign-funded information manipulation campaigns during the 2016 U.S. election, multiple legislative efforts were launched to increase transparency in online political advertising and platform accountability (the Honest Ads Act, although not yet fully enacted). 
+
+Similarly, France, in response to foreign media influence around its 2017 presidential election, passed a law enabling judicial review of foreign-funded news content during election periods. In Australia, the passage of the Foreign Influence Transparency Scheme Act (2018) created a legal obligation for individuals and entities acting on behalf of foreign governments to register and disclose their activities, thereby increasing the friction for covert influence networks.
+
+Legal terrain is dynamic and contested. Defensive legal reforms may strengthen resilience, but they also risk being co-opted for political repression if not carefully crafted and implemented. At the same time, adversaries continuously test the boundaries of legal systems, probing for jurisdictions where influence is easier to mask or enforce through litigation. Understanding the legal terrain is thus essential not only for anticipating risk but also for understanding how this terrain affects the design of influence operations. It enables one to craft countermeasures that accurately reflect the contours of governance and law.
+
+## Population Features {#population-features}
+
+Population features encompass the demographic, epidemiological, sociocultural, and socioeconomic characteristics of a society that shape its exposure to and receptivity toward information manipulation. These features form the substrate upon which influence operations move, dictating not only *who* is targeted but also *how* messages are crafted, transmitted, and internalized.
+
+While traditional factors, such as age distribution, ethnic and linguistic diversity, and health disparities, remain central, deeper layers, including educational attainment, economic inequality, media consumption habits, and civic engagement levels, play an equally critical role. Adversaries exploit these conditions to locate and exploit fault lines within a society, turning pre-existing frustrations or grievances into vectors of destabilization.
+
+### **Characteristics That Increase Vulnerability** {#characteristics-that-increase-vulnerability}
+
+**Low Educational Attainment**: Lower levels of education are correlated with reduced media literacy and a higher likelihood of accepting information at face value. A poorly educated population is more susceptible to manipulation that plays on emotion, repetition, or surface-level credibility cues (aesthetic presentation, perceived authority).
+
+**High Wealth Inequality**: When significant portions of the population feel economically excluded or abandoned, narratives that frame elites, minorities, or foreign actors as the cause of inequality find fertile ground. Economic precarity also increases the appeal of scapegoating, conspiratorial thinking, and promises of radical transformation.
+
+**Unmet Basic Needs**: In societies where healthcare, housing, food, or safety are unreliable or inaccessible, trust in institutions tends to diminish. This erosion of baseline legitimacy enables external actors to insert parallel narratives or services, such as foreign-funded clinics, religious charities, or digital “truth-tellers”—as substitutes for state presence.
+
+**Fragmented Social Cohesion**: Populations with high polarization, low intergroup contact, or fractured civic spaces are more vulnerable to echo chambers and identity-based manipulation. Without cross-cutting social ties, it becomes easier to reinforce division and harder to build consensus or mount collective resistance.
+
+**Generational and Digital Divides**: Young people may be hyper-exposed to manipulative content due to high platform usage, while older generations may lack the digital literacy to assess or verify what they encounter online. Both ends of the spectrum can be exploited—one through speed, the other through credibility theater.
+
+**Low Civic Engagement**: When people do not feel empowered to participate in political or community life, or when their voices appear to have no effect, alternative narratives that promise agency, whether nationalist, populist, or extremist, gain appeal. Manipulation thrives in political vacuums.
+
+### **Educated Societies Are More Resilient** {#educated-societies-are-more-resilient}
+
+Highly equitable societies, where basic needs are reliably met and inequality is moderated, are structurally less hospitable to malign influence. These environments exhibit
+
+* **Higher institutional trust** makes it harder for adversaries to delegitimize state actors or institutions.   
+* **Greater critical capacity**, due to widespread education and media literacy programs, weakens the effectiveness of oversimplified or deceptive narratives.  
+* **Lower emotional volatility**, as people with stable economic and social lives are less likely to be swayed by fear-based or grievance-framed messaging.  
+* **Stronger civic networks**, which provide natural pathways for counter-messaging, fact-checking, and collective inoculation against manipulation.
+
+Importantly, resilience is not just about individual awareness—it’s about population-level patterns. Just as herd immunity protects even those who are unvaccinated, high baseline trust, inclusion, and social investment protect even vulnerable pockets of the population by reducing the spread and reinforcement of manipulative content.
+
+### **Examples** {#examples}
+
+In Finland, which ranks high in equality, education, and trust, foreign information operations have had limited traction. The country has proactively supported nationwide media literacy from an early age, and independent journalism remains strong. As a result, hostile narratives—particularly those aimed at stirring anti-immigrant sentiment or pro-Russian sympathy—have struggled to gain lasting impact.
+
+In contrast, South Africa, with its high levels of economic inequality, youth unemployment, and residual ethnic tensions, has seen surges of xenophobic misinformation during periods of economic strain. Online rumors about immigrants “stealing jobs” or spreading disease have led to real-world violence, demonstrating how social stressors can convert digital manipulation into physical outcomes.
+
+In the United States, economic polarization and fragmented information ecosystems have made distinct population segments vulnerable to different kinds of influence: conspiratorial narratives about public health among rural, underserved communities; grievance-based racial narratives among groups with a history of trauma; and elite distrust narratives among younger, precariously employed urban populations.
+
+Population features determine not just who can be targeted, but how successfully, at what speed, and with what downstream effects. Mapping these features allows both attackers and defenders to assess risk, precision, and durability. For defenders, understanding this terrain is essential to preempt, disrupt, or inoculate against manipulation that would otherwise take root along existing social fault lines.
+
+## Reaction {#reaction}
+
+Reaction refers to the way societies respond to detected or suspected information manipulation, whether through formal state mechanisms, institutional interventions, or bottom-up civic initiatives. Reaction is not merely about recognizing influence operations but about how effectively one moves from detection to attribution, disruption, and, where possible, deterrence.
+
+Reactions can be proactive (preparing structures and awareness in advance), responsive (reacting in real time), or retrospective (adjusting systems post-exposure). The coherence, speed, and credibility of these responses shape the adversary’s strategic calculus. A fast, coordinated, and legitimate response can increase operational expenses and deter escalation. A delayed, fragmented, or politicized reaction may embolden further attempts and create cascading vulnerability.
+
+### **Dimensions of Reaction** {#dimensions-of-reaction}
+
+**Legal Countermeasures**: This includes new legislation (transparency laws), prosecution of operatives, designation of foreign entities, and imposition of legal liability for platforms or enablers. It also includes civil remedies against lawfare or information sabotage.
+
+**Public Attribution**: Naming and shaming perpetrators, especially when backed by technical evidence, can erode deniability and force reputational costs. Attribution also serves a signaling function, alerting both domestic and international audiences that manipulation is being monitored.
+
+**Diplomatic and Strategic Retaliation**: Reactions may include sanctions, expulsion of diplomats, cyber countermeasures, or coordinated messaging with allies. These responses establish red lines and demonstrate resolve.
+
+**Platform Engagement and Regulation**: Governments may demand algorithmic transparency, data access for researchers, or impose penalties for failure to moderate coordinated inauthentic behavior. These reactions influence how manipulation is amplified or curtailed.
+
+**Civic and Media Literacy Initiatives**: Societies can build long-term resistance by training citizens to recognize manipulation tactics, resist emotionally charged misinformation, and verify sources. Resilience here is measured in narrative durability, not just system response.
+
+**Institutional and Procedural Reforms**: In response to manipulation, governments may centralize intelligence coordination, formalize interagency response protocols, or create new bodies to handle influence threats (VIGINUM in France).
+
+### **Why Reaction Matters** {#why-reaction-matters}
+
+Reaction doesn’t just close operational gaps—it reshapes the landscape for future campaigns. Influence actors continually test what they can get away with. Weak, confused, or performative responses signal opportunity. Strong, confident, and consistent reactions alter the cost-benefit analysis for aggressors and may dissuade entire categories of operations.
+
+Additionally, the perceived legitimacy of a response is crucial. Overreaction, censorship, or responses framed in partisan terms may backfire, further polarizing the public and feeding manipulation narratives. Successful reactions are therefore not only technically competent but also politically calibrated, transparent, and trustworthy.
+
+### **Examples** {#examples-1}
+
+France responded decisively to information manipulation threats after its 2017 presidential election. The creation of VIGINUM (a state agency for foreign digital interference), coupled with public attribution and platform pressure, resulted in decreased foreign narrative traction in subsequent elections. The Macron government also developed real-time response capacity, including press briefings and coordinated digital messaging.
+
+In contrast, the United States exhibited a fragmented and politically polarized reaction after the 2016 election. While civil society and parts of the intelligence community issued public warnings and indictments, a lack of legislative consensus and politicization of the threat allowed adversaries to probe further in 2020\. Despite technical improvements, reaction coherence remained impaired by domestic distrust.
+
+Taiwan has become a model of rapid, multi-tiered reaction. The government works with civil society fact-checkers, humor-based rapid response units (“Zhongzheng Memes”), and proactive media literacy curricula. During the COVID-19 pandemic and amid cross-Strait tensions, Taiwan’s response structure created narrative friction that effectively countered Chinese information manipulation efforts in real-time.
+
+### **Reactive Archetypes** {#reactive-archetypes}
+
+These are by no means the only response types. They reflect examples of common response patterns seen in countries today. Reaction is the immune response of an information ecosystem. It reflects not only technical capacity but also institutional maturity, political consensus, and cultural clarity. A society that reacts wisely and consistently can convert exposure into resilience. A society that fails to react—or reacts poorly—does more than invite manipulation: it teaches adversaries how to succeed.
+
+## Technology Access {#technology-access}
+
+Technology access refers to the degree to which populations and institutions can create, disseminate, receive, and regulate digital information flows. It includes not only internet penetration and device availability, but also platform dependency, algorithmic visibility, censorship regimes, data governance models, and the surveillance capabilities of states and third parties.
+
+Access is not monolithic; it varies by geography, class, age, gender, and region. These variations determine the channels through which influence campaigns operate, the speed at which they spread, and the tools available for amplification, suppression, or redirection.
+
+### **Access Profiles** {#access-profiles}
+
+**High-Access Environments**: In digitally saturated societies, manipulation often relies on algorithmic exploitation, microtargeting, AI-generated content, and platform saturation. Narratives are fine-tuned using engagement data and may evolve rapidly in response to feedback loops. Influence actors prioritize virality, stealth amplification, and the illusion of authenticity (influencers, memes, satire, sockpuppets).
+
+**Medium-Access Environments**: These societies often exhibit sharp divides in connectivity between urban and rural areas, as well as between generations. Manipulation strategies must bridge platforms and modalities—social media drives initial exposure, but messaging apps or community radio reinforce persistence. Here, hybrid influence operations blend digital and analog tools.
+
+**Low-Access or Controlled Environments**: In regions with limited or censored access, actors may rely on interpersonal networks, SMS spam, radio broadcasts, or physical pamphleteering. Alternatively, elites may be targeted through secure platforms (WhatsApp, WeChat), while the public remains indirectly influenced through proxy elites or state-dominated channels.
+
+**Patterned Behavior:** Patterns of news consumption, such as the Bulgarian tendency to get news from Facebook, are a significant factor in determining campaign design. Efforts can be focused on leveraging the fine-grained microtargeting available on the platform. This would not be successful if a significant portion of the population continued to consume print media for news. 
+
+### **Structural Factors That Shape Access** {#structural-factors-that-shape-access}
+
+* **Platform Monopolies**: In countries where a single platform dominates (Facebook in the Philippines, WhatsApp in Brazil, TikTok in Cambodia), influence operations can be optimized to that ecosystem, relying on its norms, technical limitations, and user behaviors.
+
+* **Censorship and Surveillance Regimes**: High-surveillance states like China or Iran leverage state-controlled infrastructure to detect and neutralize dissent. However, these same tools may be used for proactive manipulation—saturating available channels with pro-regime content or auto-generating artificial consensus.
+
+* **Data Governance Gaps**: In states with weak regulation of user data, external actors can exploit ad-tech ecosystems to build shadow targeting systems. These operations remain invisible primarily to governments and can circumvent conventional oversight mechanisms.
+
+* **Infrastructure Asymmetries**: In post-conflict or rural areas where digital infrastructure is patchy or damaged, foreign powers may introduce “aid platforms”—satellite internet, mobile clinics with connectivity, or offline media drops—as Trojan horses for narrative embedding.
+
+### **Examples** {#examples-2}
+
+In Myanmar, despite low general internet penetration, Facebook functioned as the “internet” for many users. The platform's dominance, lack of content moderation in Burmese, and algorithmic prioritization of engagement over accuracy enabled genocidal narratives to spread rapidly. Technology access was high enough to enable viral amplification, but it was too limited in terms of governance and pluralism to allow for effective resistance.
+
+In Cuba, state control over digital access means manipulation is less about disinformation and more about information starvation. Internet blackouts, selective blocking of websites, and tightly regulated mobile data create an environment where the absence of information is weaponized. Rumors and regime messaging often become the default.
+
+In India, uneven digital access and linguistic fragmentation create a landscape where WhatsApp becomes the preferred vector for influence campaigns. Rumors about communal violence or political conspiracies often spread more quickly through closed messaging networks than through public channels, making detection and counter-response difficult.
+
+In Ukraine, pre-2022 operations by Russia used a combination of digital subversion and analog manipulation, including the hacking of TV stations, the seeding of fake SMS alerts, and the compromise of local infrastructure. After the invasion, satellite internet (Starlink) and open-source platforms became resilience tools, illustrating how access levels can shift rapidly in response to geopolitical shock.
+
+The Ukrainian population is highly integrated into the digital world. This enables its relatively young government to communicate directly and in real-time via Telegram. Often, operations are reported in real-time. The public is shown how an operation reached them, how to recognize it in the future, and, critically, often hears about the false or misleading campaign from their government first. The communication is not one-way. Bots exist to allow people to report suspicious activity, which can reduce the time it takes for operations to be identified. It also allows the public to partake in what has become part of their national defense. 
+
+The structure of technology access determines:
+
+* **Modality**: Whether influence is broadcast-based, peer-to-peer, or algorithmically targeted.
+
+* **Detection Lag**: How long before manipulation is observed and contested?
+
+* **Narrative Durability**: Whether messages persist through repetition, social embedding, or institutional reinforcement.
+
+* **Independent Verification**: Whether civil society, journalists, and researchers can monitor, investigate, and counteract campaigns, or whether they are locked out by design.
+
+Ultimately, access is a double-edged sword. The same infrastructure that allows manipulation also enables monitoring and resistance. The decisive factor is whether the balance of access favors open contestation or quiet, continuous distortion.
+
+## Awareness Levels {#awareness-levels}
+
+Awareness levels refer to the degree to which individuals and societies can recognize, interpret, and respond to information manipulation and disinformation. This encompasses more than formal education—it includes media literacy, cognitive vigilance, exposure history, and pluralism of societal narratives. Awareness is both a personal trait and a systemic condition; it arises from institutional transparency, journalistic freedom, cultural habits of skepticism, and access to credible information.
+
+High-awareness environments are characterized by populations that regularly interrogate source credibility, question emotional appeals, and resist oversimplified frames. These populations have been exposed to manipulation attempts in the past, have learned to identify cues of inauthenticity, and often possess access to trusted debunking or verification mechanisms. In contrast, low-awareness environments may lack these reflexes, creating a passive information intake culture in which narratives are accepted at face value, especially if they are visually polished, socially reinforced, or aligned with existing biases.
+
+### **How Awareness Shapes Manipulation Strategy** {#how-awareness-shapes-manipulation-strategy}
+
+Adversaries tailor their tactics to the target's awareness profile. In low-awareness zones, influence operations rely on: 
+
+* Blunt disinformation (fabricated news, doctored images).
+
+* Appeals to fear or pride with minimal evidence.
+
+* Virality through emotional contagion.
+
+* Direct repetition, banking on cognitive ease and social proof. 
+
+In high-awareness environments, tactics shift toward:
+
+* Ambiguity and innuendo rather than falsehoods.
+
+* Use of satire, irony, or memes to create plausible deniability.
+
+* Hijacking credible messengers (experts, influencers).
+
+* Narrative laundering through think tanks or pseudo-academic outlets.
+
+* Manufactured authenticity via user-generated content, real screenshots, or partial truths that are difficult to disprove entirely.
+
+The goal in high-awareness spaces is not always belief conversion, but rather confusion, doubt, and delay, which undermine the ability to act or trust any source, including one's own.
+
+### **Factors That Increase Societal Awareness** {#factors-that-increase-societal-awareness}
+
+**Institutional Transparency:** Open governance and public accountability reduce the space in which disinformation can thrive. Transparent institutions provide observable baselines—such as published budgets, transparent chains of command, and accessible data—that make it harder for false claims or conspiracies to take hold.
+
+**Media Pluralism:** A diverse and independent media ecosystem prevents monopolization of narratives. When the public can access multiple, competing perspectives, it becomes easier to cross-reference facts, identify distortions, and resist emotionally manipulative framing.
+
+**Crisis Experience:** Societies that have previously been targeted by manipulation—during elections, pandemics, or geopolitical conflicts—may develop a kind of narrative immune memory. Exposure to past deception often leads to institutional reforms, media scrutiny, and citizen habits that increase resilience in future operations.
+
+**Education Systems:** Curricula that emphasize media literacy, critical thinking, logical reasoning, and awareness of cognitive biases help individuals recognize attempts at manipulation. Early and sustained education in these areas inoculates future generations against both domestic and foreign influence.
+
+**Trusted Gatekeepers:** Independent journalism, fact-checking organizations, and civil society watchdogs serve as filters and correctives in the information ecosystem. Their credibility and visibility are crucial for maintaining “cognitive hygiene”—preventing rumor cascades, reinforcing accountability, and surfacing truth when deception spreads.
+
+**Historical Precedent:** Countries that have been frequent targets of manipulation, such as Ukraine, the Baltic states, or Taiwan, tend to develop higher collective awareness and a more sophisticated understanding of influence tactics. This includes institutional readiness, grassroots detection networks, and cultural skepticism toward foreign narrative engineering.
+
+### **Examples** {#examples-3}
+
+**Sweden**: With high media literacy, strong public broadcasting, and transparent institutions, Sweden has demonstrated resilience to Russian disinformation attempts. While some fringe narratives circulate, they rarely gain mass traction without being swiftly countered by trusted national sources.
+
+**Nigeria**: In areas with low digital literacy and a high reliance on messaging apps, misinformation about vaccines, religion, and political candidates has spread rapidly. Language barriers, distrust of formal channels, and limited awareness of manipulation tactics hinder efforts to inoculate the population.
+
+**Germany**: Despite generally high awareness, manipulation campaigns have shifted toward selective amplification, highlighting true but emotionally charged or misleadingly framed stories (refugee crimes, economic grievances) to exploit real issues while avoiding outright falsehoods. This adaptive approach demonstrates how even highly aware societies remain targets, just with more sophisticated inputs.
+
+**United States**: The U.S. illustrates that awareness is unevenly distributed across populations. While some groups are highly skeptical and analytically equipped, others fall prey to coordinated campaigns due to algorithmic isolation, political polarization, or a lack of trust in traditional sources. In such contexts, awareness becomes tribalized rather than general.
+
+Awareness is both a buffer and a signal. High awareness increases societal narrative resilience and raises the cost for manipulative actors. It also reduces the likelihood of uncritical amplification by local populations. However, awareness without trust can breed cynicism, and awareness without institutional follow-through can lead to apathy.
+
+Conversely, low awareness doesn’t just increase susceptibility—it accelerates transmission. Manipulation becomes self-replicating, passed from peer to peer as emotional content rather than an interrogated belief. Building awareness is not simply about countering falsehoods—it is about cultivating reflexive, cross-cutting cognitive infrastructure. Awareness is where the immune system of the information ecosystem is stored.
+
+## Concurrent Events {#concurrent-events}
+
+**Concurrent events** function as accelerants, cover, or amplifiers for influence operations. The manipulators themselves do not continually orchestrate them, but when exploited effectively, they increase emotional resonance, narrative plausibility, and operational velocity. They are the gasoline on an information fire. These events—such as elections, protests, natural disasters, political scandals, pandemics, or international conflicts—create environments of uncertainty and urgency, two key preconditions for rapid information spread and reduced critical thinking.
+
+Influence actors monitor real-time developments and align their campaigns to ride the emotional and cognitive waves generated by concurrent events. Timing a campaign to coincide with a significant event can make a fringe narrative appear relevant, believable, or even inevitable. Concurrent events can interact with an operation in multiple ways. 
+
+**Camouflage**: Crises do not need to be fabricated to serve as a backdrop for manipulation—they only need to be *available*. The same event can be framed in radically different ways for different audiences. Real events provide “cover fire” for falsehoods. When the audience is overwhelmed by competing headlines, it becomes easier to slip in distortion unnoticed.
+
+**Acceleration through Emotion**: Disasters and crises provoke high-arousal emotions (such as fear, anger, and grief), which lower resistance to emotionally congruent messages. Manipulators match their tone and framing to piggyback on public sentiment.
+
+**Plausibility Anchoring**: A concurrent event gives even absurd narratives a veneer of realism. For example, conspiracy theories about disease origins gain traction when released during an outbreak, regardless of their factual merit.
+
+**Decision Compression**: When decision-makers face a shrinking time window (during an election or emergency response), influence operations aim to expedite decision-making by short-circuiting deliberation and pushing manipulated frames into early consensus formation.
+
+**Targeting Information-Seeking Behaviors:** During concurrent events, public information-seeking behavior increases. Malign actors exploit trending keywords and hashtags to seed manipulated content where the demand for answers exceeds the supply of verified information.
+
+**Preparedness Gaps**: Influence actors often plan narratives, waiting for the right event to trigger release. This pre-positioning allows them to outpace slower institutional communication. It is also easy to outpace news and fact-checking organizations, as content that does not require reliability can be produced quickly.
+
+**Information Fatigue**: The cognitive and emotional exhaustion that results from prolonged exposure to high volumes of information, especially during sustained or overlapping crises. As multiple concurrent events (a pandemic combined with political unrest or economic instability) flood the public sphere, individuals struggle to process, evaluate, or respond to incoming data. 
+
+This saturation leads to withdrawal, apathy, or indiscriminate acceptance of narratives, creating ideal conditions for manipulation. In such states, audiences become more susceptible to simplified messages, emotionally charged content, and manipulation through repetition or the creation of a manufactured consensus. Information fatigue degrades sensemaking and weakens both societal resilience and individual critical capacity.
+
+### **Typology of Concurrent Events** {#typology-of-concurrent-events}
+
+| Event Type | Definition |
+| ----- | ----- |
+| **Elections** | Elections are formal processes through which citizens select representatives or decide on public policies, typically involving the casting and counting of votes. While intended to reflect the will of the people, elections can be vulnerable to various forms of interference and manipulation. These include the spread of false claims about fraud, efforts to suppress voter participation, the dissemination of misleading information through strategic leaks or fabricated media such as deepfakes, and targeted campaigns aimed at discouraging specific groups from voting. Such tactics, sometimes amplified by both domestic and foreign actors, can erode trust in electoral institutions, exacerbate societal divisions, and skew voter turnout, ultimately undermining the integrity and legitimacy of the democratic process. |
+| **Protests or Riots** | Protests or riots refer to public demonstrations or outbreaks of civil unrest where groups of people express dissent or demand change. However, these events are often subject to manipulation through tactics that portray them as illegitimate or externally influenced, thereby justifying government crackdowns or deepening societal divisions. Such manipulation can include mischaracterizing peaceful protests as violent, spreading false information about their funding, circulating fabricated videos, promoting extreme slogans, or exaggerating the scale of participation and conflict. Notably, during incidents like the George Floyd protests and the Kazakhstan unrest, foreign actors exploited authentic images and altered contexts to push polarizing narratives, framing protesters as hostile outsiders or saboteurs to undermine their legitimacy. |
+| **Natural Disasters** | Natural disasters are catastrophic events caused by natural processes of the Earth, such as earthquakes, floods, hurricanes, and wildfires, which result in significant damage to life, property, and the environment. While these events are fundamentally natural phenomena, they are sometimes portrayed in public discourse not only as environmental crises but also as indicators of systemic failures or as outcomes of deliberate human interference. For instance, some narratives frame natural disasters as evidence of governmental incompetence or neglect. In contrast, others suggest they are the result of covert manipulation through technologies like weather modification or "weather warfare." Additionally, misinformation surrounding these events can include fabricated stories, false emergency alerts, and conspiracy theories alleging elite hoarding of resources or punitive responses tied to political or cultural grievances. Such framing often complicates the public understanding of natural disasters by blending factual occurrences with claims of external manipulation or intentional harm. |
+| **Health Crises** | Health crises refer to significant events or periods marked by widespread threats to public health, often involving outbreaks of infectious diseases or other medical emergencies that strain healthcare systems and provoke societal concern. These crises frequently become focal points for the rapid spread of misinformation and disinformation, including conspiracy theories, false medical claims, and distrust toward health authorities and scientific institutions. Such narratives may encompass unfounded origin stories, skepticism about vaccines, and targeted efforts to undermine credible experts. The complex interplay of these factors can exacerbate public fear and hinder effective responses, as seen in recent episodes involving diseases like COVID-19, monkeypox, Ebola, and polio. |
+| **Military Conflicts** | Military conflicts refer to organized and often violent confrontations between states, groups, or factions, frequently accompanied by strategic information campaigns. These conflicts are not only fought on the battlefield but also through the manipulation of narratives, including the use of disinformation such as fabricated evidence, false accusations, and misleading media to justify aggression, demonize opponents, or rally support. Such tactics may involve deepfake videos, recycled footage from unrelated events, and glorified portrayals of combatants, contributing to a saturated and distorted information environment. Historical examples include premeditated disinformation efforts preceding invasions or escalations, where false claims are used to legitimize military actions and shape public perception. |
+| **Economic Shocks** | Economic shocks are sudden and significant disruptions to an economy that can trigger widespread financial instability and social unrest. These shocks often create fertile ground for scapegoating marginalized groups, fueling criticism of globalism, and undermining public trust in institutions. In response to economic downturns, narratives blaming immigrants, elites, or specific communities may emerge, sometimes supported by manipulated data such as inflated employment figures or misleading inflation statistics. Additionally, economic crises can give rise to conspiracy theories and cultural phenomena, ranging from romanticized isolationism and barter systems to fears about global depopulation or systemic control, further complicating recovery efforts and social cohesion. |
+| **High-Profile Deaths** | High-profile deaths refer to the passing of well-known individuals whose deaths attract significant public attention and media coverage. Various groups often exploit these events to advance particular agendas, such as fueling martyrdom narratives, promoting conspiracy theories, or manipulating public grief for ideological purposes. In some cases, false claims—such as attributing deaths to vaccines without evidence, fabricating suicide stories, altering medical records, or using AI-generated testimonies—are circulated to create confusion and mistrust. Anti-vaccine networks, for example, frequently allege that many celebrity deaths are caused by COVID-19 vaccines, regardless of factual accuracy or the individual's vaccination status. While these assertions may not be widely believed, their repetition helps maintain a persistent atmosphere of doubt and skepticism. |
+| **Extreme Change** | Extreme change refers to abrupt and profound disruptions in societal, political, or economic systems that are rapidly exploited to create confusion, helplessness, or reliance on new authorities. Such shifts often involve deliberate narratives that recast upheavals, such as coups or market collapses, as necessary restorations or existential threats, thereby fueling fear, mistrust, and dependency. These dynamics are frequently amplified through coordinated disinformation campaigns that portray charismatic leaders or regimes as saviors, while attributing instability to external or shadowy forces, thereby reshaping public perception and governance structures in fundamental ways. |
+
+### 
+
+### **Examples** {#examples-4}
+
+Concurrent events don’t create information manipulation, but they affect reach, impact, and speed. Influence actors know that timing matters and may position themselves to leverage a crisis. They may also opportunistically adapt the current event into specific narratives. Societies that treat concurrent events as predictable inflection points rather than surprises will be better equipped to blunt their weaponization.
+
+* **Hurricane Ian (2025)**: In the U.S., Russian and Chinese information actors launched parallel influence campaigns during Hurricane Ian. Online influencers suggested FEMA was stockpiling aid for elites, not residents. Others blamed the storm on U.S. weather manipulation, reviving the HAARP conspiracy. These campaigns fed off uncertainty and information voids in disaster zones.
+
+* **COVID-19 Pandemic**: The global nature and timeline of COVID-19 made it the most exploited concurrent event in the digital era. The virus’s origin, vaccine development, lockdowns, and economic impact became entry points for a broad array of influence actors, each inserting narratives tailored to their strategic goals. Early uncertainty and scientific ambiguity created fertile ground for the persistence of long-term false claims.
+
+* **George Floyd Protests (2020)**: During mass protests in the U.S., foreign accounts amplified both pro-police and anti-police content to escalate internal division. They injected falsehoods about protester violence and external funding, leveraging real footage and photos out of context to polarize audiences.
+
+* **French Yellow Vests Movement**: Russian-linked outlets and troll networks capitalized on the ongoing protests to frame France as collapsing under neoliberal rule. While the protests were real, the overlay of coordinated amplification and narrative distortion created an exaggerated image of systemic disintegration, intended for both French and international consumption.
+
+# Bibliography
+

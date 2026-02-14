@@ -1,0 +1,12 @@
+---
+title: "Online Influencer Coordination"
+description: "Online Influencer Coordination involves networks of influencers and algorithmically linked accounts that blend authentic engagement with covert promotion to manipulate public perception and discourse around divisive issues."
+categories: ["Operational Multipliers"]
+---
+
+::: {.function-badge}
+[Operational Multipliers](../function/operational-multipliers.qmd)
+:::
+
+Online Influencer Coordination refers to digitally native ecosystems of influencers, amplification pods, and algorithmically linked accounts that synchronize messaging to manufacture visibility and emotional intensity around divisive themes. These networks merge authentic participation with covert or paid promotion, eroding the distinction between genuine expression and orchestrated manipulation. By weaponizing social validation, parasocial trust, and algorithmic feedback loops, coordinated influencers can steer discourse, normalize fringe ideas, and provoke hostility between social groups. The result is an engineered perception of consensus or conflict—a scalable, low-cost mechanism that multiplies the impact of influence operations without requiring overt state control or explicit propaganda infrastructure.
+
