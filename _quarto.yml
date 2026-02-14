@@ -11,6 +11,7 @@ project:
     - "callback.html"
     - "account.html"
     - "auth-debug.html"
+    - "auth0-spa-js.js"
     - "*.png"
     - "*.svg"
     - "*.js"
@@ -101,7 +102,7 @@ format:
       gutter-width: 1.5rem
     include-in-header:
       text: |
-        <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+        <script src="/auth0-spa-js.js"></script>
     include-after-body:
       text: |
         <script src="/auth0-config.js"></script>
