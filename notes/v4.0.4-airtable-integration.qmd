@@ -1,0 +1,101 @@
+---
+title: "v4.0.4 Airtable Integration"
+description: "Bidirectional sync tools for taxonomy data management"
+date: "2026-02-14"
+categories: [feature, integration, automation]
+---
+
+## Overview
+
+Created Python integration tools to synchronize FIMI Taxonomy content with Airtable, enabling collaborative editing and structured data management.
+
+## Tools Created
+
+### 1. Function Table Sync (`update_airtable_functions.py`)
+
+Syncs function chapter content to Airtable:
+
+- **Target Base:** `appX0FUC8U8cgWGph`
+- **Target Table:** `tbl8t0aTmayDTA7CU`
+- **Field Updated:** `quarto` (contains full chapter markdown)
+- **Status:** ✅ Tested and working
+
+```bash
+python update_airtable_functions.py
+# Reads all .qmd files from function/ directory
+# Updates corresponding Airtable records
+# Maintains proper markdown formatting
+```
+
+### 2. Mechanism Table Sync (`update_airtable_mechanisms.py`)
+
+Syncs mechanism page content to Airtable:
+
+- **Automatic Mapping:** Converts filenames to mechanism names
+- **Field Updated:** `quarto` (contains full mechanism markdown)
+- **Status:** ✅ Ready for use
+
+```bash
+python update_airtable_mechanisms.py
+# Prompts for mechanisms table ID
+# Reads all .qmd files from mechanisms/ directory
+# Updates corresponding Airtable records
+```
+
+## Authentication
+
+Both tools use Airtable Personal Access Token (PAT):
+
+- Secure token entry at runtime
+- No hardcoded credentials
+- Token validation before sync
+
+## Use Cases
+
+### Collaborative Editing
+
+- Team members can edit in Airtable's structured interface
+- Changes sync back to Quarto source files
+- Version control maintained through git
+
+### Data Management
+
+- Structured fields for metadata
+- Easy filtering and sorting
+- Bulk operations on taxonomy entries
+
+### Quality Control
+
+- Review workflow in Airtable
+- Status tracking for content updates
+- Audit trail of changes
+
+## Architecture Benefits
+
+- **Single Source of Truth:** Airtable as collaborative workspace
+- **Publication Ready:** Quarto files auto-generated from Airtable
+- **Flexibility:** Edit in either environment
+- **Automation:** Scheduled syncs possible via CI/CD
+
+## Future Enhancements
+
+Potential improvements:
+
+- Bidirectional sync (Airtable → Quarto)
+- Automated nightly updates
+- Conflict resolution for simultaneous edits
+- Webhook triggers for real-time sync
+
+## Usage Example
+
+```bash
+# Update all function chapters in Airtable
+python update_airtable_functions.py
+Enter your Airtable PAT: [secure entry]
+✓ Updated Command and Control
+✓ Updated Projection Abroad
+✓ Updated Legitimation
+... [continues for all functions]
+```
+
+This integration enables scalable, collaborative taxonomy maintenance while preserving the benefits of a static Quarto site.

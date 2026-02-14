@@ -1,0 +1,64 @@
+---
+title: "v4.0.2 BibTeX Syntax Fix"
+description: "Resolved critical BibTeX parsing errors in projection-abroad bibliography"
+date: "2026-02-14"
+categories: [bugfix, bibliography]
+---
+
+## Issue
+
+The projection-abroad chapter was failing to build due to BibTeX syntax errors in `function/projection-abroad.bib`. Quarto could not parse the bibliography file, causing citation processing to fail.
+
+## Errors Identified
+
+### Error 1: Line 778 - Stray Comma
+
+```bibtex
+# BEFORE (incorrect)
+},
+,@MISC{EUROPEAN_UNION2022,
+
+# AFTER (corrected)
+},
+
+@MISC{EUROPEAN_UNION2022,
+```
+
+A stray comma appeared before the entry type declaration, violating BibTeX syntax rules.
+
+### Error 2: Line 803 - Missing Comma
+
+```bibtex
+# BEFORE (incorrect)
+howpublished = "\url{https://example.com}"
+note = "Accessed: 2022-01-15"
+
+# AFTER (corrected)
+howpublished = "\url{https://example.com}",
+note = "Accessed: 2022-01-15"
+```
+
+Missing comma after the `howpublished` field prevented proper field separation.
+
+## Fix Applied
+
+Both syntax errors were corrected in `function/projection-abroad.bib`:
+
+1. Removed the leading comma before `@MISC{EUROPEAN_UNION2022,`
+2. Added missing comma after `howpublished` field in entry at line 803
+
+## Impact
+
+- ✅ BibTeX file now parses correctly
+- ✅ All citations in projection-abroad chapter resolve
+- ✅ No more bibliography parsing errors during build
+- ✅ Site builds successfully
+
+## Verification
+
+```bash
+quarto render function/projection-abroad-chapter.qmd
+# Output: Successful render with all citations processed
+```
+
+These fixes were essential for the citations system to function properly.

@@ -1,0 +1,105 @@
+---
+title: "v4.1.0 Data Labeler Tool"
+description: "Interactive annotation interface for applying FIMI taxonomy to text"
+date: "2026-02-14"
+categories: [feature, tool]
+---
+
+## Overview
+
+Launched the FIMI Taxonomy Data Labeler - a professional research annotation tool that enables analysts and researchers to apply taxonomy labels to text samples and generate structured reports.
+
+## Core Features
+
+### Interactive Text Annotation
+
+- Select any portion of text to annotate
+- Apply multiple taxonomy categories simultaneously:
+  - **Functions** - Strategic purposes of manipulation
+  - **Mechanisms** - Specific tactics and tools
+  - **Terrain** - Environmental vulnerability factors  
+  - **Channels** - Platforms and media types
+
+### Smart Label Management
+
+- Mechanism dropdown dynamically filters based on selected Function
+- Real-time text highlighting with taxonomy-coded colors:
+  - Mulberry (`#551638`) for Functions
+  - Light mulberry (`#7B2D5F`) for Mechanisms
+  - Green (`#27ae60`) for Terrain
+  - Purple (`#8e44ad`) for Channels
+
+### Live Analytics Dashboard
+
+- Real-time statistics by category
+- Annotation history panel with excerpts
+- Visual breakdown of taxonomy application
+
+### Multi-Format Export
+
+Generate structured reports in three formats:
+
+1. **JSON** - Machine-readable with full metadata
+2. **CSV** - Spreadsheet-compatible for analysis
+3. **Markdown** - Human-readable documentation
+
+## Design Philosophy
+
+The labeler matches the main taxonomy site's aesthetic:
+
+- **Typography:** Crimson Pro (headings), Work Sans (body), IBM Plex Mono (metadata)
+- **Colors:** InfoEpi.org mulberry palette
+- **Layout:** Grid-based cards with colored top borders
+- **Approach:** Academic interface design - clean, text-focused, professional
+
+## Use Cases
+
+### Research Analysis
+
+Document FIMI operations by annotating:
+- News articles about disinformation campaigns
+- Social media content showing manipulation tactics
+- Government reports on foreign interference
+
+### Training Materials
+
+Create annotated examples for:
+- Analyst training programs
+- Academic courses on information manipulation
+- Public education initiatives
+
+### Case Documentation
+
+Build evidence repositories:
+- Tag incidents with taxonomy categories
+- Export structured data for research papers
+- Generate reports for stakeholders
+
+## Technical Implementation
+
+Single-file HTML application (`labeler.html`):
+
+- No dependencies or build process required
+- Runs entirely in browser
+- Privacy-focused - all data stays local
+- Offline-capable after initial load
+
+## Access
+
+The labeler is available at: `labeler.html`
+
+Open in any modern browser to start annotating immediately.
+
+## Future Enhancements
+
+Planned improvements:
+
+- Batch text processing
+- Saved annotation projects
+- Airtable integration for collaborative analysis
+- PDF import/export
+- Citation generation for annotated samples
+
+## Impact
+
+This tool transforms the FIMI Taxonomy from a reference resource into an active research instrument, enabling systematic application of the taxonomy framework to real-world content.

@@ -1,0 +1,42 @@
+---
+title: "v4.0.1 Configuration Fix"
+description: "Fixed invalid Quarto configuration preventing site builds"
+date: "2026-02-14"
+categories: [bugfix, configuration]
+---
+
+## Issue
+
+The Quarto site was failing to build due to an invalid `margin-footer` configuration option in `_quarto.yml`. This prevented the entire site from rendering.
+
+## Root Cause
+
+The `margin-footer` option is not a valid Quarto configuration parameter. This was likely introduced during initial site setup or copied from an incompatible template.
+
+## Fix Applied
+
+Removed the entire `margin-footer` section from `_quarto.yml`:
+
+```yaml
+# REMOVED - Invalid configuration
+margin-footer: |
+  FIMI Taxonomy by Information Epidemiology Lab
+```
+
+The footer content was preserved through the existing `page-footer` configuration, which is the correct approach in Quarto.
+
+## Impact
+
+- ✅ Site now builds without configuration errors
+- ✅ All 141 pages render successfully
+- ✅ Footer content still displays correctly via `page-footer`
+- ✅ No functionality lost
+
+## Verification
+
+```bash
+quarto preview
+# Output: Successful build with 0 configuration errors
+```
+
+This fix was critical for making the site operational.

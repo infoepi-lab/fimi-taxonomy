@@ -1,0 +1,90 @@
+---
+title: "v4.0.5 Blog Listing Fix"
+description: "Proper blog architecture with root-level listing page"
+date: "2026-02-14"
+categories: [bugfix, structure]
+---
+
+## Issue
+
+The blog was incorrectly structured with the listing page inside the `blog/` directory itself. This violated Quarto's best practices and created navigation issues.
+
+**Incorrect Structure:**
+```
+blog/
+  index.qmd     # Listing page (WRONG LOCATION)
+  post1.qmd
+  post2.qmd
+```
+
+## Problem
+
+- Listing page competed with blog posts in same directory
+- Navigation confusion between blog index and posts
+- Non-standard Quarto pattern
+
+## Solution
+
+Created proper blog listing architecture:
+
+**Correct Structure:**
+```
+notes.qmd       # Listing page at root (CORRECT)
+notes/          # Directory renamed from "blog"
+  post1.qmd
+  post2.qmd
+```
+
+### Changes Made
+
+1. **Created `notes.qmd` at root level:**
+
+```yaml
+---
+title: "Notes"
+description: "Updates and changes to the FIMI Taxonomy"
+listing:
+  contents: "notes/*.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+---
+```
+
+2. **Updated `_quarto.yml` navigation:**
+
+```yaml
+navbar:
+  right:
+    - file: notes.qmd
+      text: "Notes"
+
+page-footer:
+  right:
+    - file: notes.qmd
+      text: "Notes"
+```
+
+3. **Excluded old blog index from rendering:**
+
+```yaml
+project:
+  render:
+    - "!blog/index.qmd"
+```
+
+## Benefits
+
+- ✅ Clean separation between listing and content
+- ✅ Standard Quarto pattern for blogs
+- ✅ Better navigation clarity
+- ✅ Scalable for future posts
+
+## Impact
+
+- Listing page properly displays all notes chronologically
+- No directory conflicts
+- Follows Quarto documentation recommendations
+- Easier to maintain and extend
+
+This fix establishes a proper foundation for the taxonomy's changelog and update notes.

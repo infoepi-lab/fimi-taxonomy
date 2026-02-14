@@ -1,0 +1,73 @@
+---
+title: "v4.0.6 Terrain Deadlinks Fix"
+description: "Removed broken mechanism links from all terrain pages"
+date: "2026-02-14"
+categories: [bugfix, content]
+---
+
+## Issue
+
+All 7 terrain pages contained "Related Mechanism" sections linking to mechanism pages that didn't exist, creating broken links throughout the site.
+
+## Affected Pages
+
+1. `terrain/awareness-levels.qmd`
+2. `terrain/civil-society.qmd`
+3. `terrain/digital-infrastructure.qmd`
+4. `terrain/electoral-integrity.qmd`
+5. `terrain/historical-ties.qmd`
+6. `terrain/media-freedom.qmd`
+7. `terrain/regulatory-environment.qmd`
+
+## Example of Broken Links
+
+```markdown
+## Related Mechanisms
+
+- [Diaspora Mobilization](../mechanisms/diaspora-mobilization.qmd)
+- [Historical Revisionism](../mechanisms/historical-revisionism.qmd)
+```
+
+These mechanism pages were referenced but never created, causing 404 errors.
+
+## Root Cause
+
+The terrain pages were likely generated from a template that assumed all mechanisms would have corresponding `.qmd` files. However, the actual mechanism pages use different filenames or don't exist yet.
+
+## Fix Applied
+
+Removed all "Related Mechanism" sections from terrain pages:
+
+```diff
+- ## Related Mechanisms
+-
+- - [Diaspora Mobilization](../mechanisms/diaspora-mobilization.qmd)
+- - [Historical Revisionism](../mechanisms/historical-revisionism.qmd)
+```
+
+## Current Terrain Page Structure
+
+Each terrain page now contains only:
+
+- **Title** - Descriptive name of terrain factor
+- **Description** - Brief explanation of the factor
+- **Content** - Core explanation of how this terrain affects FIMI vulnerability
+
+This simplified structure is cleaner and matches the intentionally minimal design from `terrain.csv`.
+
+## Impact
+
+- ✅ All 7 terrain pages now render without broken links
+- ✅ Cleaner, more focused content
+- ✅ No 404 errors from terrain section
+- ✅ Consistent structure across terrain pages
+
+## Future Enhancement
+
+If mechanism cross-references are desired, they should be:
+
+1. Generated dynamically from actual mechanism files
+2. Added only when target pages exist
+3. Validated during build process
+
+For now, the clean minimal approach serves the taxonomy well.

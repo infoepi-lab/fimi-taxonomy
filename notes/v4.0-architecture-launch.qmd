@@ -1,0 +1,44 @@
+---
+title: "v4.0 Architecture Launch"
+description: "Major architectural overhaul with Quarto-based website framework"
+date: "2026-02-13"
+categories: [release, architecture]
+---
+
+## Overview
+
+Version 4.0 represents a complete architectural overhaul of the FIMI Taxonomy, transitioning to a Quarto-based website with improved navigation, search, and cross-referencing capabilities.
+
+## Website Architecture
+
+- Migrated from standalone HTML to Quarto website framework
+- Implemented dynamic listing pages for Functions, Mechanisms, Terrain, and Channels
+- Added responsive grid layouts with color-coded sections
+- Integrated search functionality across all content
+
+## Content Organization
+
+- 9 strategic Functions
+- 105+ documented Mechanisms
+- 7 Structural Terrain factors
+- 8 Channel Types
+- Cross-referencing between Functions and their associated Mechanisms
+
+## Design System
+
+- Professional color scheme aligned with InfoEpi.org branding
+- Improved typography and spacing with Crimson Pro and Work Sans
+- Enhanced mobile responsiveness
+- Consistent styling across all pages with mulberry accent colors
+
+## Data-Driven Architecture
+
+All content is now generated from authoritative CSV files:
+
+- `function.csv` - Function definitions and mappings
+- `mechanisms.csv` - Mechanism descriptions and function associations
+- `terrain.csv` - Terrain factors
+- `channel_types.csv` - Channel type definitions
+- `examples.csv` - Documented real-world examples
+
+This data-driven approach ensures consistency and enables programmatic updates to the taxonomy.
