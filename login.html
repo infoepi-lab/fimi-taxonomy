@@ -325,16 +325,14 @@
         <div class="profile-email">${user.email || 'No email provided'}</div>
       `;
       
-      // Redirect to original page after login
-      setTimeout(() => {
-        const redirectUrl = sessionStorage.getItem('redirectAfterLogin');
-        if (redirectUrl) {
-          sessionStorage.removeItem('redirectAfterLogin');
-          window.location.href = redirectUrl;
-        } else {
-          window.location.href = '/index.html';
-        }
-      }, 2000);
+      // Show link to continue to site instead of auto-redirect
+      const backLink = document.querySelector('.back-link');
+      const redirectUrl = sessionStorage.getItem('redirectAfterLogin');
+      if (redirectUrl) {
+        backLink.innerHTML = `<a href="${redirectUrl}">Continue to FIMI Taxonomy →</a>`;
+      } else {
+        backLink.innerHTML = `<a href="/index.html">Go to FIMI Taxonomy →</a>`;
+      }
     }
     
     // Event listeners

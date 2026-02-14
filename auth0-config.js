@@ -23,7 +23,8 @@ async function initAuth0() {
     authorizationParams: {
       redirect_uri: auth0Config.redirectUri,
       scope: auth0Config.scope
-    }
+    },
+    cacheLocation: 'localstorage' // Persist auth across page loads
   };
 
   // Only add audience if it exists
@@ -36,8 +37,16 @@ async function initAuth0() {
   // Check if returning from Auth0 callback
   const query = window.location.search;
   if (query.includes('code=') && query.includes('state=')) {
-    await auth0Client.handleRedirectCallback();
-    window.history.replaceState({}, document.title, '/');
+    try {
+      await auth0Client.handleRedirectCallback();
+      // Get the redirect URL from session storage
+      const redirectUrl = sessionStorage.getItem('redirectAfterLogin') || '/';
+      sessionStorage.removeItem('redirectAfterLogin');
+      window.location.replace(redirectUrl);
+      return; // Stop here, we're redirecting
+    } catch (err) {
+      console.error('Callback error:', err);
+    }
   }
 
   // Update UI based on authentication status
@@ -101,29 +110,42 @@ async function protectSite() {
   
   // Allow front page (index) to be public
   if (window.location.pathname === '/' || 
-      window.location.pathname === '/index.html') {
+      window.location.pathname === '/index.html' ||
+      window.location.pathname === '/notes.html') {
+    return;
+  }
+  
+  // Skip if we're handling a callback
+  if (window.location.search.includes('code=') && window.location.search.includes('state=')) {
     return;
   }
   
   // Check authentication
   if (auth0Client) {
-    const isAuthenticated = await auth0Client.isAuthenticated();
-    
-    if (!isAuthenticated) {
-      // Save the page they were trying to visit
-      sessionStorage.setItem('redirectAfterLogin', window.location.href);
-      // Redirect to login
-      window.location.href = '/login.html';
+    try {
+      const isAuthenticated = await auth0Client.isAuthenticated();
+      
+      if (!isAuthenticated) {
+        // Save the page they were trying to visit
+        sessionStorage.setItem('redirectAfterLogin', window.location.href);
+        // Redirect to login
+        window.location.replace('/login.html');
+      }
+    } catch (err) {
+      console.error('Auth check error:', err);
     }
   }
 }
 
-// Initialize when DOM is ready and protect site
+// Initialize when DOM is ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', async () => {
     await initAuth0();
     await protectSite();
   });
 } else {
-  initAuth0().then(protectSite);
+  (async () => {
+    await initAuth0();
+    await protectSite();
+  })();
 }
