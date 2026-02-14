@@ -62,12 +62,6 @@ website:
         text: "Notes"
       - href: labeler.html
         text: "Data Labeler"
-      - text: |
-          <div class="auth-controls">
-            <div id="user-profile" class="hidden"></div>
-            <button id="login-btn" class="auth-btn" onclick="login()">Login</button>
-            <button id="logout-btn" class="auth-btn hidden" onclick="logout()">Logout</button>
-          </div>
   page-footer:
     left: "FIMI Taxonomy"
     right:
@@ -104,7 +98,26 @@ format:
         <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
     include-after-body:
       text: |
+        <div id="auth-controls-container"></div>
         <script src="auth0-config.js"></script>
+        <script>
+          // Inject auth controls into navbar after page loads
+          document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar-nav.ms-auto');
+            if (navbar) {
+              const authDiv = document.createElement('li');
+              authDiv.className = 'nav-item';
+              authDiv.innerHTML = `
+                <div class="auth-controls" style="display: flex; align-items: center; gap: 0.75rem; padding: 0 1rem;">
+                  <div id="user-profile" class="hidden"></div>
+                  <button id="login-btn" class="btn btn-sm auth-btn" onclick="login()">Login</button>
+                  <button id="logout-btn" class="btn btn-sm auth-btn hidden" onclick="logout()">Logout</button>
+                </div>
+              `;
+              navbar.appendChild(authDiv);
+            }
+          });
+        </script>
 
 execute:
   freeze: auto
