@@ -324,6 +324,17 @@
         <div class="profile-name">${user.name || 'User'}</div>
         <div class="profile-email">${user.email || 'No email provided'}</div>
       `;
+      
+      // Redirect to original page after login
+      setTimeout(() => {
+        const redirectUrl = sessionStorage.getItem('redirectAfterLogin');
+        if (redirectUrl) {
+          sessionStorage.removeItem('redirectAfterLogin');
+          window.location.href = redirectUrl;
+        } else {
+          window.location.href = '/index.html';
+        }
+      }, 2000);
     }
     
     // Event listeners

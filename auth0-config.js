@@ -91,9 +91,39 @@ async function logout() {
   });
 }
 
-// Initialize when DOM is ready
+// Protect entire site - redirect to login if not authenticated
+async function protectSite() {
+  // Skip protection on login page itself
+  if (window.location.pathname.includes('login.html') || 
+      window.location.pathname.includes('auth-debug.html')) {
+    return;
+  }
+  
+  // Allow front page (index) to be public
+  if (window.location.pathname === '/' || 
+      window.location.pathname === '/index.html') {
+    return;
+  }
+  
+  // Check authentication
+  if (auth0Client) {
+    const isAuthenticated = await auth0Client.isAuthenticated();
+    
+    if (!isAuthenticated) {
+      // Save the page they were trying to visit
+      sessionStorage.setItem('redirectAfterLogin', window.location.href);
+      // Redirect to login
+      window.location.href = '/login.html';
+    }
+  }
+}
+
+// Initialize when DOM is ready and protect site
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initAuth0);
+  document.addEventListener('DOMContentLoaded', async () => {
+    await initAuth0();
+    await protectSite();
+  });
 } else {
-  initAuth0();
+  initAuth0().then(protectSite);
 }
