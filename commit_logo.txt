@@ -1,0 +1,6 @@
+Add logo with automatic dark mode switching
+
+- Added logo.svg and dark-logo.svg to navbar
+- Configured automatic logo switching based on theme
+- Set logo height to 40px for consistent navbar sizing
+- Supports both light and dark mode themes

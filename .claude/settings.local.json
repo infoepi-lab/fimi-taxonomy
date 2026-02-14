@@ -33,7 +33,8 @@
       "mcp__Desktop_Commander__get_recent_tool_calls",
       "mcp__Desktop_Commander__get_config",
       "mcp__Desktop_Commander__start_search",
-      "mcp__Desktop_Commander__get_more_search_results"
+      "mcp__Desktop_Commander__get_more_search_results",
+      "mcp__Desktop_Commander__interact_with_process"
     ]
   }
 }

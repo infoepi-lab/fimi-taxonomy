@@ -1,0 +1,5 @@
+Add Data Labeler to site navigation and resources
+
+- Added labeler.html to project resources so it gets copied to _site/
+- Added Data Labeler link to navbar for easy access
+- Configured Quarto to include HTML, JS, CSS, and image files

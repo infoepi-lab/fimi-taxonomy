@@ -1,0 +1,7 @@
+Clean up auth controls in navbar
+
+- Removed raw HTML from navbar configuration
+- Injected auth controls via JavaScript for cleaner rendering
+- Styled buttons to match dark navbar theme
+- Reduced button sizes for better navbar integration
+- Fixed user profile display for dark backgrounds

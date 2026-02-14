@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - FIMI Taxonomy</title>
+  <link rel="stylesheet" href="auth-styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Work Sans', -apple-system, system-ui, sans-serif;
+      background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #f5f5f5;
+      padding: 2rem;
+    }
+    
+    .login-container {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 480px;
+      width: 100%;
+      padding: 3rem;
+      animation: fadeInScale 0.6s ease-out;
+    }
+    
+    @keyframes fadeInScale {
+      from {
+        opacity: 0;
+        transform: scale(0.95) translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+    
+    .logo-section {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    .logo {
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 1.5rem;
+    }
+    
+    .login-title {
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #551638;
+      margin-bottom: 0.5rem;
+    }
+    
+    .login-subtitle {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+    
+    .loading-state {
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    .loading-spinner {
+      width: 48px;
+      height: 48px;
+      border: 4px solid rgba(85, 22, 56, 0.1);
+      border-top-color: #551638;
+      border-radius: 50%;
+      margin: 0 auto 1rem;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .loading-text {
+      font-size: 1rem;
+      color: #666;
+    }
+    
+    .error-state {
+      background: #fff5f5;
+      border: 1px solid #fc8181;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .error-title {
+      font-weight: 600;
+      color: #c53030;
+      margin-bottom: 0.5rem;
+    }
+    
+    .error-message {
+      font-size: 0.9rem;
+      color: #742a2a;
+    }
+    
+    .auth-section {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .login-button {
+      width: 100%;
+      padding: 1rem 1.5rem;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: white;
+      background: #551638;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .login-button:hover {
+      background: #6d1c47;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(85, 22, 56, 0.3);
+    }
+    
+    .login-button:active {
+      transform: translateY(0);
+    }
+    
+    .back-link {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid #e0e0e0;
+    }
+    
+    .back-link a {
+      color: #551638;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    
+    .back-link a:hover {
+      color: #6d1c47;
+      text-decoration: underline;
+    }
+    
+    .logged-in-section {
+      text-align: center;
+    }
+    
+    .success-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .success-message {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #2f855a;
+      margin-bottom: 1.5rem;
+    }
+    
+    .profile-section {
+      background: #f7fafc;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2rem 0;
+    }
+    
+    .profile-picture {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      margin: 0 auto 1rem;
+      border: 3px solid #551638;
+    }
+    
+    .profile-name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 0.5rem;
+    }
+    
+    .profile-email {
+      font-size: 1rem;
+      color: #666;
+    }
+    
+    .logout-button {
+      width: 100%;
+      padding: 1rem 1.5rem;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #551638;
+      background: white;
+      border: 2px solid #551638;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .logout-button:hover {
+      background: #551638;
+      color: white;
+    }
+    
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo-section">
+      <img src="logo.svg" alt="FIMI Taxonomy" class="logo">
+      <h1 class="login-title">Sign In</h1>
+      <p class="login-subtitle">Access the FIMI Taxonomy</p>
+    </div>
+    
+    <!-- Loading State -->
+    <div id="loading" class="loading-state">
+      <div class="loading-spinner"></div>
+      <p class="loading-text">Loading...</p>
+    </div>
+    
+    <!-- Error State -->
+    <div id="error" class="error-state hidden">
+      <div class="error-title">Authentication Error</div>
+      <div id="error-details" class="error-message"></div>
+    </div>
+    
+    <!-- Logged Out State -->
+    <div id="logged-out" class="auth-section hidden">
+      <button id="login-btn" class="login-button">Sign In with Auth0</button>
+    </div>
+    
+    <!-- Logged In State -->
+    <div id="logged-in" class="logged-in-section hidden">
+      <div class="success-icon">✓</div>
+      <div class="success-message">Successfully Authenticated</div>
+      
+      <div class="profile-section">
+        <div id="profile"></div>
+      </div>
+      
+      <button id="logout-btn" class="logout-button">Sign Out</button>
+    </div>
+    
+    <div class="back-link">
+      <a href="index.html">← Back to FIMI Taxonomy</a>
+    </div>
+  </div>
+  
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  <script src="auth0-config.js"></script>
+  <script>
+    // Override the updateUI function for login page
+    async function updateUI() {
+      try {
+        const isAuthenticated = await auth0Client.isAuthenticated();
+        
+        const loading = document.getElementById('loading');
+        const loggedOut = document.getElementById('logged-out');
+        const loggedIn = document.getElementById('logged-in');
+        const error = document.getElementById('error');
+        
+        loading.classList.add('hidden');
+        error.classList.add('hidden');
+        
+        if (isAuthenticated) {
+          loggedOut.classList.add('hidden');
+          loggedIn.classList.remove('hidden');
+          await displayLoginPageProfile();
+        } else {
+          loggedIn.classList.add('hidden');
+          loggedOut.classList.remove('hidden');
+        }
+      } catch (err) {
+        console.error('UI update error:', err);
+        document.getElementById('loading').classList.add('hidden');
+        document.getElementById('error').classList.remove('hidden');
+        document.getElementById('error-details').textContent = err.message;
+      }
+    }
+    
+    async function displayLoginPageProfile() {
+      const user = await auth0Client.getUser();
+      const profileContainer = document.getElementById('profile');
+      
+      const placeholderImage = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Ccircle cx='48' cy='48' r='48' fill='%23551638'/%3E%3Cpath d='M48 44c7.2 0 13-5.8 13-13s-5.8-13-13-13-13 5.8-13 13 5.8 13 13 13zm0 6.5c-8.7 0-26 4.4-26 13v3.25c0 1.8 1.45 3.25 3.25 3.25h45.5c1.8 0 3.25-1.45 3.25-3.25V63.5c0-8.6-17.3-13-26-13z' fill='%23fff'/%3E%3C/svg%3E`;
+      
+      profileContainer.innerHTML = `
+        <img 
+          src="${user.picture || placeholderImage}" 
+          alt="${user.name || 'User'}" 
+          class="profile-picture"
+          onerror="this.src='${placeholderImage}'"
+        />
+        <div class="profile-name">${user.name || 'User'}</div>
+        <div class="profile-email">${user.email || 'No email provided'}</div>
+      `;
+    }
+    
+    // Event listeners
+    document.getElementById('login-btn').addEventListener('click', login);
+    document.getElementById('logout-btn').addEventListener('click', logout);
+  </script>
+</body>
+</html>
