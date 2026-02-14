@@ -5,6 +5,9 @@ date: "2026-02-14"
 categories: [bugfix, bibliography]
 ---
 
+
+::: {.protected-content}
+
 ## Issue
 
 The projection-abroad chapter was failing to build due to BibTeX syntax errors in `function/projection-abroad.bib`. Quarto could not parse the bibliography file, causing citation processing to fail.
@@ -62,3 +65,5 @@ quarto render function/projection-abroad-chapter.qmd
 ```
 
 These fixes were essential for the citations system to function properly.
+
+:::

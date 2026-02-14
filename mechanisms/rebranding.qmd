@@ -4,6 +4,9 @@ description: "Rebranding involves dissolving or restructuring entities to evade 
 categories: ["Longevity"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Longevity](../function/longevity.qmd)
 :::
@@ -11,3 +14,4 @@ categories: ["Longevity"]
 Rebranding involves the deliberate dissolution, renaming, or restructuring of entities to evade scrutiny, sanctions, or reputational damage while preserving personnel, resources, and objectives. Successor organizations inherit networks and assets under a new identity, maintaining operational continuity behind the appearance of change.
 Through rebranding, influence architectures reset perception while retaining infrastructure. This allows movements to re-engage funders, media, and digital platforms even after exposure. The public sees renewal; the system experiences continuity.
 
+:::

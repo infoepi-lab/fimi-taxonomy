@@ -4,6 +4,9 @@ description: "A soft-power mechanism using educational travel to advance politic
 categories: ["Legitimation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Legitimation](../function/legitimation.qmd)
 :::
@@ -12,3 +15,4 @@ A soft-power mechanism that uses academic, cultural, or experiential travel to a
 
 Educational travel programs operate as projection instruments—they externalize domestic ideology, build personal networks of influence, and create emotionally bonded intermediaries who act as informal advocates or amplifiers upon return. By merging pedagogy with persuasion, these initiatives extend the sponsoring actor’s reach into foreign populations through ostensibly benign, non-state channels.
 
+:::

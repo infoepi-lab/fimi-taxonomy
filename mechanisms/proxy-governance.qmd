@@ -4,9 +4,13 @@ description: "Management of surrogate authorities in occupied or dependent terri
 categories: ["Command and Control"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Command and Control](../function/command-and-control.qmd)
 :::
 
 Refers to installing or managing surrogate authorities in occupied or dependent territories (seen in Donetsk/Luhansk or Abkhazia). Fills the gap between kinetic action and long-term regime coordination.
 
+:::

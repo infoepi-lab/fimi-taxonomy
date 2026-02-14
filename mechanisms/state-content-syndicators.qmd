@@ -4,6 +4,9 @@ description: "State-Content Syndicators are entities that collect and redistribu
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
@@ -14,3 +17,4 @@ Syndicators operate along a spectrum:
 - Republisher-mode: They directly mirror or lightly edit state-produced articles, videos, or statements, often targeting foreign audiences and using their own platform’s credibility to launder the narrative.
 - Across both modes, the core function remains the same: extend the visibility, lifespan, and perceived independence of state narratives by routing them through intermediate outlets that appear structurally or editorially separate from the originating state.
 
+:::

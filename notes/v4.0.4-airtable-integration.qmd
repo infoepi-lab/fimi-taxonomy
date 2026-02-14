@@ -5,6 +5,9 @@ date: "2026-02-14"
 categories: [feature, integration, automation]
 ---
 
+
+::: {.protected-content}
+
 ## Overview
 
 Created Python integration tools to synchronize FIMI Taxonomy content with Airtable, enabling collaborative editing and structured data management.
@@ -99,3 +102,5 @@ Enter your Airtable PAT: [secure entry]
 ```
 
 This integration enables scalable, collaborative taxonomy maintenance while preserving the benefits of a static Quarto site.
+
+:::

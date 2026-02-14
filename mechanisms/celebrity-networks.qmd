@@ -4,9 +4,13 @@ description: "State actors strategically amplify and cross-reference targeted co
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
 
 State actors orchestrate the strategic amplification and cross-referencing of targeted content across multiple independent or semi-independent platforms to fabricate legitimacy and broaden reach. This mechanism leverages perceived endorsement and networked visibility to embed manipulated narratives within diverse information ecosystems, enhancing their persuasive power while obscuring centralized coordination.
 
+:::

@@ -4,9 +4,13 @@ description: "Hostage diplomacy is the arbitrary detention of foreign nationals 
 categories: ["Suppressing Dissent"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Suppressing Dissent](../function/suppressing-dissent.qmd)
 :::
 
 Hostage diplomacy involves the arbitrary detention of foreign nationals or dual citizens to extract political concessions, retaliate against foreign governments, or signal displeasure. Detainees are often accused of vague or fabricated national security violations and held without due process. This tactic reframes individual liberty as a tool of interstate negotiation, turning human lives into bargaining chips. It serves a dual purpose: projecting power internationally and chilling dissent among diaspora communities, NGOs, and journalists by demonstrating the personal risks of defying or confronting authoritarian regimes abroad.
 
+:::

@@ -16,6 +16,9 @@ listing:
       categories: "Spillover"
 ---
 
+
+::: {.protected-content}
+
 Spillover describes the diffusion of regime-favored narratives into
 public discourse through mechanisms that do not rely on explicit
 coordination, direct state control, or coercive amplification. Unlike
@@ -58,3 +61,5 @@ atmospheric density, creating the illusion of consensus through sheer
 presence. Together, these mechanisms dissolve the distinction between
 independent thought and managed perception, subtly reshaping the
 informational environment while remaining difficult to trace.
+
+:::

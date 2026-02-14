@@ -4,5 +4,9 @@ description: "Societal actors implement legal, institutional, or informal measur
 categories: [terrain]
 ---
 
+
+::: {.protected-content}
+
 Societal actors implement legal, institutional, or informal measures to expose, counter, or penalize information manipulation, thereby reducing its effectiveness and deterring future operations. These responses can include public attribution, media literacy campaigns, sanctions, or retaliatory actions, shaping the risk calculus and aggressiveness of those engaging in information manipulation.
 
+:::

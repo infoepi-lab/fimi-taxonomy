@@ -16,6 +16,9 @@ listing:
       categories: "Longevity"
 ---
 
+
+::: {.protected-content}
+
 Longevity is the endurance function of influence architecture—the
 capacity of a network to survive exposure, legal disruption, or
 leadership loss without losing coherence. While the other eight
@@ -158,3 +161,5 @@ This endurance does not come from avoiding failure, but from
 incorporating failure into the operating model—preparing successors,
 dispersing risk, and scripting recovery so thoroughly that disruption
 extends the architecture's life rather than ending it.
+
+:::

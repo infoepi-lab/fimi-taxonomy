@@ -4,6 +4,9 @@ description: "Rule Imposition involves using coercive leverage to integrate exte
 categories: ["Command and Control"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Command and Control](../function/command-and-control.qmd)
 :::
@@ -20,3 +23,4 @@ Rule Imposition is the use of coercive leverage to embed externally defined poli
 >
 > — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
 
+:::

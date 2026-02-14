@@ -4,7 +4,11 @@ description: ""
 categories: [""]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [](../function/.qmd)
 :::
 
+:::

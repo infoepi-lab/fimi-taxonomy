@@ -4,6 +4,9 @@ description: "A false flag is a deceptive act where misleading evidence is used 
 categories: ["Obfuscation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Obfuscation](../function/obfuscation.qmd)
 :::
@@ -20,3 +23,4 @@ A false flag is a deliberate act of deception in which the operator introduces m
 >
 > — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
 
+:::

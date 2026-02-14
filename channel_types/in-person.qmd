@@ -4,6 +4,9 @@ description: "Physical gatherings—rallies, summits, congregations, and protest
 categories: [channel_type]
 ---
 
+
+::: {.protected-content}
+
 In-person channels involve the use of physical gatherings and live events as platforms for influence delivery. These settings carry unique persuasive weight: embodied presence creates social proof, shared emotion, and a sense of collective momentum that digital channels cannot fully replicate.
 
 Rallies and protests project popular legitimacy. Summits and congresses provide venues for elite coordination disguised as dialogue. Congregations embed ideological messaging within spiritual authority. Conventions and delegations create controlled environments where narratives are rehearsed and distributed to participants who then carry them outward. Even art and cultural events serve as soft vehicles for ideological framing.
@@ -24,3 +27,5 @@ The power of in-person channels lies in their physicality—attendance implies e
 - Riots
 - Protests
 - Artwork and cultural events
+
+:::

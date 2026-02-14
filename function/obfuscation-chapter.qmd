@@ -5,6 +5,9 @@ csl: ../apa.csl
 categories: [chapter]
 ---
 
+
+::: {.protected-content}
+
 Obfuscation functions conceal the origin, affiliation, or purpose.
 Covert state media, shell entities, and undisclosed paid influencers
 create ambiguity around authorship. These entities often present
@@ -489,3 +492,5 @@ truth; rather, it is a deliberate attempt to conceal or mislead. It is
 the manipulation of visibility—strategic ambiguity deployed to disable
 recognition, delay response, and erode accountability at the speed of
 trust.
+
+:::

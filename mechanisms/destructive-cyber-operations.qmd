@@ -4,9 +4,13 @@ description: "Destructive cyber operations involve covert or overt actions to co
 categories: ["Sabotage"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Sabotage](../function/sabotage.qmd)
 :::
 
 Covert or overt digital actions conducted to compromise, disrupt, or exploit foreign information systems. These operations include network intrusions, data manipulation, information theft, and digital sabotage aimed at degrading institutional capacity or undermining public confidence. Cyber operations serve as a force-multiplier for sabotage by merging technical precision with strategic ambiguity.
 
+:::

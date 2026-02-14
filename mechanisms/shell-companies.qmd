@@ -4,9 +4,13 @@ description: "Shell companies are used to disguise state agendas as independent 
 categories: ["Obfuscation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Obfuscation](../function/obfuscation.qmd)
 :::
 
 Entities are established or co-opted to present as independent organizations while covertly advancing state agendas, enabling the manipulation of public perception and foreign influence without revealing direct government involvement. This mechanism exploits the appearance of legitimacy and grassroots authenticity to embed state narratives within civil society, cultural exchanges, or media environments across diverse political contexts.
 
+:::

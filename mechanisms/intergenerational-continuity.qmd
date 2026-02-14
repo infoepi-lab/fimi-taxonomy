@@ -4,9 +4,13 @@ description: "Intergenerational Continuity describes how influence, knowledge, a
 categories: ["Longevity"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Longevity](../function/longevity.qmd)
 :::
 
 Intergenerational Continuity refers to the transmission of influence capacity, institutional knowledge, and strategic intent across familial, educational, or professional lineages. It captures how individuals formerly embedded in state, intelligence, or diplomatic systems—and their descendants or protégés—maintain relevance within contemporary information ecosystems through inherited trust networks, shared worldviews, and access to enduring resource channels. Importantly, individuals may operate within these inherited structures without explicit coordination or intent, reflecting systemic continuity rather than direct control. This mechanism highlights how human networks sustain influence architectures beyond formal organizations, preserving strategic orientations and operational fluency across generations.
 
+:::

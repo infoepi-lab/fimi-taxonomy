@@ -4,9 +4,13 @@ description: "A form of influence where an entity shapes Western public narrativ
 categories: ["Legitimation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Legitimation](../function/legitimation.qmd)
 :::
 
 A form of influence in which an entity uses academic exchanges, such as joint conferences and invitations, to shape Western public narratives, exploiting scholars’ desire for access and prestige to subtly direct intellectual discourse and policy perspectives.
 
+:::

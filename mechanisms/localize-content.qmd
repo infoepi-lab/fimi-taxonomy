@@ -4,9 +4,13 @@ description: "Localization involves adapting foreign messaging to seem domestica
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
 
 The adaptation of foreign-origin messaging to appear domestically produced through translation, cultural tailoring, and contextual embedding within local grievances, idioms, and media formats. Localization enhances resonance by aligning content with audience expectations and familiar reference points, increasing credibility and shareability while obscuring the external coordination behind its production. The mechanism transforms generic propaganda into contextually authentic discourse.
 
+:::

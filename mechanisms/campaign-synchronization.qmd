@@ -4,6 +4,9 @@ description: "Campaign synchronization involves the strategic coordination of in
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
@@ -16,3 +19,4 @@ The deliberate coordination of influence operations across information, diplomat
 >
 > — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
 
+:::

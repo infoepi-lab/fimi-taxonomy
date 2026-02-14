@@ -4,6 +4,9 @@ description: "Front organizations disguise themselves as independent entities to
 categories: ["Obfuscation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Obfuscation](../function/obfuscation.qmd)
 :::
@@ -12,3 +15,4 @@ Front organizations are entities that present themselves as independent civic, c
 
 These organizations often operate in plain sight—holding conferences, issuing reports, or engaging in public advocacy—while embedding regime-aligned narratives within seemingly neutral or benevolent activities. Their primary function is obfuscation through legitimacy transfer: laundering intent, authorship, and funding through institutional forms that audiences instinctively trust.
 
+:::

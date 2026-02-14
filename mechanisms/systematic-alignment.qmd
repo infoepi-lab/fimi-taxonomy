@@ -4,9 +4,13 @@ description: "A credibility-manufacturing technique that simulates independent v
 categories: ["Legitimation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Legitimation](../function/legitimation.qmd)
 :::
 
 A credibility-manufacturing technique in which networks of coordinated or semi-coordinated outlets, websites, and personas synchronize their messaging, terminology, and sourcing practices to simulate independent validation and organic consensus. This alignment manifests through multiple mechanisms: recursive backlinking in which sites repeatedly cite, hyperlink, or republish one another's material to fabricate inter-source corroboration; adoption of shared taxonomies, framing devices, and rhetorical structures that create the appearance of convergent expert judgment; and the near-simultaneous repetition of regime narratives across ostensibly unrelated platforms. The cumulative effect is the laundering of coordinated messaging into what appears to be emergent agreement among independent actors. Once established, these alignment patterns trigger spillover effects through search and aggregation algorithms, which interpret dense cross-referencing and terminological consistency as signals of reliability—elevating visibility and embedding manipulated content within mainstream discovery pathways.
 
+:::

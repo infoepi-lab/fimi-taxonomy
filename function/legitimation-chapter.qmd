@@ -5,6 +5,9 @@ csl: ../apa.csl
 categories: [chapter]
 ---
 
+
+::: {.protected-content}
+
 Legitimation is the strategic function through which regimes manufacture
 the appearance of authenticity, consensus, and moral credibility for
 their narratives and actions. Unlike brute force or overt censorship,
@@ -553,3 +556,5 @@ goal is not always to be believed—it is often enough to be repeated.
 The purpose is not persuasive clarity but repeat appearances echoing the
 same message. Through repetition and apparent experts, the appearance of
 credibility leads an audience to translate it as credible.
+
+:::

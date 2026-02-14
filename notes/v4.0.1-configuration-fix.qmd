@@ -5,6 +5,9 @@ date: "2026-02-14"
 categories: [bugfix, configuration]
 ---
 
+
+::: {.protected-content}
+
 ## Issue
 
 The Quarto site was failing to build due to an invalid `margin-footer` configuration option in `_quarto.yml`. This prevented the entire site from rendering.
@@ -40,3 +43,5 @@ quarto preview
 ```
 
 This fix was critical for making the site operational.
+
+:::

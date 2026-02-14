@@ -4,6 +4,9 @@ description: "A regime is a network of overlapping elites, institutions, and coe
 categories: ["Command and Control"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Command and Control](../function/command-and-control.qmd)
 :::
@@ -19,3 +22,4 @@ The regime does not need to speak for its priorities to register. They show up i
 - Turkey’s “Coordination Councils” and Crony Networks: Erdoğan’s use of the Presidency of Communications and the Wealth Fund mirrors a soft form of command-and-control—consolidating narrative power, financial leverage, and security coordination under a single executive umbrella, while maintaining the appearance of pluralism through party and business intermediaries.
 These examples reveal the regime not as a solitary ruler but as a synchronized ecosystem of elites, agencies, and institutions—governing through alignment rather than instruction, where shared incentives and enforced loyalty replace formal hierarchy.
 
+:::

@@ -4,9 +4,13 @@ description: "Intelligence activities conducted by a state's security agencies t
 categories: ["Command and Control"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Command and Control](../function/command-and-control.qmd)
 :::
 
 Domestic intelligence operations are activities conducted by a state’s security or intelligence agencies within its own borders. These operations may include surveillance, infiltration, information control, and the monitoring of dissidents or opposition groups to maintain regime stability and suppress internal threats.
 
+:::

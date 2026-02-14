@@ -5,6 +5,9 @@ date: "2026-02-14"
 categories: [bugfix, structure]
 ---
 
+
+::: {.protected-content}
+
 ## Issue
 
 The blog was incorrectly structured with the listing page inside the `blog/` directory itself. This violated Quarto's best practices and created navigation issues.
@@ -88,3 +91,5 @@ project:
 - Easier to maintain and extend
 
 This fix establishes a proper foundation for the taxonomy's changelog and update notes.
+
+:::

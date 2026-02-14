@@ -4,9 +4,13 @@ description: "State-aligned social groups create the illusion of grassroots acti
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
 
 State-aligned social groups mobilize public demonstrations, target dissenting voices, and propagate strategic narratives while maintaining the appearance of independent grassroots activism. This form of information manipulation leverages ostensibly autonomous actors to amplify state interests, obscure direct control, and legitimize contested messages within the public sphere.
 
+:::

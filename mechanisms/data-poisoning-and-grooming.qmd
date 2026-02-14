@@ -4,9 +4,13 @@ description: "Data poisoning and grooming involve the intentional creation and d
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
 
 Deliberate generation and distribution of tailored content designed to be incorporated into large-scale data repositories and training sets, thereby embedding specific narratives or biases into artificial intelligence outputs. This form of information manipulation exploits the data ingestion processes of machine learning systems to propagate targeted perspectives indirectly through automated responses.
 
+:::

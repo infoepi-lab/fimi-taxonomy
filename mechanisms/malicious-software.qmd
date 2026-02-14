@@ -4,9 +4,13 @@ description: "Malicious software (malware) is intentionally created to infiltrat
 categories: ["Sabotage"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Sabotage](../function/sabotage.qmd)
 :::
 
 Malicious software (malware) deliberately designed to infiltrate, disrupt, or compromise digital systems and networks. Malware can be used for espionage, data theft, infrastructure disruption, or system degradation, serving both as a technical enabler and as a direct instrument of sabotage. It undermines operational continuity and public trust by exploiting the interconnectedness of critical digital environments.
 
+:::

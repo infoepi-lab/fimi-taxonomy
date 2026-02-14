@@ -5,6 +5,9 @@ date: "2026-02-14"
 categories: [enhancement, bibliography, automation]
 ---
 
+
+::: {.protected-content}
+
 ## Issue
 
 Widespread citation key mismatches existed between `.qmd` files and `.bib` files, causing citations to display as "?" instead of proper references. The root cause was inconsistent naming conventions:
@@ -77,3 +80,5 @@ quarto render
 ```
 
 This automation saved hours of manual work and established a reproducible process for citation maintenance.
+
+:::

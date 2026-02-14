@@ -4,6 +4,9 @@ description: "Mil-bloggers are seemingly independent military commentators who, 
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
@@ -21,3 +24,4 @@ The state leverages this illusion of independence to diffuse accountability and 
 >
 > — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
 
+:::

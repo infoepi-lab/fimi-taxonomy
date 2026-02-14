@@ -6,6 +6,9 @@ categories: [chapter]
 description: "In-depth analysis of the Command and Control function with citations"
 ---
 
+
+::: {.protected-content}
+
 Command and control in authoritarian systems is not confined to military
 hierarchies or emergency protocols. It extends through institutions
 often treated as distinct—intelligence, media, diplomacy, and private
@@ -700,3 +703,5 @@ cognitive environment. Decisions are justified by the information the
 system itself generates, and dissenting data are reclassified as a
 threat. The result is stability without correction—an architecture that
 functions smoothly until it fails catastrophically.
+
+:::

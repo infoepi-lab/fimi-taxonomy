@@ -12,4 +12,8 @@ format:
     body-classes: section-terrain
 ---
 
+::: {.protected-content}
+
 Structural terrain describes the **environmental conditions** that shape the vulnerability or resilience of a population to information manipulation. These are not tactics — they are the landscape on which operations take place.
+
+:::

@@ -4,6 +4,9 @@ description: "Diplomatic channels are often used as platforms for political thea
 categories: ["Command and Control"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Command and Control](../function/command-and-control.qmd)
 :::
@@ -30,3 +33,4 @@ The cumulative effect is the conversion of diplomatic infrastructure into a prop
 >
 > — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
 
+:::

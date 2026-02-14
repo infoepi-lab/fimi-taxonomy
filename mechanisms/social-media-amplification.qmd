@@ -4,9 +4,13 @@ description: "Coordinated networks of fake online personas amplify specific narr
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
 
 Coordinated networks of fabricated or controlled online personas systematically amplify targeted narratives across social media platforms to create artificial consensus and increase message reach. This form of information manipulation leverages synchronized activity and platform algorithms to distort public discourse and shape perceptions by simulating widespread grassroots support.
 
+:::

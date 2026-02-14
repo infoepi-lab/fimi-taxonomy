@@ -4,9 +4,13 @@ description: "Forced confessions are coerced admissions of guilt used by authori
 categories: ["Suppressing Dissent"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Suppressing Dissent](../function/suppressing-dissent.qmd)
 :::
 
 Forced confessions are staged admissions of guilt—often extracted under duress, torture, or psychological manipulation—used by authoritarian regimes to reinforce control and fabricate legitimacy. Broadcast widely through state media, these confessions serve as both propaganda and deterrent, portraying dissidents, journalists, or minorities as criminals or traitors. The spectacle is engineered to erode public sympathy, sow confusion, and signal that resistance is futile. In doing so, it weaponizes the language of justice to disguise repression and intimidate potential dissenters into silence or compliance.
 
+:::

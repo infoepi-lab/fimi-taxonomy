@@ -16,6 +16,9 @@ listing:
       categories: "Obfuscation"
 ---
 
+
+::: {.protected-content}
+
 Obfuscation functions conceal the origin, affiliation, or purpose. Covert state media, shell entities, and undisclosed paid influencers create ambiguity around authorship. These entities often present themselves as independent organizations while repeating state-approved messages. Shell organizations, such as Soviet-era friendship societies or modern entities like InfoRos and Rossotrudnichestvo, act as conduits for influence under the guise of civil society. This enables strategic denial while achieving tactical impact.
 
 Obfuscation is often mistaken as the default setting of authoritarian influence. In truth, most influence operations are not fully hidden—they are carefully calibrated. The goal is not always to avoid attribution, but to complicate interpretation. While some mechanisms obscure the source, others operate openly to exploit credibility, reframe legitimacy, or normalize alternative norms.
@@ -50,3 +53,5 @@ While these three mechanisms are core to the Obfuscation function, attribution-m
 Only those mechanisms whose primary purpose is to conceal authorship, sponsorship, or strategic intent are classified within the Obfuscation function. Covert State Media, Shell Companies, Information Alibis, Undisclosed Paid Influencers, and Illicit Financial Channels are not auxiliary tools—they are central instruments designed to undermine the attribution architecture of open societies. Each operates by severing the visible link between narrative and sponsor, message and motive, actor and state.
 
 In the hybrid influence doctrine, obfuscation is not the absence of truth; rather, it is a deliberate attempt to conceal or mislead. It is the manipulation of visibility—strategic ambiguity deployed to disable recognition, delay response, and erode accountability at the speed of trust.
+
+:::

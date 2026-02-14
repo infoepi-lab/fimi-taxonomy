@@ -4,6 +4,9 @@ description: "Algorithmic propagation amplifies misleading or sensational conten
 categories: ["Spillover"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Spillover](../function/spillover.qmd)
 :::
@@ -12,3 +15,4 @@ Algorithmic propagation occurs when automated ranking and recommendation systems
 Platforms such as YouTube, TikTok, and X (formerly Twitter) frequently surface such content because engagement signals are interpreted as a proxy for relevance. For example, anti-vaccine videos, Kremlin-aligned narratives about “biolabs in Ukraine,” or climate-skeptic claims have repeatedly gained traction not through direct state promotion, but through algorithmic prioritization of high-interaction material.
 By amplifying content based on behavioral feedback loops, algorithms convert targeted manipulation into widespread exposure—blurring the line between coordination and virality and embedding influence operations within everyday recommendation flows.
 
+:::

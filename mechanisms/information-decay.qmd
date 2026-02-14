@@ -4,9 +4,13 @@ description: "Information decay refers to the gradual loss of shared understandi
 categories: ["Spillover"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Spillover](../function/spillover.qmd)
 :::
 
 The cumulative erosion of shared epistemic foundations through persistent exposure to contradictory narratives, fabricated evidence, and undermined institutional credibility. Over time, populations lose confidence not only in specific claims but in the possibility of establishing shared facts. This degradation is not achieved through any single deception but through the compounding effect of repeated epistemological assaults that fragment consensus reality into incompatible interpretive communities incapable of collective sensemaking.
 
+:::

@@ -4,9 +4,13 @@ description: "State-integrated criminal networks are hybrid entities that combin
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
 
 State-integrated criminal networks are hybrid structures where organized crime merges with political and intelligence ecosystems to advance regime objectives. Operating through coercion, illicit finance, and corruption, these networks enforce compliance, manage clandestine logistics, and channel resources for influence operations. They function as a parallel arm of governance—a shadow infrastructure of control and profit that fuses criminal enterprise with state power.
 
+:::

@@ -4,9 +4,13 @@ description: "Terrorism involves non-state actors using violence and propaganda 
 categories: ["Sabotage"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Sabotage](../function/sabotage.qmd)
 :::
 
 A non-state actor that employs violence, intimidation, and propaganda to achieve political, ideological, or religious objectives. Within sabotage functions, terrorist groups may be created, directed, or exploited by state actors to destabilize adversaries, generate chaos, or advance geopolitical interests under conditions of plausible deniability.
 
+:::

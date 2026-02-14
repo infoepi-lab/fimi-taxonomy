@@ -4,6 +4,9 @@ description: "Interlocking leadership is a structural pattern where individuals 
 categories: ["Longevity"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Longevity](../function/longevity.qmd)
 :::
@@ -12,3 +15,4 @@ Interlocking leadership is a structural pattern in which the same individuals ho
 By concentrating leadership across entities, regimes and aligned networks maintain cohesion, message discipline, and rapid mobilization capacity. Interlocking leadership also provides redundancy: when one organization is discredited or dissolved, its personnel and institutional memory persist elsewhere, preserving both capability and continuity.
 This technique has appeared in state-aligned cultural fronts, political advocacy groups, and philanthropic networks where nominal independence masks shared personnel and purpose.
 
+:::

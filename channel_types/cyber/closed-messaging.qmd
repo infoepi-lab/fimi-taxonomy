@@ -4,6 +4,9 @@ description: "Private and encrypted messaging apps where influence operations th
 categories: [channel_type, cyber]
 ---
 
+
+::: {.protected-content}
+
 Closed messaging platforms operate below the threshold of public visibility. Their encryption, ephemeral messaging features, and private group structures create environments where influence operations can be coordinated, content can be distributed, and communities can be cultivated with minimal exposure to platform moderation, journalistic scrutiny, or regulatory oversight.
 
 Telegram occupies a unique position as both a closed messaging app and a broadcast platform, with public channels that function as alternative media ecosystems. WhatsApp's group forwarding architecture has been repeatedly exploited to create viral distribution chains for manipulated content, particularly in the Global South. Signal and Threema attract users seeking maximum privacy, creating trusted environments where infiltration carries particular influence. Discord's server structure supports the formation of ideological communities with layered access controls.
@@ -22,3 +25,5 @@ The defining feature of closed messaging as a channel is its resistance to obser
 - Threema
 - Wire
 - SMS
+
+:::

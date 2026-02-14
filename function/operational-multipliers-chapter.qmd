@@ -6,6 +6,9 @@ categories: [chapter]
 description: "In-depth analysis of the Operational Multipliers function with citations"
 ---
 
+
+::: {.protected-content}
+
 **Operational Multipliers** are not message creators—they are force expanders. They aim to increase the scale, persistence, and perceived legitimacy of influence operations without altering the core narrative. They do not produce propaganda but make it louder, more persistent, and harder to counter. These mechanisms act across digital, institutional, and commercial environments to simulate popularity, engineer credibility, and embed influence into the informational terrain.
 
 Unlike Legitimation, which draws power from social or institutional prestige, or Obfuscation, which hides the origin of influence, Operational Multipliers extend the effects of influence horizontally and vertically. They make a narrative feel urgent, ubiquitous, and endorsed—not through trust in the source, but through repetition, reach, and engineered resonance.
@@ -197,3 +200,5 @@ This is the essence of train-the-trainers: strategic recursion. It enables a hos
 Moldova's experience in 2024 and 2025 shows how this model operates at scale, across platforms, and under institutional cover. It involves the deliberate cultivation of influence agents armed not with slogans but legitimacy.
 
 #
+
+:::

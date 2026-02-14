@@ -4,6 +4,9 @@ description: "Commercial entities now act as digital mercenaries, offering paid 
 categories: ["Operational Multipliers"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Operational Multipliers](../function/operational-multipliers.qmd)
 :::
@@ -11,3 +14,4 @@ categories: ["Operational Multipliers"]
 Commercial entities now operate as digital mercenaries, offering information manipulation as a paid service rather than an ideological act. These firms—ranging from public relations agencies and data analytics companies to covert influence consultancies—design and execute operations that shape narratives, distort perception, and engineer engagement for whoever can afford them. By commodifying manipulation, they transform influence into a market transaction: tailoring content dissemination, audience targeting, and perception management to the strategic needs of their clients.
 This mechanism detaches influence from ideology, creating a global service industry that enables states, corporations, and political actors to outsource propaganda and disinformation with plausible deniability. Campaigns can be scaled rapidly across digital and traditional media, often blending authentic content with synthetic amplification to simulate organic support. In effect, the digital mercenary industry industrializes deception—turning influence itself into an exportable product that circulates freely across borders, platforms, and causes.
 
+:::

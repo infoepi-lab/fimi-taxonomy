@@ -4,6 +4,9 @@ description: "Courts, litigation, and legal instruments weaponized as channels t
 categories: [channel_type]
 ---
 
+
+::: {.protected-content}
+
 Legal action encompasses the use of courts, regulatory bodies, and formal legal instruments as delivery channels for influence operations. These are not disputes pursued for legitimate redress—they are strategic deployments of legal process to suppress speech, exhaust adversaries, impose political constraints, or generate coercive leverage under the appearance of due process.
 
 Lawfare converts the procedural weight of democratic legal systems into an offensive tool. Motions, subpoenas, and cease-and-desist letters can be used to silence journalists, drain the resources of advocacy organizations, or create chilling effects that deter investigation. Copyright and trademark claims are filed not to protect intellectual property but to remove inconvenient content from public view. Depositions and testimony become stages for narrative construction, embedding preferred framings into official legal records.
@@ -19,3 +22,5 @@ Lawfare converts the procedural weight of democratic legal systems into an offen
 - Cease-and-desist letters
 - Copyright claims
 - Trademark claims
+
+:::

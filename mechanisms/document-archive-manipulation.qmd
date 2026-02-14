@@ -6,6 +6,9 @@ bibliography: ../function/sabotage.bib
 csl: ../apa.csl
 ---
 
+
+::: {.protected-content}
+
 Document and archive manipulation is a sabotage technique that targets the evidentiary foundations of truth. It involves the fabrication, alteration, suppression, or selective presentation of official documents, historical records, or archival material to construct false narratives, obscure responsibility, or launder disinformation through seemingly authoritative channels.
 
 This technique exploits the perceived permanence and legitimacy of documents—state memos, intelligence files, historical archives, or journalistic records—to embed disinformation into the factual record. Once introduced, these distortions can be recycled over decades, shaping how events are remembered, adjudicated, or understood. The aim is not to generate temporary confusion but to reshape institutional memory and legitimize fiction as fact.
@@ -27,3 +30,5 @@ In the digital era, this technique has only grown more potent. Archival manipula
 Document and archive manipulation is especially corrosive when deployed against liberal institutions that rely on transparency, documentation, and rule-of-law procedures. When false documents infiltrate evidence chains or historical records, the integrity of the truth-seeking process itself comes under attack.
 
 Ultimately, this is sabotage not of infrastructure or personnel, but of epistemic trust—the slow poisoning of the record upon which justice, history, and governance depend. In a world where anyone can say, "That's fake," accountability cannot exist.
+
+:::

@@ -16,6 +16,9 @@ listing:
       categories: "Projection Abroad"
 ---
 
+
+::: {.protected-content}
+
 Projection Abroad encompasses instruments used to extend domestic influence capacity into foreign environments. These include diaspora mobilization, state-aligned aid, and cyber units like Fancy Bear and Killnet. Cultural and religious networks are utilized to establish soft power and influence foreign public perceptions. Nuclear and infrastructure deals become levers of control through elite co-optation. Religious manipulation reframes moral hierarchies to undercut adversaries. All projection efforts aim to reproduce control, legitimacy, and narrative dominance beyond national borders.
 
 # Overview
@@ -50,3 +53,5 @@ They are often challenging to identify because they co-opt legitimate forms. Cul
 Projection abroad is not an invasion. It is integration with intent—the quiet reproduction of regime influence beneath the skin of another society.
 
 In the chapters ahead, we examine more disruptive functions: Sabotage, which targets cohesion, and Obfuscation, which hides the hand. Projection is neither, but it sets the conditions for both.
+
+:::

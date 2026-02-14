@@ -4,6 +4,9 @@ bibliography: "sabotage.bib"
 categories: [chapter]
 ---
 
+
+::: {.protected-content}
+
 Sabotage refers to the deliberate degradation of a target society’s
 internal cohesion, decision-making capacity, or epistemic stability
 through indirect, non-kinetic means. It is not necessarily destructive
@@ -444,3 +447,5 @@ destabilization, accomplished not with bombs or bullets, but with
 narratives, networks, and institutional infection. This is sabotage as
 doctrine—not disruption for its own sake, but as preparation of the
 terrain for deeper influence or eventual intervention.
+
+:::

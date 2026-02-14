@@ -12,6 +12,10 @@ format:
     body-classes: section-mechanisms
 ---
 
+::: {.protected-content}
+
 Mechanisms are the specific **tactics and tools** employed to carry out
 each function. Browse the full list below, or use the search bar to find
 specific mechanisms.
+
+:::

@@ -4,6 +4,9 @@ description: "Infrastructure targeting involves intentional actions to disrupt e
 categories: ["Sabotage"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Sabotage](../function/sabotage.qmd)
 :::
@@ -11,3 +14,4 @@ categories: ["Sabotage"]
 A deliberate effort to disrupt, degrade, or destroy physical or digital systems essential to societal functioning—such as energy grids, transportation networks, communication systems, or financial infrastructure. Infrastructure targeting undermines stability and erodes public confidence by converting technical disruptions into systemic failures.
 This mechanism operates through direct attacks, cyber intrusions, supply chain manipulation, or deliberate neglect of maintenance, exploiting interdependence within critical systems to produce disproportionate political and psychological effects.
 
+:::

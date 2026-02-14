@@ -6,6 +6,9 @@ categories: [chapter]
 description: "In-depth analysis of the Structural Terrain function with citations"
 ---
 
+
+::: {.protected-content}
+
 Structural terrain is the substrate of an influence architecture—the
 collection of persistent environmental features that shape the
 opportunities and constraints for all influence functions. It
@@ -824,3 +827,5 @@ weaponization.
     overlay of coordinated amplification and narrative distortion
     created an exaggerated image of systemic disintegration, intended
     for both French and international consumption.
+
+:::

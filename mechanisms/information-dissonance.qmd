@@ -4,9 +4,13 @@ description: "Information dissonance involves spreading contradictory narratives
 categories: ["Obfuscation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Obfuscation](../function/obfuscation.qmd)
 :::
 
 The deliberate propagation of multiple, mutually contradictory narratives to saturate the information environment and overwhelm cognitive processing. This fragmentation erodes the public’s ability to discern credible information, fosters epistemic fatigue, and enables manipulators to dismiss all competing claims as unreliable. The public has a tendency to settle on whatever affirms their existing world view and may disengage politically.
 
+:::

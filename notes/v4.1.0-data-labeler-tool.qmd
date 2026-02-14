@@ -5,6 +5,9 @@ date: "2026-02-14"
 categories: [feature, tool]
 ---
 
+
+::: {.protected-content}
+
 ## Overview
 
 Launched the FIMI Taxonomy Data Labeler - a professional research annotation tool that enables analysts and researchers to apply taxonomy labels to text samples and generate structured reports.
@@ -103,3 +106,5 @@ Planned improvements:
 ## Impact
 
 This tool transforms the FIMI Taxonomy from a reference resource into an active research instrument, enabling systematic application of the taxonomy framework to real-world content.
+
+:::

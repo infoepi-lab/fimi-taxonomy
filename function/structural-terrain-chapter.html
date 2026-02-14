@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="E. Rosalie Li">
+<meta name="dcterms.date" content="2026-02-24">
+<meta name="description" content="In-depth analysis of the Structural Terrain function with citations">
+
+<title>Structural Terrain — Chapter</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-fe61f0166049181e0b0a16b26a59a9be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-72ce491aa3d8903fd1b8806cf9500b71.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-fe61f0166049181e0b0a16b26a59a9be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../auth-styles.css">
+<meta property="og:title" content="Structural Terrain — Chapter">
+<meta property="og:description" content="In-depth analysis of the Structural Terrain function with citations">
+<meta name="twitter:title" content="Structural Terrain — Chapter">
+<meta name="twitter:description" content="In-depth analysis of the Structural Terrain function with citations">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../logo.svg" alt="FIMI Taxonomy" class="navbar-logo light-content">
+    <img src="../logo.svg" alt="FIMI Taxonomy" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../function/index.html"> 
+<span class="menu-text">Functions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../mechanisms/index.html"> 
+<span class="menu-text">Mechanisms</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../terrain/index.html"> 
+<span class="menu-text">Terrain</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../channel_types/index.html"> 
+<span class="menu-text">Channels</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../notes.html"> 
+<span class="menu-text">Notes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../labeler.html"> 
+<span class="menu-text">Data Labeler</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../login.html"> 
+<span class="menu-text">Sign In</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <div id="quarto-announcement" data-announcement-id="ef9bcc724271dd5a4aa911df7ad79f5c" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>FIMI Taxonomy v4.1</strong> — Modular taxonomy of foreign information manipulation and interference</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#varieties" id="toc-varieties" class="nav-link" data-scroll-target="#varieties">Varieties</a>
+  <ul class="collapse">
+  <li><a href="#geography" id="toc-geography" class="nav-link" data-scroll-target="#geography">Geography</a>
+  <ul class="collapse">
+  <li><a href="#the-baltics-and-russian-gray-zone-influence" id="toc-the-baltics-and-russian-gray-zone-influence" class="nav-link" data-scroll-target="#the-baltics-and-russian-gray-zone-influence"><strong>The Baltics and Russian Gray-Zone Influence</strong></a></li>
+  <li><a href="#crimea-and-the-annexation-narrative" id="toc-crimea-and-the-annexation-narrative" class="nav-link" data-scroll-target="#crimea-and-the-annexation-narrative"><strong>Crimea and the Annexation Narrative</strong></a></li>
+  <li><a href="#chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics-chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics" id="toc-chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics-chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics" class="nav-link" data-scroll-target="#chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics-chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics"><strong>China’s Influence in Southeast Asia via the Mekong River Geopolitics</strong> {#china’s-influence-in-southeast-asia-via-the-mekong-river-geopolitics}</a></li>
+  <li><a href="#u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz-u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz" id="toc-u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz-u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz" class="nav-link" data-scroll-target="#u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz-u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz"><strong>U.S. Psychological Operations in the Korean Demilitarized Zone (DMZ)</strong> {#u.s.-psychological-operations-in-the-korean-demilitarized-zone-(dmz)}</a></li>
+  </ul></li>
+  <li><a href="#legal" id="toc-legal" class="nav-link" data-scroll-target="#legal">Legal</a></li>
+  <li><a href="#population-features" id="toc-population-features" class="nav-link" data-scroll-target="#population-features">Population Features</a>
+  <ul class="collapse">
+  <li><a href="#characteristics-that-increase-vulnerability" id="toc-characteristics-that-increase-vulnerability" class="nav-link" data-scroll-target="#characteristics-that-increase-vulnerability"><strong>Characteristics That Increase Vulnerability</strong></a></li>
+  <li><a href="#educated-societies-are-more-resilient" id="toc-educated-societies-are-more-resilient" class="nav-link" data-scroll-target="#educated-societies-are-more-resilient"><strong>Educated Societies Are More Resilient</strong></a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples"><strong>Examples</strong></a></li>
+  </ul></li>
+  <li><a href="#reaction" id="toc-reaction" class="nav-link" data-scroll-target="#reaction">Reaction</a>
+  <ul class="collapse">
+  <li><a href="#dimensions-of-reaction" id="toc-dimensions-of-reaction" class="nav-link" data-scroll-target="#dimensions-of-reaction"><strong>Dimensions of Reaction</strong></a></li>
+  <li><a href="#why-reaction-matters" id="toc-why-reaction-matters" class="nav-link" data-scroll-target="#why-reaction-matters"><strong>Why Reaction Matters</strong></a></li>
+  <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1"><strong>Examples</strong></a></li>
+  <li><a href="#reactive-archetypes" id="toc-reactive-archetypes" class="nav-link" data-scroll-target="#reactive-archetypes"><strong>Reactive Archetypes</strong></a></li>
+  </ul></li>
+  <li><a href="#technology-access" id="toc-technology-access" class="nav-link" data-scroll-target="#technology-access">Technology Access</a>
+  <ul class="collapse">
+  <li><a href="#access-profiles" id="toc-access-profiles" class="nav-link" data-scroll-target="#access-profiles"><strong>Access Profiles</strong></a></li>
+  <li><a href="#structural-factors-that-shape-access" id="toc-structural-factors-that-shape-access" class="nav-link" data-scroll-target="#structural-factors-that-shape-access"><strong>Structural Factors That Shape Access</strong></a></li>
+  <li><a href="#examples-2" id="toc-examples-2" class="nav-link" data-scroll-target="#examples-2"><strong>Examples</strong></a></li>
+  </ul></li>
+  <li><a href="#awareness-levels" id="toc-awareness-levels" class="nav-link" data-scroll-target="#awareness-levels">Awareness Levels</a>
+  <ul class="collapse">
+  <li><a href="#how-awareness-shapes-manipulation-strategy" id="toc-how-awareness-shapes-manipulation-strategy" class="nav-link" data-scroll-target="#how-awareness-shapes-manipulation-strategy"><strong>How Awareness Shapes Manipulation Strategy</strong></a></li>
+  <li><a href="#factors-that-increase-societal-awareness" id="toc-factors-that-increase-societal-awareness" class="nav-link" data-scroll-target="#factors-that-increase-societal-awareness"><strong>Factors That Increase Societal Awareness</strong></a></li>
+  <li><a href="#examples-3" id="toc-examples-3" class="nav-link" data-scroll-target="#examples-3"><strong>Examples</strong></a></li>
+  </ul></li>
+  <li><a href="#concurrent-events" id="toc-concurrent-events" class="nav-link" data-scroll-target="#concurrent-events">Concurrent Events</a>
+  <ul class="collapse">
+  <li><a href="#typology-of-concurrent-events" id="toc-typology-of-concurrent-events" class="nav-link" data-scroll-target="#typology-of-concurrent-events"><strong>Typology of Concurrent Events</strong></a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#examples-4" id="toc-examples-4" class="nav-link" data-scroll-target="#examples-4"><strong>Examples</strong></a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Structural Terrain — Chapter</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">chapter</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    In-depth analysis of the Structural Terrain function with citations
+  </div>
+</div>
+
+<div class="quarto-title-meta-author column-page-left">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://infoepi.org">E. Rosalie Li</a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Information Epidemiology Lab
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta column-page-left">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 24, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Structural terrain is the substrate of an influence architecture—the collection of persistent environmental features that shape the opportunities and constraints for all influence functions. It encompasses enduring conditions such as institutional cohesion, bureaucratic resilience, elite fragmentation or unity, infrastructure control, and media system design. While these features interact with legal, technological, and demographic terrains, structural terrain is distinct in its systemic depth and continuity. Laws may change, and technologies may evolve rapidly. Still, entrenched institutional cultures, communication architectures, and power-sharing arrangements often persist over decades, providing a stable backdrop for both defensive resilience and offensive manipulation.</p>
+<p>These persistent structures determine the feasibility, durability, and scaling potential of influence tactics. For instance, centralized versus pluralistic media systems define the number of access points a regime or foreign actor must control or exploit. The presence—or absence—of independent analytic ecosystems, such as think tanks or investigative journalism outlets, influences whether manipulation is exposed or allowed to flourish. Security architecture also matters: overlapping institutions may create redundancy or dysfunction, while siloed institutions may leave gaps that no single body can detect or mitigate. Privatized communication infrastructure introduces additional risk, as critical nodes of the information environment, such as platforms, ISPs, and algorithmic distribution channels, often operate without public accountability. This creates exploitable vectors through which hostile actors can achieve strategic impact without confrontation.</p>
+<p>Structural terrain underpins and constrains the scalability of core influence functions such as command, obfuscation, and projection. In permissive environments—characterized by weak institutions, fragmented elites, and unregulated information flows—adversaries can entrench operations, disguise attribution, and replicate messaging architectures across borders. Conversely, in structurally resilient states, cohesive institutions and high public trust blunt such operations by imposing friction and increasing the costs of manipulation. Thus, structural terrain operates as both a multiplier and a gatekeeper, determining whether an influence operation becomes a fleeting disruption or a durable architecture of control.</p>
+<section id="section" class="level1">
+<h1></h1>
+</section>
+<section id="varieties" class="level1">
+<h1>Varieties</h1>
+<section id="geography" class="level2">
+<h2 class="anchored" data-anchor-id="geography">Geography</h2>
+<p>Geography shapes a state’s susceptibility to information manipulation by defining its physical exposure, strategic relevance, and infrastructural dependencies. As a form of structural terrain, geographic features influence not only where influence operations are likely to occur but also how they unfold—what tactics are viable, which narratives resonate, and what physical or symbolic spaces adversaries may seek to exploit or disrupt. Key ways geography affects influence operations include</p>
+<p><strong>Proximity to Adversaries</strong>: States bordering rival powers are exposed to persistent hybrid pressure, ranging from cross-border media broadcasts and cyber intrusions to gray-zone incursions and cultural proxy networks.</p>
+<p><strong>Control of Chokepoints and Infrastructure</strong>: Influence often follows the flow of trade, fiber-optic cables, energy corridors, and migration routes. States that control—or are dependent on—such pathways become more vulnerable to coercion, surveillance, or narrative shaping tied to physical leverage.</p>
+<p><strong>Symbolic or Contested Borders</strong>: Areas marked by disputed sovereignty or historical trauma serve as fertile ground for adversarial campaigns. Manipulators invoke past injustices, irredentist claims, or ethnic solidarity to stir division or undermine political cohesion.</p>
+<p><strong>Isolation vs.&nbsp;Interconnection</strong>: Island nations or landlocked states with limited media inflows face different vulnerabilities than highly networked hubs. Interconnected states are prone to transnational virality; isolated ones may be more exposed to monopolized messaging or elite-driven foreign penetration.</p>
+<p><strong>Topographic Constraints on Infrastructure</strong>: Mountains, deserts, and dense forests often restrict both physical and digital connectivity, creating informational blind spots where adversaries may rely on proxies, smuggling, or analog media to exert influence.</p>
+<section id="the-baltics-and-russian-gray-zone-influence" class="level3">
+<h3 class="anchored" data-anchor-id="the-baltics-and-russian-gray-zone-influence"><strong>The Baltics and Russian Gray-Zone Influence</strong></h3>
+<p>Estonia, Latvia, and Lithuania—each bordering Russia—have faced continuous information and cyber pressure from Moscow. Their geography makes them both strategically vital (as NATO’s eastern flank) and operationally vulnerable due to high concentrations of Russian-speaking minorities, many of whom live in border regions. In Estonia, the 2007 Bronze Soldier riots and subsequent cyberattacks were catalyzed by a dispute over Soviet war memory, tied directly to geography and symbolic space.</p>
+<p>Russian state media leveraged proximity and shared language to broadcast narratives framing the Estonian government as fascist and anti-Russian, amplifying tensions and justifying coercive measures. The success of this hybrid influence campaign depended heavily on geographic closeness, linguistic permeability, and a contested historical geography.</p>
+</section>
+<section id="crimea-and-the-annexation-narrative" class="level3">
+<h3 class="anchored" data-anchor-id="crimea-and-the-annexation-narrative"><strong>Crimea and the Annexation Narrative</strong></h3>
+<p>Crimea’s peninsula geography, its majority Russian-speaking population, and its maritime importance to Russia (hosting the Black Sea Fleet) made it a prime target for territorial and narrative conquest. In 2014, geography shaped both the <em>military</em> seizure and the <em>information</em> annexation. Russian actors exploited Crimea’s geographic isolation from mainland Ukraine and its physical connectivity to Russia to dominate the communications infrastructure rapidly.</p>
+<p>Within days, Ukrainian channels were replaced with Russian ones, and local media were taken over. The geography of the region enabled the near-instant imposition of information control, allowing Russian narratives of “protection,” “return,” and “historic unity” to flood the space unchallenged, thereby reinforcing the territorial fait accompli.</p>
+</section>
+<section id="chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics-chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics" class="level3">
+<h3 class="anchored" data-anchor-id="chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics-chinas-influence-in-southeast-asia-via-the-mekong-river-geopolitics"><strong>China’s Influence in Southeast Asia via the Mekong River Geopolitics</strong> {#china’s-influence-in-southeast-asia-via-the-mekong-river-geopolitics}</h3>
+<p>The Mekong River flows through multiple Southeast Asian countries, including Laos, Cambodia, Vietnam, and Thailand, making the region ecologically and economically interdependent. China’s upstream position gives it control over water flow through its dam infrastructure, which it has used not only as leverage in bilateral relations but also as a platform for both soft and hard influence.</p>
+<p>Through the Lancang-Mekong Cooperation mechanism, Chinese state media, educational exchanges, and development aid have portrayed China as the benevolent steward of regional prosperity. However, during droughts—when satellite imagery revealed China was withholding water despite local shortages—Beijing launched targeted narrative campaigns to deflect blame and discredit independent hydrologists and Western researchers.</p>
+<p>Geography enabled the projection of influence not just through physical control of water, but also through information campaigns that framed criticism as “Western interference” in sovereign cooperation. China’s geographic dominance upstream thus shaped both material leverage and informational framing.</p>
+</section>
+<section id="u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz-u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz" class="level3">
+<h3 class="anchored" data-anchor-id="u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz-u.s.-psychological-operations-in-the-korean-demilitarized-zone-dmz"><strong>U.S. Psychological Operations in the Korean Demilitarized Zone (DMZ)</strong> {#u.s.-psychological-operations-in-the-korean-demilitarized-zone-(dmz)}</h3>
+<p>During and after the Korean War, the geography of the Korean Peninsula—and particularly the DMZ—offered a fixed, high-stakes theater for psychological operations. The U.S. military and South Korean forces exploited line-of-sight and broadcast range to target North Korean troops with loudspeakers, leaflets, and radio signals. The mountainous terrain made certain valleys particularly susceptible to sound-based messaging, allowing precise calibration of reach.</p>
+<p>Messages ranged from ideological subversion to information about economic conditions in the South. This use of geography as an amplifier of messaging, exploiting both proximity and terrain, shaped the form, timing, and content of influence efforts. In turn, North Korea responded by reshaping its terrain—building barriers, jamming systems, and eventually erecting one of the world’s most controlled information environments in part to mitigate these geographic vulnerabilities.</p>
+</section>
+</section>
+<section id="legal" class="level2">
+<h2 class="anchored" data-anchor-id="legal">Legal</h2>
+<p>Legal terrain refers to the existence, scope, and enforcement of statutory protections, particularly those governing speech, press, privacy, political participation, and media regulation, that shape both the effectiveness and tactics of information manipulation. The law operates as both a barrier and a tool: it can constrain hostile influence by upholding civil liberties and institutional transparency, or enable it through strategic ambiguity, selective enforcement, or systemic capture.</p>
+<p>The same operation can have very different outcomes depending on the legal framework of the target state.</p>
+<ul>
+<li><p>In the United States, for example, the First Amendment creates a high bar for government interference in public expression, limiting the ability of domestic actors to suppress foreign propaganda through direct censorship. As a result, adversarial influence in the U.S. often relies on front groups, proxies, or exploitations of platform dynamics rather than legal instruments.</p></li>
+<li><p>In contrast, in the United Kingdom, the presence of libel laws, state secrecy statutes, and court-supervised injunctions has allowed for the more frequent use of lawfare tactics by both domestic and foreign actors. Russian-linked oligarchs, for instance, have used British courts to initiate Strategic Lawsuits Against Public Participation (SLAPPs) to silence journalists and researchers investigating their influence activities.</p></li>
+</ul>
+<p>The same outlet or article that can be published freely in the U.S. may trigger crippling litigation or censorship in the U.K. Adversaries tailor their tactics accordingly.</p>
+<p>In environments with strong legal protections, manipulation must be more covert, indirect, or algorithmic—employing techniques such as false amplification, microtargeting, and content laundering through influencers or sympathetic media. In legally permissive or captured environments, the law itself becomes a weapon: licenses are revoked, arrests are justified via vague national security provisions, and opposition actors are delegitimized through legal pretexts.</p>
+<ul>
+<li>Authoritarian states have formalized this tactic through the enactment of foreign agent laws, media classification statutes, and expansive definitions of treason or defamation.</li>
+</ul>
+<p>In some cases, exposure of legal vulnerability has triggered significant reform. Following revelations of extensive foreign-funded information manipulation campaigns during the 2016 U.S. election, multiple legislative efforts were launched to increase transparency in online political advertising and platform accountability (the Honest Ads Act, although not yet fully enacted).</p>
+<p>Similarly, France, in response to foreign media influence around its 2017 presidential election, passed a law enabling judicial review of foreign-funded news content during election periods. In Australia, the passage of the Foreign Influence Transparency Scheme Act (2018) created a legal obligation for individuals and entities acting on behalf of foreign governments to register and disclose their activities, thereby increasing the friction for covert influence networks.</p>
+<p>Legal terrain is dynamic and contested. Defensive legal reforms may strengthen resilience, but they also risk being co-opted for political repression if not carefully crafted and implemented. At the same time, adversaries continuously test the boundaries of legal systems, probing for jurisdictions where influence is easier to mask or enforce through litigation. Understanding the legal terrain is thus essential not only for anticipating risk but also for understanding how this terrain affects the design of influence operations. It enables one to craft countermeasures that accurately reflect the contours of governance and law.</p>
+</section>
+<section id="population-features" class="level2">
+<h2 class="anchored" data-anchor-id="population-features">Population Features</h2>
+<p>Population features encompass the demographic, epidemiological, sociocultural, and socioeconomic characteristics of a society that shape its exposure to and receptivity toward information manipulation. These features form the substrate upon which influence operations move, dictating not only <em>who</em> is targeted but also <em>how</em> messages are crafted, transmitted, and internalized.</p>
+<p>While traditional factors, such as age distribution, ethnic and linguistic diversity, and health disparities, remain central, deeper layers, including educational attainment, economic inequality, media consumption habits, and civic engagement levels, play an equally critical role. Adversaries exploit these conditions to locate and exploit fault lines within a society, turning pre-existing frustrations or grievances into vectors of destabilization.</p>
+<section id="characteristics-that-increase-vulnerability" class="level3">
+<h3 class="anchored" data-anchor-id="characteristics-that-increase-vulnerability"><strong>Characteristics That Increase Vulnerability</strong></h3>
+<p><strong>Low Educational Attainment</strong>: Lower levels of education are correlated with reduced media literacy and a higher likelihood of accepting information at face value. A poorly educated population is more susceptible to manipulation that plays on emotion, repetition, or surface-level credibility cues (aesthetic presentation, perceived authority).</p>
+<p><strong>High Wealth Inequality</strong>: When significant portions of the population feel economically excluded or abandoned, narratives that frame elites, minorities, or foreign actors as the cause of inequality find fertile ground. Economic precarity also increases the appeal of scapegoating, conspiratorial thinking, and promises of radical transformation.</p>
+<p><strong>Unmet Basic Needs</strong>: In societies where healthcare, housing, food, or safety are unreliable or inaccessible, trust in institutions tends to diminish. This erosion of baseline legitimacy enables external actors to insert parallel narratives or services, such as foreign-funded clinics, religious charities, or digital “truth-tellers”—as substitutes for state presence.</p>
+<p><strong>Fragmented Social Cohesion</strong>: Populations with high polarization, low intergroup contact, or fractured civic spaces are more vulnerable to echo chambers and identity-based manipulation. Without cross-cutting social ties, it becomes easier to reinforce division and harder to build consensus or mount collective resistance.</p>
+<p><strong>Generational and Digital Divides</strong>: Young people may be hyper-exposed to manipulative content due to high platform usage, while older generations may lack the digital literacy to assess or verify what they encounter online. Both ends of the spectrum can be exploited—one through speed, the other through credibility theater.</p>
+<p><strong>Low Civic Engagement</strong>: When people do not feel empowered to participate in political or community life, or when their voices appear to have no effect, alternative narratives that promise agency, whether nationalist, populist, or extremist, gain appeal. Manipulation thrives in political vacuums.</p>
+</section>
+<section id="educated-societies-are-more-resilient" class="level3">
+<h3 class="anchored" data-anchor-id="educated-societies-are-more-resilient"><strong>Educated Societies Are More Resilient</strong></h3>
+<p>Highly equitable societies, where basic needs are reliably met and inequality is moderated, are structurally less hospitable to malign influence. These environments exhibit</p>
+<ul>
+<li><strong>Higher institutional trust</strong> makes it harder for adversaries to delegitimize state actors or institutions.</li>
+<li><strong>Greater critical capacity</strong>, due to widespread education and media literacy programs, weakens the effectiveness of oversimplified or deceptive narratives.</li>
+<li><strong>Lower emotional volatility</strong>, as people with stable economic and social lives are less likely to be swayed by fear-based or grievance-framed messaging.</li>
+<li><strong>Stronger civic networks</strong>, which provide natural pathways for counter-messaging, fact-checking, and collective inoculation against manipulation.</li>
+</ul>
+<p>Importantly, resilience is not just about individual awareness—it’s about population-level patterns. Just as herd immunity protects even those who are unvaccinated, high baseline trust, inclusion, and social investment protect even vulnerable pockets of the population by reducing the spread and reinforcement of manipulative content.</p>
+</section>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples"><strong>Examples</strong></h3>
+<p>In Finland, which ranks high in equality, education, and trust, foreign information operations have had limited traction. The country has proactively supported nationwide media literacy from an early age, and independent journalism remains strong. As a result, hostile narratives—particularly those aimed at stirring anti-immigrant sentiment or pro-Russian sympathy—have struggled to gain lasting impact.</p>
+<p>In contrast, South Africa, with its high levels of economic inequality, youth unemployment, and residual ethnic tensions, has seen surges of xenophobic misinformation during periods of economic strain. Online rumors about immigrants “stealing jobs” or spreading disease have led to real-world violence, demonstrating how social stressors can convert digital manipulation into physical outcomes.</p>
+<p>In the United States, economic polarization and fragmented information ecosystems have made distinct population segments vulnerable to different kinds of influence: conspiratorial narratives about public health among rural, underserved communities; grievance-based racial narratives among groups with a history of trauma; and elite distrust narratives among younger, precariously employed urban populations.</p>
+<p>Population features determine not just who can be targeted, but how successfully, at what speed, and with what downstream effects. Mapping these features allows both attackers and defenders to assess risk, precision, and durability. For defenders, understanding this terrain is essential to preempt, disrupt, or inoculate against manipulation that would otherwise take root along existing social fault lines.</p>
+</section>
+</section>
+<section id="reaction" class="level2">
+<h2 class="anchored" data-anchor-id="reaction">Reaction</h2>
+<p>Reaction refers to the way societies respond to detected or suspected information manipulation, whether through formal state mechanisms, institutional interventions, or bottom-up civic initiatives. Reaction is not merely about recognizing influence operations but about how effectively one moves from detection to attribution, disruption, and, where possible, deterrence.</p>
+<p>Reactions can be proactive (preparing structures and awareness in advance), responsive (reacting in real time), or retrospective (adjusting systems post-exposure). The coherence, speed, and credibility of these responses shape the adversary’s strategic calculus. A fast, coordinated, and legitimate response can increase operational expenses and deter escalation. A delayed, fragmented, or politicized reaction may embolden further attempts and create cascading vulnerability.</p>
+<section id="dimensions-of-reaction" class="level3">
+<h3 class="anchored" data-anchor-id="dimensions-of-reaction"><strong>Dimensions of Reaction</strong></h3>
+<p><strong>Legal Countermeasures</strong>: This includes new legislation (transparency laws), prosecution of operatives, designation of foreign entities, and imposition of legal liability for platforms or enablers. It also includes civil remedies against lawfare or information sabotage.</p>
+<p><strong>Public Attribution</strong>: Naming and shaming perpetrators, especially when backed by technical evidence, can erode deniability and force reputational costs. Attribution also serves a signaling function, alerting both domestic and international audiences that manipulation is being monitored.</p>
+<p><strong>Diplomatic and Strategic Retaliation</strong>: Reactions may include sanctions, expulsion of diplomats, cyber countermeasures, or coordinated messaging with allies. These responses establish red lines and demonstrate resolve.</p>
+<p><strong>Platform Engagement and Regulation</strong>: Governments may demand algorithmic transparency, data access for researchers, or impose penalties for failure to moderate coordinated inauthentic behavior. These reactions influence how manipulation is amplified or curtailed.</p>
+<p><strong>Civic and Media Literacy Initiatives</strong>: Societies can build long-term resistance by training citizens to recognize manipulation tactics, resist emotionally charged misinformation, and verify sources. Resilience here is measured in narrative durability, not just system response.</p>
+<p><strong>Institutional and Procedural Reforms</strong>: In response to manipulation, governments may centralize intelligence coordination, formalize interagency response protocols, or create new bodies to handle influence threats (VIGINUM in France).</p>
+</section>
+<section id="why-reaction-matters" class="level3">
+<h3 class="anchored" data-anchor-id="why-reaction-matters"><strong>Why Reaction Matters</strong></h3>
+<p>Reaction doesn’t just close operational gaps—it reshapes the landscape for future campaigns. Influence actors continually test what they can get away with. Weak, confused, or performative responses signal opportunity. Strong, confident, and consistent reactions alter the cost-benefit analysis for aggressors and may dissuade entire categories of operations.</p>
+<p>Additionally, the perceived legitimacy of a response is crucial. Overreaction, censorship, or responses framed in partisan terms may backfire, further polarizing the public and feeding manipulation narratives. Successful reactions are therefore not only technically competent but also politically calibrated, transparent, and trustworthy.</p>
+</section>
+<section id="examples-1" class="level3">
+<h3 class="anchored" data-anchor-id="examples-1"><strong>Examples</strong></h3>
+<p>France responded decisively to information manipulation threats after its 2017 presidential election. The creation of VIGINUM (a state agency for foreign digital interference), coupled with public attribution and platform pressure, resulted in decreased foreign narrative traction in subsequent elections. The Macron government also developed real-time response capacity, including press briefings and coordinated digital messaging.</p>
+<p>In contrast, the United States exhibited a fragmented and politically polarized reaction after the 2016 election. While civil society and parts of the intelligence community issued public warnings and indictments, a lack of legislative consensus and politicization of the threat allowed adversaries to probe further in 2020. Despite technical improvements, reaction coherence remained impaired by domestic distrust.</p>
+<p>Taiwan has become a model of rapid, multi-tiered reaction. The government works with civil society fact-checkers, humor-based rapid response units (“Zhongzheng Memes”), and proactive media literacy curricula. During the COVID-19 pandemic and amid cross-Strait tensions, Taiwan’s response structure created narrative friction that effectively countered Chinese information manipulation efforts in real-time.</p>
+</section>
+<section id="reactive-archetypes" class="level3">
+<h3 class="anchored" data-anchor-id="reactive-archetypes"><strong>Reactive Archetypes</strong></h3>
+<p>These are by no means the only response types. They reflect examples of common response patterns seen in countries today. Reaction is the immune response of an information ecosystem. It reflects not only technical capacity but also institutional maturity, political consensus, and cultural clarity. A society that reacts wisely and consistently can convert exposure into resilience. A society that fails to react—or reacts poorly—does more than invite manipulation: it teaches adversaries how to succeed.</p>
+</section>
+</section>
+<section id="technology-access" class="level2">
+<h2 class="anchored" data-anchor-id="technology-access">Technology Access</h2>
+<p>Technology access refers to the degree to which populations and institutions can create, disseminate, receive, and regulate digital information flows. It includes not only internet penetration and device availability, but also platform dependency, algorithmic visibility, censorship regimes, data governance models, and the surveillance capabilities of states and third parties.</p>
+<p>Access is not monolithic; it varies by geography, class, age, gender, and region. These variations determine the channels through which influence campaigns operate, the speed at which they spread, and the tools available for amplification, suppression, or redirection.</p>
+<section id="access-profiles" class="level3">
+<h3 class="anchored" data-anchor-id="access-profiles"><strong>Access Profiles</strong></h3>
+<p><strong>High-Access Environments</strong>: In digitally saturated societies, manipulation often relies on algorithmic exploitation, microtargeting, AI-generated content, and platform saturation. Narratives are fine-tuned using engagement data and may evolve rapidly in response to feedback loops. Influence actors prioritize virality, stealth amplification, and the illusion of authenticity (influencers, memes, satire, sockpuppets).</p>
+<p><strong>Medium-Access Environments</strong>: These societies often exhibit sharp divides in connectivity between urban and rural areas, as well as between generations. Manipulation strategies must bridge platforms and modalities—social media drives initial exposure, but messaging apps or community radio reinforce persistence. Here, hybrid influence operations blend digital and analog tools.</p>
+<p><strong>Low-Access or Controlled Environments</strong>: In regions with limited or censored access, actors may rely on interpersonal networks, SMS spam, radio broadcasts, or physical pamphleteering. Alternatively, elites may be targeted through secure platforms (WhatsApp, WeChat), while the public remains indirectly influenced through proxy elites or state-dominated channels.</p>
+<p><strong>Patterned Behavior:</strong> Patterns of news consumption, such as the Bulgarian tendency to get news from Facebook, are a significant factor in determining campaign design. Efforts can be focused on leveraging the fine-grained microtargeting available on the platform. This would not be successful if a significant portion of the population continued to consume print media for news.</p>
+</section>
+<section id="structural-factors-that-shape-access" class="level3">
+<h3 class="anchored" data-anchor-id="structural-factors-that-shape-access"><strong>Structural Factors That Shape Access</strong></h3>
+<ul>
+<li><p><strong>Platform Monopolies</strong>: In countries where a single platform dominates (Facebook in the Philippines, WhatsApp in Brazil, TikTok in Cambodia), influence operations can be optimized to that ecosystem, relying on its norms, technical limitations, and user behaviors.</p></li>
+<li><p><strong>Censorship and Surveillance Regimes</strong>: High-surveillance states like China or Iran leverage state-controlled infrastructure to detect and neutralize dissent. However, these same tools may be used for proactive manipulation—saturating available channels with pro-regime content or auto-generating artificial consensus.</p></li>
+<li><p><strong>Data Governance Gaps</strong>: In states with weak regulation of user data, external actors can exploit ad-tech ecosystems to build shadow targeting systems. These operations remain invisible primarily to governments and can circumvent conventional oversight mechanisms.</p></li>
+<li><p><strong>Infrastructure Asymmetries</strong>: In post-conflict or rural areas where digital infrastructure is patchy or damaged, foreign powers may introduce “aid platforms”—satellite internet, mobile clinics with connectivity, or offline media drops—as Trojan horses for narrative embedding.</p></li>
+</ul>
+</section>
+<section id="examples-2" class="level3">
+<h3 class="anchored" data-anchor-id="examples-2"><strong>Examples</strong></h3>
+<p>In Myanmar, despite low general internet penetration, Facebook functioned as the “internet” for many users. The platform’s dominance, lack of content moderation in Burmese, and algorithmic prioritization of engagement over accuracy enabled genocidal narratives to spread rapidly. Technology access was high enough to enable viral amplification, but it was too limited in terms of governance and pluralism to allow for effective resistance.</p>
+<p>In Cuba, state control over digital access means manipulation is less about disinformation and more about information starvation. Internet blackouts, selective blocking of websites, and tightly regulated mobile data create an environment where the absence of information is weaponized. Rumors and regime messaging often become the default.</p>
+<p>In India, uneven digital access and linguistic fragmentation create a landscape where WhatsApp becomes the preferred vector for influence campaigns. Rumors about communal violence or political conspiracies often spread more quickly through closed messaging networks than through public channels, making detection and counter-response difficult.</p>
+<p>In Ukraine, pre-2022 operations by Russia used a combination of digital subversion and analog manipulation, including the hacking of TV stations, the seeding of fake SMS alerts, and the compromise of local infrastructure. After the invasion, satellite internet (Starlink) and open-source platforms became resilience tools, illustrating how access levels can shift rapidly in response to geopolitical shock.</p>
+<p>The Ukrainian population is highly integrated into the digital world. This enables its relatively young government to communicate directly and in real-time via Telegram. Often, operations are reported in real-time. The public is shown how an operation reached them, how to recognize it in the future, and, critically, often hears about the false or misleading campaign from their government first. The communication is not one-way. Bots exist to allow people to report suspicious activity, which can reduce the time it takes for operations to be identified. It also allows the public to partake in what has become part of their national defense.</p>
+<p>The structure of technology access determines:</p>
+<ul>
+<li><p><strong>Modality</strong>: Whether influence is broadcast-based, peer-to-peer, or algorithmically targeted.</p></li>
+<li><p><strong>Detection Lag</strong>: How long before manipulation is observed and contested?</p></li>
+<li><p><strong>Narrative Durability</strong>: Whether messages persist through repetition, social embedding, or institutional reinforcement.</p></li>
+<li><p><strong>Independent Verification</strong>: Whether civil society, journalists, and researchers can monitor, investigate, and counteract campaigns, or whether they are locked out by design.</p></li>
+</ul>
+<p>Ultimately, access is a double-edged sword. The same infrastructure that allows manipulation also enables monitoring and resistance. The decisive factor is whether the balance of access favors open contestation or quiet, continuous distortion.</p>
+</section>
+</section>
+<section id="awareness-levels" class="level2">
+<h2 class="anchored" data-anchor-id="awareness-levels">Awareness Levels</h2>
+<p>Awareness levels refer to the degree to which individuals and societies can recognize, interpret, and respond to information manipulation and disinformation. This encompasses more than formal education—it includes media literacy, cognitive vigilance, exposure history, and pluralism of societal narratives. Awareness is both a personal trait and a systemic condition; it arises from institutional transparency, journalistic freedom, cultural habits of skepticism, and access to credible information.</p>
+<p>High-awareness environments are characterized by populations that regularly interrogate source credibility, question emotional appeals, and resist oversimplified frames. These populations have been exposed to manipulation attempts in the past, have learned to identify cues of inauthenticity, and often possess access to trusted debunking or verification mechanisms. In contrast, low-awareness environments may lack these reflexes, creating a passive information intake culture in which narratives are accepted at face value, especially if they are visually polished, socially reinforced, or aligned with existing biases.</p>
+<section id="how-awareness-shapes-manipulation-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="how-awareness-shapes-manipulation-strategy"><strong>How Awareness Shapes Manipulation Strategy</strong></h3>
+<p>Adversaries tailor their tactics to the target’s awareness profile. In low-awareness zones, influence operations rely on:</p>
+<ul>
+<li><p>Blunt disinformation (fabricated news, doctored images).</p></li>
+<li><p>Appeals to fear or pride with minimal evidence.</p></li>
+<li><p>Virality through emotional contagion.</p></li>
+<li><p>Direct repetition, banking on cognitive ease and social proof.</p></li>
+</ul>
+<p>In high-awareness environments, tactics shift toward:</p>
+<ul>
+<li><p>Ambiguity and innuendo rather than falsehoods.</p></li>
+<li><p>Use of satire, irony, or memes to create plausible deniability.</p></li>
+<li><p>Hijacking credible messengers (experts, influencers).</p></li>
+<li><p>Narrative laundering through think tanks or pseudo-academic outlets.</p></li>
+<li><p>Manufactured authenticity via user-generated content, real screenshots, or partial truths that are difficult to disprove entirely.</p></li>
+</ul>
+<p>The goal in high-awareness spaces is not always belief conversion, but rather confusion, doubt, and delay, which undermine the ability to act or trust any source, including one’s own.</p>
+</section>
+<section id="factors-that-increase-societal-awareness" class="level3">
+<h3 class="anchored" data-anchor-id="factors-that-increase-societal-awareness"><strong>Factors That Increase Societal Awareness</strong></h3>
+<p><strong>Institutional Transparency:</strong> Open governance and public accountability reduce the space in which disinformation can thrive. Transparent institutions provide observable baselines—such as published budgets, transparent chains of command, and accessible data—that make it harder for false claims or conspiracies to take hold.</p>
+<p><strong>Media Pluralism:</strong> A diverse and independent media ecosystem prevents monopolization of narratives. When the public can access multiple, competing perspectives, it becomes easier to cross-reference facts, identify distortions, and resist emotionally manipulative framing.</p>
+<p><strong>Crisis Experience:</strong> Societies that have previously been targeted by manipulation—during elections, pandemics, or geopolitical conflicts—may develop a kind of narrative immune memory. Exposure to past deception often leads to institutional reforms, media scrutiny, and citizen habits that increase resilience in future operations.</p>
+<p><strong>Education Systems:</strong> Curricula that emphasize media literacy, critical thinking, logical reasoning, and awareness of cognitive biases help individuals recognize attempts at manipulation. Early and sustained education in these areas inoculates future generations against both domestic and foreign influence.</p>
+<p><strong>Trusted Gatekeepers:</strong> Independent journalism, fact-checking organizations, and civil society watchdogs serve as filters and correctives in the information ecosystem. Their credibility and visibility are crucial for maintaining “cognitive hygiene”—preventing rumor cascades, reinforcing accountability, and surfacing truth when deception spreads.</p>
+<p><strong>Historical Precedent:</strong> Countries that have been frequent targets of manipulation, such as Ukraine, the Baltic states, or Taiwan, tend to develop higher collective awareness and a more sophisticated understanding of influence tactics. This includes institutional readiness, grassroots detection networks, and cultural skepticism toward foreign narrative engineering.</p>
+</section>
+<section id="examples-3" class="level3">
+<h3 class="anchored" data-anchor-id="examples-3"><strong>Examples</strong></h3>
+<p><strong>Sweden</strong>: With high media literacy, strong public broadcasting, and transparent institutions, Sweden has demonstrated resilience to Russian disinformation attempts. While some fringe narratives circulate, they rarely gain mass traction without being swiftly countered by trusted national sources.</p>
+<p><strong>Nigeria</strong>: In areas with low digital literacy and a high reliance on messaging apps, misinformation about vaccines, religion, and political candidates has spread rapidly. Language barriers, distrust of formal channels, and limited awareness of manipulation tactics hinder efforts to inoculate the population.</p>
+<p><strong>Germany</strong>: Despite generally high awareness, manipulation campaigns have shifted toward selective amplification, highlighting true but emotionally charged or misleadingly framed stories (refugee crimes, economic grievances) to exploit real issues while avoiding outright falsehoods. This adaptive approach demonstrates how even highly aware societies remain targets, just with more sophisticated inputs.</p>
+<p><strong>United States</strong>: The U.S. illustrates that awareness is unevenly distributed across populations. While some groups are highly skeptical and analytically equipped, others fall prey to coordinated campaigns due to algorithmic isolation, political polarization, or a lack of trust in traditional sources. In such contexts, awareness becomes tribalized rather than general.</p>
+<p>Awareness is both a buffer and a signal. High awareness increases societal narrative resilience and raises the cost for manipulative actors. It also reduces the likelihood of uncritical amplification by local populations. However, awareness without trust can breed cynicism, and awareness without institutional follow-through can lead to apathy.</p>
+<p>Conversely, low awareness doesn’t just increase susceptibility—it accelerates transmission. Manipulation becomes self-replicating, passed from peer to peer as emotional content rather than an interrogated belief. Building awareness is not simply about countering falsehoods—it is about cultivating reflexive, cross-cutting cognitive infrastructure. Awareness is where the immune system of the information ecosystem is stored.</p>
+</section>
+</section>
+<section id="concurrent-events" class="level2">
+<h2 class="anchored" data-anchor-id="concurrent-events">Concurrent Events</h2>
+<p><strong>Concurrent events</strong> function as accelerants, cover, or amplifiers for influence operations. The manipulators themselves do not continually orchestrate them, but when exploited effectively, they increase emotional resonance, narrative plausibility, and operational velocity. They are the gasoline on an information fire. These events—such as elections, protests, natural disasters, political scandals, pandemics, or international conflicts—create environments of uncertainty and urgency, two key preconditions for rapid information spread and reduced critical thinking.</p>
+<p>Influence actors monitor real-time developments and align their campaigns to ride the emotional and cognitive waves generated by concurrent events. Timing a campaign to coincide with a significant event can make a fringe narrative appear relevant, believable, or even inevitable. Concurrent events can interact with an operation in multiple ways.</p>
+<p><strong>Camouflage</strong>: Crises do not need to be fabricated to serve as a backdrop for manipulation—they only need to be <em>available</em>. The same event can be framed in radically different ways for different audiences. Real events provide “cover fire” for falsehoods. When the audience is overwhelmed by competing headlines, it becomes easier to slip in distortion unnoticed.</p>
+<p><strong>Acceleration through Emotion</strong>: Disasters and crises provoke high-arousal emotions (such as fear, anger, and grief), which lower resistance to emotionally congruent messages. Manipulators match their tone and framing to piggyback on public sentiment.</p>
+<p><strong>Plausibility Anchoring</strong>: A concurrent event gives even absurd narratives a veneer of realism. For example, conspiracy theories about disease origins gain traction when released during an outbreak, regardless of their factual merit.</p>
+<p><strong>Decision Compression</strong>: When decision-makers face a shrinking time window (during an election or emergency response), influence operations aim to expedite decision-making by short-circuiting deliberation and pushing manipulated frames into early consensus formation.</p>
+<p><strong>Targeting Information-Seeking Behaviors:</strong> During concurrent events, public information-seeking behavior increases. Malign actors exploit trending keywords and hashtags to seed manipulated content where the demand for answers exceeds the supply of verified information.</p>
+<p><strong>Preparedness Gaps</strong>: Influence actors often plan narratives, waiting for the right event to trigger release. This pre-positioning allows them to outpace slower institutional communication. It is also easy to outpace news and fact-checking organizations, as content that does not require reliability can be produced quickly.</p>
+<p><strong>Information Fatigue</strong>: The cognitive and emotional exhaustion that results from prolonged exposure to high volumes of information, especially during sustained or overlapping crises. As multiple concurrent events (a pandemic combined with political unrest or economic instability) flood the public sphere, individuals struggle to process, evaluate, or respond to incoming data.</p>
+<p>This saturation leads to withdrawal, apathy, or indiscriminate acceptance of narratives, creating ideal conditions for manipulation. In such states, audiences become more susceptible to simplified messages, emotionally charged content, and manipulation through repetition or the creation of a manufactured consensus. Information fatigue degrades sensemaking and weakens both societal resilience and individual critical capacity.</p>
+<section id="typology-of-concurrent-events" class="level3">
+<h3 class="anchored" data-anchor-id="typology-of-concurrent-events"><strong>Typology of Concurrent Events</strong></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Event Type</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Elections</strong></td>
+<td>Elections are formal processes through which citizens select representatives or decide on public policies, typically involving the casting and counting of votes. While intended to reflect the will of the people, elections can be vulnerable to various forms of interference and manipulation. These include the spread of false claims about fraud, efforts to suppress voter participation, the dissemination of misleading information through strategic leaks or fabricated media such as deepfakes, and targeted campaigns aimed at discouraging specific groups from voting. Such tactics, sometimes amplified by both domestic and foreign actors, can erode trust in electoral institutions, exacerbate societal divisions, and skew voter turnout, ultimately undermining the integrity and legitimacy of the democratic process.</td>
+</tr>
+<tr class="even">
+<td><strong>Protests or Riots</strong></td>
+<td>Protests or riots refer to public demonstrations or outbreaks of civil unrest where groups of people express dissent or demand change. However, these events are often subject to manipulation through tactics that portray them as illegitimate or externally influenced, thereby justifying government crackdowns or deepening societal divisions. Such manipulation can include mischaracterizing peaceful protests as violent, spreading false information about their funding, circulating fabricated videos, promoting extreme slogans, or exaggerating the scale of participation and conflict. Notably, during incidents like the George Floyd protests and the Kazakhstan unrest, foreign actors exploited authentic images and altered contexts to push polarizing narratives, framing protesters as hostile outsiders or saboteurs to undermine their legitimacy.</td>
+</tr>
+<tr class="odd">
+<td><strong>Natural Disasters</strong></td>
+<td>Natural disasters are catastrophic events caused by natural processes of the Earth, such as earthquakes, floods, hurricanes, and wildfires, which result in significant damage to life, property, and the environment. While these events are fundamentally natural phenomena, they are sometimes portrayed in public discourse not only as environmental crises but also as indicators of systemic failures or as outcomes of deliberate human interference. For instance, some narratives frame natural disasters as evidence of governmental incompetence or neglect. In contrast, others suggest they are the result of covert manipulation through technologies like weather modification or “weather warfare.” Additionally, misinformation surrounding these events can include fabricated stories, false emergency alerts, and conspiracy theories alleging elite hoarding of resources or punitive responses tied to political or cultural grievances. Such framing often complicates the public understanding of natural disasters by blending factual occurrences with claims of external manipulation or intentional harm.</td>
+</tr>
+<tr class="even">
+<td><strong>Health Crises</strong></td>
+<td>Health crises refer to significant events or periods marked by widespread threats to public health, often involving outbreaks of infectious diseases or other medical emergencies that strain healthcare systems and provoke societal concern. These crises frequently become focal points for the rapid spread of misinformation and disinformation, including conspiracy theories, false medical claims, and distrust toward health authorities and scientific institutions. Such narratives may encompass unfounded origin stories, skepticism about vaccines, and targeted efforts to undermine credible experts. The complex interplay of these factors can exacerbate public fear and hinder effective responses, as seen in recent episodes involving diseases like COVID-19, monkeypox, Ebola, and polio.</td>
+</tr>
+<tr class="odd">
+<td><strong>Military Conflicts</strong></td>
+<td>Military conflicts refer to organized and often violent confrontations between states, groups, or factions, frequently accompanied by strategic information campaigns. These conflicts are not only fought on the battlefield but also through the manipulation of narratives, including the use of disinformation such as fabricated evidence, false accusations, and misleading media to justify aggression, demonize opponents, or rally support. Such tactics may involve deepfake videos, recycled footage from unrelated events, and glorified portrayals of combatants, contributing to a saturated and distorted information environment. Historical examples include premeditated disinformation efforts preceding invasions or escalations, where false claims are used to legitimize military actions and shape public perception.</td>
+</tr>
+<tr class="even">
+<td><strong>Economic Shocks</strong></td>
+<td>Economic shocks are sudden and significant disruptions to an economy that can trigger widespread financial instability and social unrest. These shocks often create fertile ground for scapegoating marginalized groups, fueling criticism of globalism, and undermining public trust in institutions. In response to economic downturns, narratives blaming immigrants, elites, or specific communities may emerge, sometimes supported by manipulated data such as inflated employment figures or misleading inflation statistics. Additionally, economic crises can give rise to conspiracy theories and cultural phenomena, ranging from romanticized isolationism and barter systems to fears about global depopulation or systemic control, further complicating recovery efforts and social cohesion.</td>
+</tr>
+<tr class="odd">
+<td><strong>High-Profile Deaths</strong></td>
+<td>High-profile deaths refer to the passing of well-known individuals whose deaths attract significant public attention and media coverage. Various groups often exploit these events to advance particular agendas, such as fueling martyrdom narratives, promoting conspiracy theories, or manipulating public grief for ideological purposes. In some cases, false claims—such as attributing deaths to vaccines without evidence, fabricating suicide stories, altering medical records, or using AI-generated testimonies—are circulated to create confusion and mistrust. Anti-vaccine networks, for example, frequently allege that many celebrity deaths are caused by COVID-19 vaccines, regardless of factual accuracy or the individual’s vaccination status. While these assertions may not be widely believed, their repetition helps maintain a persistent atmosphere of doubt and skepticism.</td>
+</tr>
+<tr class="even">
+<td><strong>Extreme Change</strong></td>
+<td>Extreme change refers to abrupt and profound disruptions in societal, political, or economic systems that are rapidly exploited to create confusion, helplessness, or reliance on new authorities. Such shifts often involve deliberate narratives that recast upheavals, such as coups or market collapses, as necessary restorations or existential threats, thereby fueling fear, mistrust, and dependency. These dynamics are frequently amplified through coordinated disinformation campaigns that portray charismatic leaders or regimes as saviors, while attributing instability to external or shadowy forces, thereby reshaping public perception and governance structures in fundamental ways.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1"></h3>
+</section>
+<section id="examples-4" class="level3">
+<h3 class="anchored" data-anchor-id="examples-4"><strong>Examples</strong></h3>
+<p>Concurrent events don’t create information manipulation, but they affect reach, impact, and speed. Influence actors know that timing matters and may position themselves to leverage a crisis. They may also opportunistically adapt the current event into specific narratives. Societies that treat concurrent events as predictable inflection points rather than surprises will be better equipped to blunt their weaponization.</p>
+<ul>
+<li><p><strong>Hurricane Ian (2025)</strong>: In the U.S., Russian and Chinese information actors launched parallel influence campaigns during Hurricane Ian. Online influencers suggested FEMA was stockpiling aid for elites, not residents. Others blamed the storm on U.S. weather manipulation, reviving the HAARP conspiracy. These campaigns fed off uncertainty and information voids in disaster zones.</p></li>
+<li><p><strong>COVID-19 Pandemic</strong>: The global nature and timeline of COVID-19 made it the most exploited concurrent event in the digital era. The virus’s origin, vaccine development, lockdowns, and economic impact became entry points for a broad array of influence actors, each inserting narratives tailored to their strategic goals. Early uncertainty and scientific ambiguity created fertile ground for the persistence of long-term false claims.</p></li>
+<li><p><strong>George Floyd Protests (2020)</strong>: During mass protests in the U.S., foreign accounts amplified both pro-police and anti-police content to escalate internal division. They injected falsehoods about protester violence and external funding, leveraging real footage and photos out of context to polarize audiences.</p></li>
+<li><p><strong>French Yellow Vests Movement</strong>: Russian-linked outlets and troll networks capitalized on the ongoing protests to frame France as collapsing under neoliberal rule. While the protests were real, the overlay of coordinated amplification and narrative distortion created an exaggerated image of systemic disintegration, intended for both French and international consumption.</p></li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+<p>FIMI Taxonomy by <a href="https://infoepi.org">Information Epidemiology Lab</a>.</p><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{li2026,
+  author = {Li, E. Rosalie},
+  title = {Structural {Terrain} — {Chapter}},
+  date = {2026-02-24},
+  url = {https://fimi.infoepi.org/function/structural-terrain-chapter.html},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-li2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Li, E. R. (2026). <em>Structural Terrain — Chapter</em>. <a href="https://fimi.infoepi.org/function/structural-terrain-chapter.html">https://fimi.infoepi.org/function/structural-terrain-chapter.html</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/fimi\.infoepi\.org");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>FIMI Taxonomy</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../function/index.html">
+<p>Functions</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../mechanisms/index.html">
+<p>Mechanisms</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../terrain/index.html">
+<p>Terrain</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../channel_types/index.html">
+<p>Channels</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../notes.html">
+<p>Notes</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

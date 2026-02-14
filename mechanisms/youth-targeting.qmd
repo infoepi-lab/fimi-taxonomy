@@ -4,6 +4,9 @@ description: "A form of succession planning that regenerates leadership and sust
 categories: ["Longevity"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Longevity](../function/longevity.qmd)
 :::
@@ -12,3 +15,4 @@ Youth targeting is a form of succession planning in which ideological and genera
 Through educational exchanges, fellowships, and cultural programs, regimes and aligned movements cultivate new adherents who carry forward operational culture and loyalty. Such programs embed ideology within opportunity structures—linking career advancement, belonging, and influence to participation in regime-aligned ecosystems.
 By continuously replenishing its human capital, the influence architecture maintains vitality even as older cadres retire or are discredited.
 
+:::

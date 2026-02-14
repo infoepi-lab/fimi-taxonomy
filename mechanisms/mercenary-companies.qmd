@@ -4,6 +4,9 @@ description: "Oligarchic mercenary companies like the Wagner Group serve as extr
 categories: ["Projection Abroad"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Projection Abroad](../function/projection-abroad.qmd)
 :::
@@ -21,3 +24,4 @@ Their utility lies in strategic ambiguity. Wagner can be activated globally with
 Even after the failed 2023 mutiny and the apparent death of Prigozhin, Wagner’s model has persisted. Reports suggest that its activities are fragmented into successor companies, such as RPOST-M LLC in Syria, which continue operations under new names while preserving structural continuity [78]. This modular restructuring allows the Kremlin to maintain the strategic value of coercive proxy forces while diffusing liability and reasserting control.
 In this way, oligarchic mercenary companies are not merely battlefield tools. They are command-and-control extensions of the regime itself, carrying out geopolitically sensitive missions that no formal institution could claim—and no adversary can easily counter [49,60,72,79,80].
 
+:::

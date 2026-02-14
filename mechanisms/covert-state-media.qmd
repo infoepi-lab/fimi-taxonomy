@@ -4,9 +4,13 @@ description: "Covert State Media involves using seemingly independent media enti
 categories: ["Obfuscation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Obfuscation](../function/obfuscation.qmd)
 :::
 
 Actors produce and distribute content through ostensibly autonomous media entities or individuals to mask direct involvement and enhance perceived legitimacy. This method of information manipulation obscures the source of messaging, enabling influence operations to appear as spontaneous or independent discourse across diverse political and social contexts.
 
+:::

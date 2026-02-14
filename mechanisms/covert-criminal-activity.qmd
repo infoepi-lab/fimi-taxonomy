@@ -4,9 +4,13 @@ description: "Covert criminal activity involves the strategic use of illicit act
 categories: ["Sabotage"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Sabotage](../function/sabotage.qmd)
 :::
 
 Covert criminal activity refers to the deliberate use of illicit actors, criminal networks, or unlawful operations to execute influence objectives that a state cannot carry out overtly. These activities are structured to appear as independent criminality while serving strategic political purposes—whether to intimidate, destabilize, fabricate social tensions, or mask the state’s involvement. Covert criminal activity weaponizes illegality to degrade institutions, intimidate populations, and create plausible deniability for actions that would be politically or diplomatically costly if openly attributed to a regime. This mechanism is distinct from organic criminal behavior. It involves state-enabled, state-aligned, or state-directed criminal acts that serve geopolitical or informational objectives while exploiting the opacity, expendability, and deniable nature of criminal actors.
 
+:::

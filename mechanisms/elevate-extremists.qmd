@@ -4,9 +4,13 @@ description: "Elevate Extremists is a sabotage tactic that strengthens social di
 categories: ["Sabotage"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Sabotage](../function/sabotage.qmd)
 :::
 
 A destabilization tactic that provides financial, material, or informational support to extremist or polarizing groups in order to deepen social divisions and weaken institutional cohesion. By artificially amplifying the visibility and influence of radical movements, this mechanism fosters internal conflict, delegitimizes moderate voices, and distracts from coordinated external objectives while concealing the origin of support.
 
+:::

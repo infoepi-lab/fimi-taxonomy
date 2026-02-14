@@ -4,9 +4,13 @@ description: "Cognitive attrition is a strategy that gradually undermines a popu
 categories: ["Sabotage"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Sabotage](../function/sabotage.qmd)
 :::
 
 Sustained multi-vector pressure designed to exhaust a population's critical thinking capacity, emotional resilience, and willingness to engage with complex information over time. Rather than seeking immediate persuasion, cognitive attrition degrades the target's long-term ability to process, evaluate, and respond to information—producing apathy, cynicism, and withdrawal from public discourse. The mechanism treats attention and cognitive endurance as finite resources to be depleted through persistent exposure to contradictory claims, manufactured outrage, and unresolvable uncertainty.
 
+:::

@@ -14,4 +14,8 @@ format:
     body-classes: section-function
 ---
 
+::: {.protected-content}
+
 Functions describe the **strategic purpose** behind information manipulation operations. Each function encompasses multiple mechanisms that serve that purpose.
+
+:::

@@ -14,6 +14,10 @@ format:
     body-classes: section-channels
 ---
 
+::: {.protected-content}
+
 Channel types describe the **platforms and media** through which
 information manipulation is delivered. Each channel type encompasses
 specific platforms, formats, or venues.
+
+:::

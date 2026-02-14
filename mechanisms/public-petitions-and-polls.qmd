@@ -4,9 +4,13 @@ description: "Public petitions are organized campaigns to simulate widespread su
 categories: ["Legitimation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Legitimation](../function/legitimation.qmd)
 :::
 
 Public petitions are organized campaigns, often orchestrated or amplified by Kremlin-affiliated entities, designed to simulate widespread public support for controversial policies or actions, such as territorial annexations or restrictive legislation targeting foreign influence.
 
+:::

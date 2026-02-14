@@ -4,9 +4,13 @@ description: "Deliberate suppression or blocking of factual information to remov
 categories: ["Command and Control"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Command and Control](../function/command-and-control.qmd)
 :::
 
 Covers deliberate suppression or blocking of factual reporting (banning foreign correspondents, jamming satellite signals). Distinct from Obfuscation because it removes access entirely rather than disguising the origin.
 
+:::

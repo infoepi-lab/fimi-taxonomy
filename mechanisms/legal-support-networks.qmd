@@ -4,6 +4,9 @@ description: "Legal support networks leverage sympathetic legal resources to pro
 categories: ["Longevity"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Longevity](../function/longevity.qmd)
 :::
@@ -11,3 +14,4 @@ categories: ["Longevity"]
 Legal support networks mobilize sympathetic lawyers, civil rights groups, or advocacy organizations to defend affiliates, deter enforcement, and challenge regulatory actions. These networks sustain operations under legal pressure and create procedural delays that protect core personnel or institutions, allowing influence activities to persist even during investigation or prosecution.
 They weaponize the norms of open societies—due process, free association, and advocacy—to insulate actors engaged in manipulative or covert activity. The outcome is structural impunity: a system where accountability becomes a slow, reversible process, and exposure does not equate to cessation.
 
+:::

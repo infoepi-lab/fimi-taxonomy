@@ -5,6 +5,9 @@ date: "2026-02-13"
 categories: [release, architecture]
 ---
 
+
+::: {.protected-content}
+
 ## Overview
 
 Version 4.0 represents a complete architectural overhaul of the FIMI Taxonomy, transitioning to a Quarto-based website with improved navigation, search, and cross-referencing capabilities.
@@ -42,3 +45,5 @@ All content is now generated from authoritative CSV files:
 - `examples.csv` - Documented real-world examples
 
 This data-driven approach ensures consistency and enables programmatic updates to the taxonomy.
+
+:::

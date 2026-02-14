@@ -5,6 +5,9 @@ date: "2026-02-14"
 categories: [bugfix, content]
 ---
 
+
+::: {.protected-content}
+
 ## Issue
 
 All 7 terrain pages contained "Related Mechanism" sections linking to mechanism pages that didn't exist, creating broken links throughout the site.
@@ -71,3 +74,5 @@ If mechanism cross-references are desired, they should be:
 3. Validated during build process
 
 For now, the clean minimal approach serves the taxonomy well.
+
+:::

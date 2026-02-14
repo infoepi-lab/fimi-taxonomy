@@ -4,6 +4,9 @@ description: "Government-controlled media outlets that openly disseminate inform
 categories: ["Command and Control"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Command and Control](../function/command-and-control.qmd)
 :::
@@ -16,3 +19,4 @@ Overt State Media refers to government-controlled communication outlets that ope
 >
 > — [Russia builds a “special information operation” around Transnistria](https://medium.com/dfrlab/russia-builds-a-special-information-operation-around-transnistria-bcc61fb06778)
 
+:::

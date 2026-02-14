@@ -4,6 +4,9 @@ description: "A covert operation where operatives infiltrate and manipulate poli
 categories: ["Command and Control"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Command and Control](../function/command-and-control.qmd)
 :::
@@ -12,3 +15,4 @@ A covert mechanism in which operatives or aligned actors penetrate political org
 
 Its purpose is to redirect organizational agendas, co-opt legitimate actors, and neutralize opposition from within. Political party infiltration erodes democratic integrity and enables sustained manipulation under the appearance of lawful participation, functioning as a long-term strategy for destabilization and covert control.
 
+:::

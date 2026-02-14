@@ -4,6 +4,9 @@ description: "Dating apps and social platforms where influence operations exploi
 categories: [channel_type, cyber]
 ---
 
+
+::: {.protected-content}
+
 Romance and dating platforms create uniquely vulnerable environments for influence operations because they are built on trust, emotional openness, and the expectation of genuine human connection. These characteristics make them ideal vectors for honey trap operations, social engineering, and targeted manipulation campaigns that exploit the intimate dynamics of personal relationships.
 
 Platforms like Meetup facilitate in-person gatherings that can be infiltrated or organized by influence operatives to build networks and recruit assets under the guise of shared interests. Dating apps create one-on-one relationships where operatives can extract personal information, cultivate sources, or build leverage over targets in sensitive positions. OnlyFans and similar platforms introduce financial dynamics that can be exploited for kompromat operations or to build dependencies.
@@ -15,3 +18,5 @@ The common thread across romance and dating platforms is the exploitation of int
 - Meetup
 - Grindr
 - OnlyFans
+
+:::

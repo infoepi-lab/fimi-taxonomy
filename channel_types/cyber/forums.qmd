@@ -4,6 +4,9 @@ description: "Discussion boards, Q&A sites, and comment sections where influence
 categories: [channel_type, cyber]
 ---
 
+
+::: {.protected-content}
+
 Forums and comment sections are the conversational substrate of the internet—spaces where narratives are debated, refined, and socially validated through peer interaction. Their pseudonymous nature, community-driven moderation, and conversational structure make them particularly attractive for influence operations that need to appear organic rather than broadcast.
 
 Platforms like Reddit and Quora reward perceived expertise and community participation, allowing operatives who invest in building account history to wield outsized influence on discourse. Imageboards like 4chan and 8kun operate with minimal moderation and maximal anonymity, serving as incubators for extremist narratives that can later migrate into mainstream discourse. Comment sections on news articles and product reviews provide opportunities to shape interpretation at the point of consumption—reaching audiences in the moment they are forming opinions about specific content.
@@ -18,3 +21,5 @@ The power of forums lies in their participatory structure. Unlike broadcast chan
 - Comment sections
 - Quora
 - Reviews
+
+:::

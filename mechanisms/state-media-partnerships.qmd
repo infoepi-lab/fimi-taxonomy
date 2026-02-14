@@ -4,9 +4,13 @@ description: "State actors create covert partnerships with independent media to 
 categories: ["Obfuscation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Obfuscation](../function/obfuscation.qmd)
 :::
 
 State actors form covert or semi-transparent relationships with ostensibly independent outlets—such as contrarian or “alternative” media platforms—to launder authorship, diffuse accountability, and extend reach through trusted intermediaries. These partnerships embed regime-aligned narratives within editorial ecosystems that present as oppositional, academic, or citizen-driven, allowing propaganda to circulate as authentic dissent rather than official messaging. By aligning with platforms that already attract skeptical or anti-establishment audiences, states exploit existing distrust of mainstream institutions to reframe foreign propaganda as domestic critique. This arrangement serves a dual purpose: it conceals the regime’s role (obfuscation) while gradually legitimizing its narratives through repeated citation and perceived independence. The outcome is a feedback loop of influence in which authorship is hidden, credibility is borrowed, and accountability is diffused, transforming state messaging into what appears to be spontaneous civic discourse.
 
+:::

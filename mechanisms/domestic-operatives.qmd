@@ -4,9 +4,13 @@ description: "Domestic operatives are local actors who manipulate social tension
 categories: ["Obfuscation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Obfuscation](../function/obfuscation.qmd)
 :::
 
 Native actors within the target country who exploit existing grievances and social tensions for political advantage. Their tactics include reframing national issues to pit communities against one another, encouraging fear of one another to consolidate support, distract from accountability, or undermine democratic cohesion.
 
+:::

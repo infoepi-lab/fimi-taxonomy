@@ -4,6 +4,9 @@ description: "Authoritarian regimes exploit diaspora communities as tools for in
 categories: ["Projection Abroad"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Projection Abroad](../function/projection-abroad.qmd)
 :::
@@ -20,3 +23,4 @@ This must end.
 Democracies must cease mistaking restraint for strength. They must accurately label these incursions as hostile operations and meet them decisively with a clear, coordinated, and uncompromising response.
 Sovereignty is not symbolic; it is a state's fundamental obligation. Failing to defend sovereignty—in the name of caution, optics, or inertia—does not enhance democratic principles; it betrays them.
 
+:::

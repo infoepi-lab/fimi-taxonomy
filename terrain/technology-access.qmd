@@ -4,5 +4,9 @@ description: "Access to digital communication technologies is restricted, monito
 categories: [terrain]
 ---
 
+
+::: {.protected-content}
+
 Access to digital communication technologies is restricted, monitored, or selectively enabled to control the flow of information and limit exposure to external or unauthorized content. This form of information manipulation shapes public perception and behavior by regulating who can access the internet, what content is available, and how individuals interact with online resources.
 
+:::

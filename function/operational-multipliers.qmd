@@ -16,6 +16,9 @@ listing:
       categories: "Operational Multipliers"
 ---
 
+
+::: {.protected-content}
+
 Operational Multipliers are not message creators—they expand the reach
 and impact of that which already exists in an operation–the people, the
 message, the harm. They increase the scale, persistence, and perceived
@@ -93,4 +96,6 @@ Operational Multipliers work horizontally and vertically across digital,
 institutional, and commercial environments. Browse the mechanisms below:
 
 ::: {#related-mechanisms}
+:::
+
 :::

@@ -4,9 +4,13 @@ description: "Fabricating entities or documents that replicate the identity and 
 categories: ["Legitimation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Legitimation](../function/legitimation.qmd)
 :::
 
 The fabrication of outlets, personas, documents, or institutional presences that replicate the visual identity, credentials, editorial style, or formal conventions of trusted information sources to inherit their credibility. This mechanism spans multiple registers: doppelganger news websites that typosquat legitimate domains; synthetic expert personas impersonating doctors, scientists, or scholars with fabricated credentials; forged or manipulated scientific studies designed to simulate peer-reviewed authority; and fake think tank reports styled after established research institutions. The operational logic is credibility theft—exploiting audience trust in recognized sources, professional authority, or institutional rigor by appropriating their formal appearance. Content gains legitimacy not through authentic provenance or verification but through resemblance to forms audiences have learned to trust.
 
+:::

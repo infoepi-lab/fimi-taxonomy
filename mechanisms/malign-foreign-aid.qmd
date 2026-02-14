@@ -4,6 +4,9 @@ description: "Malign foreign aid is the strategic provision of assistance design
 categories: ["Projection Abroad"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Projection Abroad](../function/projection-abroad.qmd)
 :::
@@ -11,3 +14,4 @@ categories: ["Projection Abroad"]
 Malign foreign aid involves the strategic deployment of financial or material assistance to foreign governments, organizations, or communities not to promote development, but to cultivate dependency and political compliance. Under the guise of humanitarian relief, infrastructure investment, or capacity-building, aid is structured to create enduring leverage—binding recipients through conditional funding, debt, or preferential contracts that align their policies with the donor’s geopolitical objectives.
 This mechanism transforms assistance into a coercive instrument of influence, embedding the provider’s priorities within the recipient’s governance and decision-making structures. By coupling generosity with obligation, malign foreign aid disguises control as partnership, advancing authoritarian or strategic interests while maintaining the façade of benevolent international engagement.
 
+:::

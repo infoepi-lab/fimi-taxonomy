@@ -4,5 +4,9 @@ description: "Awareness levels determine a population's capacity to detect and c
 categories: [terrain]
 ---
 
+
+::: {.protected-content}
+
 Awareness levels determine a population's capacity to detect and critically assess information manipulation, shaping collective resistance or vulnerability. High awareness fosters skepticism, counters manipulation, and promotes societal resilience; low awareness leaves groups susceptible to deceptive narratives, polarization, and exploitation by external or internal actors.
 
+:::

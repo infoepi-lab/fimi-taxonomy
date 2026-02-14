@@ -4,9 +4,13 @@ description: "Unqualified individuals are presented as credible experts to legit
 categories: ["Legitimation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Legitimation](../function/legitimation.qmd)
 :::
 
 Individuals lacking subject-matter expertise or recognized credentials are promoted as authoritative commentators to legitimize regime-aligned narratives. By positioning these unqualified experts as independent analysts, information manipulation exploits their outsider status to foster contrarian credibility and undermine established consensus, thereby amplifying regime perspectives under the appearance of impartial analysis.
 
+:::

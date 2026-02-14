@@ -6,6 +6,9 @@ bibliography: ../function/command-and-control.bib
 csl: ../apa.csl
 ---
 
+
+::: {.protected-content}
+
 Parallel to state media, oligarchic media form a distributed layer of regime-aligned influence with greater flexibility and reduced attribution. Outlets like Tsargrad TV or think tanks like Katehon serve ideological goals while preserving the appearance of independence.
 
 These platforms are often funded by Kremlin-friendly oligarchs and staffed by nationalist intellectuals, ultra-conservative clerics, or information manipulation veterans. Their role is to inject regime-aligned narratives into broader cultural and political debates, particularly in foreign environments where overt state branding would raise suspicion.
@@ -34,3 +37,5 @@ Konstantin Malofeev, sanctioned by the U.S. and EU, funds Tsargrad and Katehon, 
 -   Support "Russkiy Mir" ideology, advancing the idea of a unified cultural-political space across post-Soviet and Slavic territories
 
 These operations contribute to softening foreign resistance, justifying military action, and maintaining coherence among ideological hardliners within Russia and its sphere of influence.
+
+:::

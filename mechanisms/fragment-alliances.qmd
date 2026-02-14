@@ -4,9 +4,13 @@ description: "Fragment Alliances involves undermining coalitions and multilatera
 categories: ["Projection Abroad"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Projection Abroad](../function/projection-abroad.qmd)
 :::
 
 The act of targeting coalitions, alliances, or multilateral relationships by amplifying tensions, grievances, or policy disagreements between partner states or organizations. Operations may exploit historical disputes, burden-sharing conflicts, or divergent threat perceptions to erode trust and coordination capacity among adversaries. By weakening collective defense arrangements or diplomatic alignment, fragmentation reduces the coherence and effectiveness of opposing blocs while creating opportunities for bilateral exploitation of isolated members.
 
+:::

@@ -4,6 +4,9 @@ description: "Extrajudicial killings are precision assassinations used as instru
 categories: ["Suppressing Dissent"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Suppressing Dissent](../function/suppressing-dissent.qmd)
 :::
@@ -17,3 +20,4 @@ Functionally, extrajudicial killings operate across three planes:
 - Relational: signaling betrayal carries irrevocable cost.
 The message is consistent: “No one is beyond reach. Loyalty is permanent. Betrayal is fatal.” These killings serve not only to erase individuals but to extinguish information, fracture opposition, and dissuade defection [86–89]. In modern command architecture, extrajudicial assassination is enforcement, narrative control, and elite discipline—made lethal by design.
 
+:::

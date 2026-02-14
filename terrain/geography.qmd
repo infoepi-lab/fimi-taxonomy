@@ -4,5 +4,9 @@ description: "Geography shapes a state's susceptibility to information manipulat
 categories: [terrain]
 ---
 
+
+::: {.protected-content}
+
 Geography shapes a state's susceptibility to information manipulation by determining its exposure to adversarial actors, the accessibility of its communication infrastructure, and the strategic significance of its territory. Proximity to rivals, control over essential transit routes or chokepoints, and the presence of contested or symbolically important borders increase the likelihood, intensity, and persistence of influence operations targeting the state.
 
+:::

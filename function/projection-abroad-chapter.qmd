@@ -4,6 +4,9 @@ bibliography: projection-abroad.bib
 categories: [chapter]
 ---
 
+
+::: {.protected-content}
+
 Projection Abroad encompasses instruments used to extend domestic
 influence capacity into foreign environments. These include diaspora
 mobilization, state-aligned aid, and cyber units like Fancy Bear and
@@ -405,3 +408,5 @@ society.
 In the chapters ahead, we examine more disruptive functions: Sabotage,
 which targets cohesion, and Obfuscation, which hides the hand.
 Projection is neither, but it sets the conditions for both.
+
+:::

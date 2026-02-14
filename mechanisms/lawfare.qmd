@@ -4,9 +4,13 @@ description: "Lawfare involves the strategic use of legal processes by authoriti
 categories: ["Suppressing Dissent"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Suppressing Dissent](../function/suppressing-dissent.qmd)
 :::
 
 Legal processes and regulatory frameworks are strategically employed by authorities to burden, intimidate, or delegitimize independent organizations and media. This form of information manipulation uses judicial and administrative measures to restrict dissenting voices, disrupt critical reporting, and create a climate of self-censorship without overt censorship.
 
+:::

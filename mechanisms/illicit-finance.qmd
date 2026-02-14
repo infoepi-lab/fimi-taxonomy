@@ -4,9 +4,13 @@ description: "Illicit financial channels, such as cryptocurrencies and shell ent
 categories: ["Obfuscation"]
 ---
 
+
+::: {.protected-content}
+
 ::: {.function-badge}
 [Obfuscation](../function/obfuscation.qmd)
 :::
 
 Illicit financial channels, including cryptocurrencies and shell entities, are used to covertly fund influence operations while obscuring the true sponsor’s identity. This mechanism enables regimes to support media outlets, activist groups, or individuals in ways that mask their involvement, facilitating narrative laundering and attribution denial. The primary function is to separate the financial source from the public-facing activity, ensuring that the origin and intent behind the information manipulation remain hidden from oversight and audiences.
 
+:::
