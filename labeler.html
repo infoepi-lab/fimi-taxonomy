@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIMI Taxonomy Data Labeler</title>
+    <style>
+        /* ============================================
+           FIMI Taxonomy Data Labeler
+           Professional research annotation interface
+           ============================================ */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&family=Work+Sans:wght@400;500;600&display=swap');
+        
+        :root {
+            /* InfoEpi.org brand colors */
+            --mulberry: #551638;
+            --mulberry-light: #7B2D5F;
+            --terrain-green: #27ae60;
+            --channel-purple: #8e44ad;
+            
+            /* Interface palette */
+            --bg-primary: #fafafa;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f5f5f5;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --text-tertiary: #6a6a6a;
+            --border-color: #e0e0e0;
+            --border-dark: #c0c0c0;
+            
+            /* Annotation colors */
+            --highlight-function: rgba(85, 22, 56, 0.15);
+            --highlight-mechanism: rgba(123, 45, 95, 0.15);
+            --highlight-terrain: rgba(39, 174, 96, 0.15);
+            --highlight-channel: rgba(142, 68, 173, 0.15);
+            
+            /* Typography */
+            --font-display: 'Crimson Pro', Georgia, serif;
+            --font-body: 'Work Sans', -apple-system, system-ui, sans-serif;
+            --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* ============================================
+           Header & Navigation
+           ============================================ */
+        
+        header {
+            background: var(--bg-secondary);
+            border-bottom: 3px solid var(--mulberry);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        h1 {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--mulberry);
+            letter-spacing: -0.02em;
+        }
+        
+        .taxonomy-link {
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+        
+        .taxonomy-link:hover {
+            border-color: var(--mulberry);
+            color: var(--mulberry);
+            background: var(--bg-tertiary);
+        }
+        
+        /* ============================================
+           Main Layout
+           ============================================ */
+        
+        .container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 2rem;
+            animation: fadeIn 0.4s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* ============================================
+           Input Panel
+           ============================================ */
+        
+        .input-section {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        
+        .section-title {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--bg-tertiary);
+        }
+        
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 1rem;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            resize: vertical;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: var(--mulberry);
+            box-shadow: 0 0 0 3px rgba(85, 22, 56, 0.1);
+        }
+        
+        /* ============================================
+           Annotation Interface
+           ============================================ */
+        
+        .annotation-controls {
+            margin: 1.5rem 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+        
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        label {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        select {
+            padding: 0.75rem;
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: white;
+            cursor: pointer;
+            transition: border-color 0.2s ease;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: var(--mulberry);
+        }
+        
+        select[data-category="function"] {
+            border-left: 3px solid var(--mulberry);
+        }
+        
+        select[data-category="mechanism"] {
+            border-left: 3px solid var(--mulberry-light);
+        }
+        
+        select[data-category="terrain"] {
+            border-left: 3px solid var(--terrain-green);
+        }
+        
+        select[data-category="channel"] {
+            border-left: 3px solid var(--channel-purple);
+        }
+        
+        button {
+            padding: 0.875rem 1.5rem;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            font-weight: 500;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        
+        .btn-primary {
+            background: var(--mulberry);
+            color: white;
+            box-shadow: 0 2px 4px rgba(85, 22, 56, 0.2);
+        }
+        
+        .btn-primary:hover {
+            background: #6d1c47;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(85, 22, 56, 0.3);
+        }
+        
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+        
+        .btn-secondary {
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--border-color);
+        }
+        
+        /* ============================================
+           Annotated Text Display
+           ============================================ */
+        
+        .annotated-text {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            min-height: 300px;
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-10px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .annotation {
+            display: inline;
+            padding: 2px 0;
+            border-radius: 2px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.15s ease;
+        }
+        
+        .annotation.function {
+            background: var(--highlight-function);
+            border-bottom: 2px solid var(--mulberry);
+        }
+        
+        .annotation.mechanism {
+            background: var(--highlight-mechanism);
+            border-bottom: 2px solid var(--mulberry-light);
+        }
+        
+        .annotation.terrain {
+            background: var(--highlight-terrain);
+            border-bottom: 2px solid var(--terrain-green);
+        }
+        
+        .annotation.channel {
+            background: var(--highlight-channel);
+            border-bottom: 2px solid var(--channel-purple);
+        }
+        
+        .annotation:hover {
+            filter: brightness(0.95);
+        }
+        
+        /* ============================================
+           Sidebar Panel
+           ============================================ */
+        
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .panel {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        
+        .panel-title {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        
+        /* ============================================
+           Annotation List
+           ============================================ */
+        
+        .annotation-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .annotation-item {
+            padding: 0.875rem;
+            background: var(--bg-tertiary);
+            border-left: 3px solid var(--mulberry);
+            border-radius: 4px;
+            font-size: 0.85rem;
+            animation: fadeInLeft 0.3s ease;
+        }
+        
+        @keyframes fadeInLeft {
+            from { opacity: 0; transform: translateX(-10px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .annotation-item.mechanism {
+            border-left-color: var(--mulberry-light);
+        }
+        
+        .annotation-item.terrain {
+            border-left-color: var(--terrain-green);
+        }
+        
+        .annotation-item.channel {
+            border-left-color: var(--channel-purple);
+        }
+        
+        .annotation-meta {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-tertiary);
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .annotation-excerpt {
+            font-family: var(--font-body);
+            color: var(--text-secondary);
+            font-style: italic;
+            line-height: 1.5;
+        }
+        
+        /* ============================================
+           Report Generation
+           ============================================ */
+        
+        .report-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        
+        .report-format {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .format-btn {
+            padding: 0.5rem;
+            font-size: 0.8rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .format-btn:hover {
+            border-color: var(--mulberry);
+            color: var(--mulberry);
+        }
+        
+        .format-btn.active {
+            background: var(--mulberry);
+            color: white;
+            border-color: var(--mulberry);
+        }
+        
+        /* ============================================
+           Statistics Dashboard
+           ============================================ */
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+        }
+        
+        .stat-card {
+            padding: 1rem;
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+            text-align: center;
+            border-top: 3px solid var(--mulberry);
+        }
+        
+        .stat-card.mechanism {
+            border-top-color: var(--mulberry-light);
+        }
+        
+        .stat-card.terrain {
+            border-top-color: var(--terrain-green);
+        }
+        
+        .stat-card.channel {
+            border-top-color: var(--channel-purple);
+        }
+        
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1;
+        }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-tertiary);
+            margin-top: 0.25rem;
+        }
+        
+        /* ============================================
+           Responsive Design
+           ============================================ */
+        
+        @media (max-width: 1024px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                order: 2;
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .container {
+                padding: 0 1rem;
+            }
+            
+            .annotation-controls {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .report-format {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* ============================================
+           Utility Classes
+           ============================================ */
+        
+        .hidden {
+            display: none;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-tertiary);
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>FIMI Taxonomy Data Labeler</h1>
+            <a href="index.html" class="taxonomy-link">← Back to Taxonomy</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Main Content Area -->
+        <div>
+            <div class="input-section">
+                <h2 class="section-title">Input Text</h2>
+                <textarea 
+                    id="inputText" 
+                    placeholder="Paste or type text to annotate with FIMI taxonomy labels..."></textarea>
+                
+                <div class="annotation-controls">
+                    <div class="control-group">
+                        <label for="functionSelect">Function</label>
+                        <select id="functionSelect" data-category="function">
+                            <option value="">Select Function</option>
+                            <option value="Command and Control">Command and Control</option>
+                            <option value="Projection Abroad">Projection Abroad</option>
+                            <option value="Deception">Deception</option>
+                            <option value="Distortion">Distortion</option>
+                            <option value="Polarization">Polarization</option>
+                            <option value="Conspiracy">Conspiracy</option>
+                            <option value="Delegitimation">Delegitimation</option>
+                            <option value="Legitimation">Legitimation</option>
+                            <option value="Resilience Erosion">Resilience Erosion</option>
+                        </select>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="mechanismSelect">Mechanism</label>
+                        <select id="mechanismSelect" data-category="mechanism">
+                            <option value="">Select Mechanism</option>
+                        </select>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="terrainSelect">Terrain</label>
+                        <select id="terrainSelect" data-category="terrain">
+                            <option value="">Select Terrain</option>
+                            <option value="Media Freedom">Media Freedom</option>
+                            <option value="Electoral Integrity">Electoral Integrity</option>
+                            <option value="Regulatory Environment">Regulatory Environment</option>
+                            <option value="Digital Infrastructure">Digital Infrastructure</option>
+                            <option value="Civil Society">Civil Society</option>
+                            <option value="Historical Ties">Historical Ties</option>
+                            <option value="Awareness Levels">Awareness Levels</option>
+                        </select>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="channelSelect">Channel</label>
+                        <select id="channelSelect" data-category="channel">
+                            <option value="">Select Channel</option>
+                            <option value="Social Media">Social Media</option>
+                            <option value="Traditional Media">Traditional Media</option>
+                            <option value="Digital Platforms">Digital Platforms</option>
+                            <option value="State Media">State Media</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button class="btn-primary" id="annotateBtn">Annotate Selected Text</button>
+            </div>
+            
+            <div id="annotatedDisplay" class="annotated-text hidden">
+                <div id="annotatedContent"></div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Statistics Panel -->
+            <div class="panel">
+                <h3 class="panel-title">Annotation Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" id="statFunction">0</div>
+                        <div class="stat-label">Functions</div>
+                    </div>
+                    <div class="stat-card mechanism">
+                        <div class="stat-number" id="statMechanism">0</div>
+                        <div class="stat-label">Mechanisms</div>
+                    </div>
+                    <div class="stat-card terrain">
+                        <div class="stat-number" id="statTerrain">0</div>
+                        <div class="stat-label">Terrain</div>
+                    </div>
+                    <div class="stat-card channel">
+                        <div class="stat-number" id="statChannel">0</div>
+                        <div class="stat-label">Channels</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Annotations List Panel -->
+            <div class="panel">
+                <h3 class="panel-title">Applied Annotations</h3>
+                <div id="annotationsList" class="annotation-list">
+                    <div class="empty-state">No annotations yet</div>
+                </div>
+            </div>
+
+            <!-- Report Generation Panel -->
+            <div class="panel">
+                <h3 class="panel-title">Generate Report</h3>
+                <div class="report-controls">
+                    <div class="report-format">
+                        <button class="format-btn active" data-format="json">JSON</button>
+                        <button class="format-btn" data-format="csv">CSV</button>
+                        <button class="format-btn" data-format="markdown">Markdown</button>
+                    </div>
+                    <button class="btn-primary" id="exportBtn">Export Report</button>
+                    <button class="btn-secondary" id="clearBtn">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // FIMI Taxonomy Data Labeler - Core Logic
+        // ============================================
+        
+        let annotations = [];
+        let currentFormat = 'json';
+        
+        // Mechanism data organized by function
+        const mechanismsByFunction = {
+            "Command and Control": [
+                "Diplomatic Theater", "Overt State Media", "Ideological Center",
+                "Kinetic Military Action", "Intelligence Operations", "Information Denial",
+                "Proxy Governance", "Group Infiltration", "Rule Imposition"
+            ],
+            "Projection Abroad": [
+                "Cultural Diplomacy", "Academic Exchanges", "Media Partnerships",
+                "Economic Influence", "Diaspora Mobilization"
+            ],
+            "Deception": [
+                "False Attribution", "Fabricated Documents", "Deepfakes",
+                "Impersonation", "False Flags"
+            ],
+            "Distortion": [
+                "Selective Editing", "Decontextualization", "Misleading Framing",
+                "Statistical Manipulation"
+            ],
+            "Polarization": [
+                "Identity Exploitation", "Wedge Issues", "Amplification of Extremes",
+                "False Equivalence"
+            ],
+            "Conspiracy": [
+                "Anti-Elite Narratives", "Foreign Threat Mythology",
+                "Health Misinformation", "Election Denial"
+            ],
+            "Delegitimation": [
+                "Ad Hominem Attacks", "Whataboutism", "Institutional Undermining",
+                "Fact-Checker Attacks"
+            ],
+            "Legitimation": [
+                "Historical Revisionism", "Sovereignty Claims",
+                "Anti-Imperialism Rhetoric", "Traditional Values Appeal"
+            ],
+            "Resilience Erosion": [
+                "Trust Degradation", "Fatigue Induction", "Civic Disengagement",
+                "Information Overload"
+            ]
+        };
+        
+        // Update mechanism dropdown based on selected function
+        document.getElementById('functionSelect').addEventListener('change', function(e) {
+            const mechanismSelect = document.getElementById('mechanismSelect');
+            mechanismSelect.innerHTML = '<option value="">Select Mechanism</option>';
+            
+            if (e.target.value && mechanismsByFunction[e.target.value]) {
+                mechanismsByFunction[e.target.value].forEach(mechanism => {
+                    const option = document.createElement('option');
+                    option.value = mechanism;
+                    option.textContent = mechanism;
+                    mechanismSelect.appendChild(option);
+                });
+            }
+        });
+        
+        // Annotate selected text
+        document.getElementById('annotateBtn').addEventListener('click', function() {
+            const textarea = document.getElementById('inputText');
+            const selectedText = textarea.value.substring(
+                textarea.selectionStart,
+                textarea.selectionEnd
+            );
+            
+            if (!selectedText) {
+                alert('Please select text to annotate');
+                return;
+            }
+            
+            const annotation = {
+                id: Date.now(),
+                text: selectedText,
+                start: textarea.selectionStart,
+                end: textarea.selectionEnd,
+                function: document.getElementById('functionSelect').value,
+                mechanism: document.getElementById('mechanismSelect').value,
+                terrain: document.getElementById('terrainSelect').value,
+                channel: document.getElementById('channelSelect').value,
+                timestamp: new Date().toISOString()
+            };
+            
+            // Determine primary category
+            annotation.category = annotation.function ? 'function' :
+                                 annotation.mechanism ? 'mechanism' :
+                                 annotation.terrain ? 'terrain' :
+                                 annotation.channel ? 'channel' : null;
+            
+            if (!annotation.category) {
+                alert('Please select at least one taxonomy label');
+                return;
+            }
+            
+            annotations.push(annotation);
+            updateDisplay();
+            updateStats();
+            updateAnnotationsList();
+        });
+        
+        // Update annotated text display
+        function updateDisplay() {
+            const textarea = document.getElementById('inputText');
+            const text = textarea.value;
+            const display = document.getElementById('annotatedDisplay');
+            const content = document.getElementById('annotatedContent');
+            
+            if (annotations.length === 0) {
+                display.classList.add('hidden');
+                return;
+            }
+            
+            display.classList.remove('hidden');
+            
+            // Sort annotations by start position
+            const sortedAnnotations = [...annotations].sort((a, b) => a.start - b.start);
+            
+            let html = '';
+            let lastIndex = 0;
+            
+            sortedAnnotations.forEach(ann => {
+                // Add text before annotation
+                html += escapeHtml(text.substring(lastIndex, ann.start));
+                
+                // Add annotated text
+                const label = ann[ann.category] || 'unlabeled';
+                html += `<span class="annotation ${ann.category}" title="${label}">${escapeHtml(ann.text)}</span>`;
+                
+                lastIndex = ann.end;
+            });
+            
+            // Add remaining text
+            html += escapeHtml(text.substring(lastIndex));
+            
+            content.innerHTML = html;
+        }
+        
+        // Update statistics
+        function updateStats() {
+            const stats = {
+                function: 0,
+                mechanism: 0,
+                terrain: 0,
+                channel: 0
+            };
+            
+            annotations.forEach(ann => {
+                if (ann.function) stats.function++;
+                if (ann.mechanism) stats.mechanism++;
+                if (ann.terrain) stats.terrain++;
+                if (ann.channel) stats.channel++;
+            });
+            
+            document.getElementById('statFunction').textContent = stats.function;
+            document.getElementById('statMechanism').textContent = stats.mechanism;
+            document.getElementById('statTerrain').textContent = stats.terrain;
+            document.getElementById('statChannel').textContent = stats.channel;
+        }
+        
+        // Update annotations list
+        function updateAnnotationsList() {
+            const list = document.getElementById('annotationsList');
+            
+            if (annotations.length === 0) {
+                list.innerHTML = '<div class="empty-state">No annotations yet</div>';
+                return;
+            }
+            
+            list.innerHTML = annotations.map(ann => {
+                const label = ann[ann.category] || 'unlabeled';
+                const excerpt = ann.text.length > 60 ? ann.text.substring(0, 60) + '...' : ann.text;
+                
+                return `
+                    <div class="annotation-item ${ann.category}">
+                        <div class="annotation-meta">${ann.category}: ${label}</div>
+                        <div class="annotation-excerpt">"${excerpt}"</div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // Format selection
+        document.querySelectorAll('.format-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.format-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentFormat = this.dataset.format;
+            });
+        });
+        
+        // Export report
+        document.getElementById('exportBtn').addEventListener('click', function() {
+            if (annotations.length === 0) {
+                alert('No annotations to export');
+                return;
+            }
+            
+            let content, filename, mimeType;
+            
+            switch(currentFormat) {
+                case 'json':
+                    content = JSON.stringify({
+                        metadata: {
+                            exported: new Date().toISOString(),
+                            totalAnnotations: annotations.length,
+                            taxonomy: 'FIMI v4.1'
+                        },
+                        annotations: annotations
+                    }, null, 2);
+                    filename = `fimi-annotations-${Date.now()}.json`;
+                    mimeType = 'application/json';
+                    break;
+                    
+                case 'csv':
+                    const headers = ['Text', 'Function', 'Mechanism', 'Terrain', 'Channel', 'Timestamp'];
+                    const rows = annotations.map(ann => [
+                        `"${ann.text.replace(/"/g, '""')}"`,
+                        ann.function || '',
+                        ann.mechanism || '',
+                        ann.terrain || '',
+                        ann.channel || '',
+                        ann.timestamp
+                    ]);
+                    content = [headers, ...rows].map(row => row.join(',')).join('\n');
+                    filename = `fimi-annotations-${Date.now()}.csv`;
+                    mimeType = 'text/csv';
+                    break;
+                    
+                case 'markdown':
+                    content = `# FIMI Taxonomy Annotation Report\n\n`;
+                    content += `**Generated:** ${new Date().toISOString()}\n`;
+                    content += `**Total Annotations:** ${annotations.length}\n\n`;
+                    content += `## Annotations\n\n`;
+                    
+                    annotations.forEach((ann, i) => {
+                        content += `### ${i + 1}. ${ann[ann.category] || 'Unlabeled'}\n\n`;
+                        content += `**Category:** ${ann.category}\n\n`;
+                        if (ann.function) content += `**Function:** ${ann.function}\n\n`;
+                        if (ann.mechanism) content += `**Mechanism:** ${ann.mechanism}\n\n`;
+                        if (ann.terrain) content += `**Terrain:** ${ann.terrain}\n\n`;
+                        if (ann.channel) content += `**Channel:** ${ann.channel}\n\n`;
+                        content += `**Text:**\n\n> ${ann.text}\n\n`;
+                        content += `---\n\n`;
+                    });
+                    
+                    filename = `fimi-annotations-${Date.now()}.md`;
+                    mimeType = 'text/markdown';
+                    break;
+            }
+            
+            // Download file
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+        
+        // Clear all annotations
+        document.getElementById('clearBtn').addEventListener('click', function() {
+            if (confirm('Clear all annotations? This cannot be undone.')) {
+                annotations = [];
+                updateDisplay();
+                updateStats();
+                updateAnnotationsList();
+            }
+        });
+        
+        // Utility function
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>
