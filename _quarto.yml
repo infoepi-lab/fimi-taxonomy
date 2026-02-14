@@ -108,21 +108,24 @@ format:
         <script>
           // Update navbar "Sign In" link based on auth status
           document.addEventListener('DOMContentLoaded', async function() {
-            if (typeof auth0Client !== 'undefined' && auth0Client) {
-              const isAuthenticated = await auth0Client.isAuthenticated();
+            // Wait for window.auth0 to be available
+            while (!window.auth0) {
+              await new Promise(resolve => setTimeout(resolve, 100));
+            }
+            
+            try {
+              const isAuthenticated = await window.auth0.isAuthenticated();
               const signInLink = document.querySelector('a[href="login.html"]');
               
               if (signInLink && isAuthenticated) {
-                const user = await auth0Client.getUser();
+                const user = await window.auth0.getUser();
                 signInLink.textContent = user.name || user.email || 'Account';
-                signInLink.href = '#';
-                signInLink.onclick = async (e) => {
-                  e.preventDefault();
-                  if (confirm('Sign out?')) {
-                    await logout();
-                  }
-                };
+                signInLink.href = '/account.html';
+                signInLink.title = 'Go to My Account';
               }
+            } catch (error) {
+              console.error('Navbar auth update failed:', error);
+            }
             }
           });
         </script>
