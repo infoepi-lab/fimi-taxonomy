@@ -109,9 +109,17 @@ format:
         <script>
           // Update navbar "Sign In" link based on auth status
           document.addEventListener('DOMContentLoaded', async function() {
-            // Wait for window.auth0 to be available
-            while (!window.auth0) {
+            // Wait for window.auth0 to be available (with timeout)
+            let attempts = 0;
+            while (!window.auth0 && attempts < 50) {
               await new Promise(resolve => setTimeout(resolve, 100));
+              attempts++;
+            }
+            
+            // If auth0 didn't load, sign in link stays as-is
+            if (!window.auth0) {
+              console.warn('Auth0 not loaded, navbar will show default Sign In link');
+              return;
             }
             
             try {
