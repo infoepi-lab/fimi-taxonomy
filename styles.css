@@ -112,6 +112,17 @@ body.section-channels .quarto-grid-item {
   color: var(--primary-color) !important;
 }
 
+/* Logo dark mode switching */
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+
+/* Show regular logo in light mode, dark logo in dark mode */
+.quarto-dark .navbar-brand img {
+  content: url('dark-logo.svg');
+}
+
 /* Dark mode: keep card borders and badge contrast readable */
 .quarto-dark .quarto-grid-item {
   border-color: rgba(255, 255, 255, 0.15);

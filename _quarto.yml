@@ -37,6 +37,8 @@ website:
     type: primary
   navbar:
     background: dark
+    logo: logo.svg
+    logo-alt: "FIMI Taxonomy"
     search: true
     left:
       - file: index.qmd
