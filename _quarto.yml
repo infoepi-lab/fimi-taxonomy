@@ -102,7 +102,7 @@ format:
         <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
     include-after-body:
       text: |
-        <script src="auth0-config.js"></script>
+        <script src="/auth0-config.js"></script>
         <script>
           // Update navbar "Sign In" link based on auth status
           document.addEventListener('DOMContentLoaded', async function() {
