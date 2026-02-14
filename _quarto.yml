@@ -5,6 +5,12 @@ project:
     - "*.qmd"
     - "**/*.qmd"
     - "!blog/index.qmd"
+  resources:
+    - "labeler.html"
+    - "*.png"
+    - "*.svg"
+    - "*.js"
+    - "*.css"
 
 title: "FIMI Taxonomy"
 date: 2026-02-24
@@ -54,6 +60,8 @@ website:
     right:
       - file: notes.qmd
         text: "Notes"
+      - href: labeler.html
+        text: "Data Labeler"
       - text: |
           <div class="auth-controls">
             <div id="user-profile" class="hidden"></div>
