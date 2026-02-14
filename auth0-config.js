@@ -16,6 +16,17 @@ let currentUser = null;
 // Initialize Auth0 client
 async function initAuth0() {
   try {
+    // Wait for createAuth0Client to be available (from CDN script)
+    let attempts = 0;
+    while (typeof createAuth0Client === 'undefined' && attempts < 50) {
+      await new Promise(resolve => setTimeout(resolve, 100));
+      attempts++;
+    }
+    
+    if (typeof createAuth0Client === 'undefined') {
+      throw new Error('Auth0 SDK failed to load. Please check your internet connection.');
+    }
+    
     // Note: The Auth0 SPA SDK exposes createAuth0Client as a global function
     auth0Client = await createAuth0Client({
       domain: AUTH0_CONFIG.domain,
@@ -241,19 +252,24 @@ async function updateAuthUI() {
   }
 }
 
-// Initialize on page load
+// Initialize on page load - only for pages that need auto-protection
+// Login page and callback page handle initialization themselves
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', async () => {
-    await initAuth0();
-    await protectPage();
-    await updateAuthUI();
+    // Only auto-protect if not on login or callback page
+    if (!isPublicPage() && !window.location.pathname.includes('/callback.html')) {
+      await protectPage();
+      await updateAuthUI();
+    }
   });
 } else {
-  (async () => {
-    await initAuth0();
-    await protectPage();
-    await updateAuthUI();
-  })();
+  // Only auto-protect if not on login or callback page
+  if (!isPublicPage() && !window.location.pathname.includes('/callback.html')) {
+    (async () => {
+      await protectPage();
+      await updateAuthUI();
+    })();
+  }
 }
 
 // Export functions for use in other pages
