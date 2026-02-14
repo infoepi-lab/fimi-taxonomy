@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Completing Sign In - FIMI Taxonomy</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Work Sans', -apple-system, system-ui, sans-serif;
+      background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #f5f5f5;
+    }
+    
+    .callback-container {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 480px;
+      width: 100%;
+      padding: 3rem;
+      text-align: center;
+    }
+    
+    .spinner {
+      width: 64px;
+      height: 64px;
+      border: 4px solid rgba(85, 22, 56, 0.1);
+      border-top-color: #551638;
+      border-radius: 50%;
+      margin: 0 auto 2rem;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+      color: #551638;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      color: #666;
+      line-height: 1.6;
+    }
+    
+    .error {
+      background: #fff5f5;
+      border: 2px solid #fc8181;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    .error h2 {
+      color: #c53030;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .error p {
+      color: #742a2a;
+    }
+    
+    .retry-btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background: #551638;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    
+    .retry-btn:hover {
+      background: #6d1c47;
+    }
+  </style>
+</head>
+<body>
+  <div class="callback-container">
+    <div id="loading">
+      <div class="spinner"></div>
+      <h1>Completing Sign In...</h1>
+      <p>Please wait while we finish logging you in.</p>
+    </div>
+    
+    <div id="error" style="display: none;">
+      <div class="error">
+        <h2>Authentication Failed</h2>
+        <p id="error-message"></p>
+        <a href="/login.html" class="retry-btn">Try Again</a>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  <script src="/auth0-config.js"></script>
+  <script>
+    (async function() {
+      try {
+        // Handle the callback
+        const result = await window.auth0.handleCallback();
+        
+        if (result.success) {
+          // Success! Redirect to return URL
+          console.log('Authentication successful:', result.user);
+          window.location.href = result.returnUrl;
+        } else {
+          // Show error
+          throw new Error(result.errorDescription || result.error || 'Unknown error');
+        }
+      } catch (error) {
+        console.error('Callback error:', error);
+        
+        // Show error UI
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error').style.display = 'block';
+        document.getElementById('error-message').textContent = error.message || 'An unexpected error occurred during sign in.';
+      }
+    })();
+  </script>
+</body>
+</html>

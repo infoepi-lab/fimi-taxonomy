@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account - FIMI Taxonomy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="auth-styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap');
+    
+    body {
+      font-family: 'Work Sans', sans-serif;
+      background: #f5f5f5;
+      padding: 2rem;
+    }
+    
+    .account-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .account-header {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    
+    .profile-avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      border: 3px solid #551638;
+    }
+    
+    .profile-info h1 {
+      font-family: 'Crimson Pro', serif;
+      font-size: 2rem;
+      color: #551638;
+      margin-bottom: 0.5rem;
+    }
+    
+    .profile-info p {
+      color: #666;
+      margin: 0.25rem 0;
+    }
+    
+    .account-section {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .account-section h2 {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.5rem;
+      color: #551638;
+      margin-bottom: 1.5rem;
+    }
+    
+    .account-detail {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .account-detail:last-child {
+      border-bottom: none;
+    }
+    
+    .detail-label {
+      font-weight: 600;
+      color: #333;
+    }
+    
+    .detail-value {
+      color: #666;
+    }
+    
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      border: none;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .btn-primary {
+      background: #551638;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background: #6d1c47;
+    }
+    
+    .btn-secondary {
+      background: #e0e0e0;
+      color: #333;
+    }
+    
+    .btn-secondary:hover {
+      background: #d0d0d0;
+    }
+    
+    .btn-danger {
+      background: #dc3545;
+      color: white;
+    }
+    
+    .btn-danger:hover {
+      background: #c82333;
+    }
+    
+    .connected-account {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      background: #f8f8f8;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+    
+    .connected-icon {
+      font-size: 2rem;
+    }
+    
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="account-container">
+    <div id="loading" class="loading">
+      <p>Loading account information...</p>
+    </div>
+    
+    <div id="account-content" style="display: none;">
+      <div class="account-header">
+        <img id="user-avatar" class="profile-avatar" src="" alt="Profile">
+        <div class="profile-info">
+          <h1 id="user-name">Loading...</h1>
+          <p id="user-email"></p>
+          <p id="user-verified"></p>
+        </div>
+      </div>
+      
+      <div class="account-section">
+        <h2>Account Information</h2>
+        <div class="account-detail">
+          <div class="detail-label">User ID</div>
+          <div class="detail-value" id="user-id"></div>
+        </div>
+        <div class="account-detail">
+          <div class="detail-label">Email</div>
+          <div class="detail-value" id="detail-email"></div>
+        </div>
+        <div class="account-detail">
+          <div class="detail-label">Last Login</div>
+          <div class="detail-value" id="last-login"></div>
+        </div>
+      </div>
+      
+      <div class="account-section">
+        <h2>Connected Accounts</h2>
+        <div id="connected-accounts">
+          <!-- Will be populated by JavaScript -->
+        </div>
+      </div>
+      
+      <div class="account-section">
+        <h2>Actions</h2>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="/" class="btn btn-secondary">← Back to FIMI Taxonomy</a>
+          <button onclick="handleSignOut()" class="btn btn-danger">Sign Out</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  <script src="/auth0-config.js"></script>
+  <script>
+    async function loadAccount() {
+      try {
+        const authenticated = await window.auth0.isAuthenticated();
+        
+        if (!authenticated) {
+          window.location.href = '/login.html';
+          return;
+        }
+        
+        const user = await window.auth0.getUser();
+        
+        // Display user info
+        document.getElementById('user-avatar').src = user.picture || '/logo.svg';
+        document.getElementById('user-name').textContent = user.name || 'User';
+        document.getElementById('user-email').textContent = user.email || '';
+        document.getElementById('user-verified').textContent = user.email_verified ? '✓ Email verified' : '⚠ Email not verified';
+        
+        // Account details
+        document.getElementById('user-id').textContent = user.sub || 'N/A';
+        document.getElementById('detail-email').textContent = user.email || 'N/A';
+        document.getElementById('last-login').textContent = user.updated_at ? new Date(user.updated_at).toLocaleString() : 'N/A';
+        
+        // Connected accounts
+        const connectedAccounts = [];
+        if (user.sub.includes('github')) {
+          connectedAccounts.push({name: 'GitHub', icon: '🔗'});
+        }
+        if (user.sub.includes('google')) {
+          connectedAccounts.push({name: 'Google', icon: '🔗'});
+        }
+        if (user.sub.includes('auth0')) {
+          connectedAccounts.push({name: 'Email/Password', icon: '📧'});
+        }
+        
+        const accountsHTML = connectedAccounts.map(account => `
+          <div class="connected-account">
+            <div class="connected-icon">${account.icon}</div>
+            <div style="flex: 1;">
+              <strong>${account.name}</strong>
+              <div style="font-size: 0.875rem; color: #666;">Connected</div>
+            </div>
+          </div>
+        `).join('');
+        
+        document.getElementById('connected-accounts').innerHTML = accountsHTML || '<p style="color: #666;">No connected accounts</p>';
+        
+        // Show content
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('account-content').style.display = 'block';
+        
+      } catch (error) {
+        console.error('Failed to load account:', error);
+        document.getElementById('loading').innerHTML = '<p style="color: #dc3545;">Failed to load account information.</p>';
+      }
+    }
+    
+    async function handleSignOut() {
+      if (confirm('Are you sure you want to sign out?')) {
+        await window.auth0.logout();
+      }
+    }
+    
+    // Load on page ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', loadAccount);
+    } else {
+      loadAccount();
+    }
+  </script>
+</body>
+</html>

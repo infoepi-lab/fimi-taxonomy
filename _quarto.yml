@@ -8,6 +8,8 @@ project:
   resources:
     - "labeler.html"
     - "login.html"
+    - "callback.html"
+    - "account.html"
     - "auth-debug.html"
     - "*.png"
     - "*.svg"

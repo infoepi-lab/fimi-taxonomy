@@ -1,170 +1,267 @@
-// Auth0 Configuration for FIMI Taxonomy
-// This file will be populated with your Auth0 credentials
+// FIMI Taxonomy - Complete Authentication System
+// Auth0 SPA Integration with full session management
 
-// Auth0 Configuration for FIMI Taxonomy
-// Note: Client ID is safe to expose publicly - security comes from
-// the Allowed Callback URLs configured in your Auth0 dashboard
-const auth0Config = {
+const AUTH0_CONFIG = {
   domain: 'dev-qpwdmmy00vcxxbp0.eu.auth0.com',
   clientId: 'GDuKIxdR8792TiX9D8t6ObrauXoDJCI0',
-  // Removed audience - not needed for basic authentication
-  // audience: 'https://dev-qpwdmmy00vcxxbp0.eu.auth0.com/api/v2/',
-  redirectUri: window.location.origin,
-  scope: 'openid profile email'
+  redirectUri: window.location.origin + '/callback.html',
+  scope: 'openid profile email',
+  cacheLocation: 'localstorage',
+  useRefreshTokens: true
 };
 
 let auth0Client = null;
+let currentUser = null;
 
 // Initialize Auth0 client
 async function initAuth0() {
-  const clientConfig = {
-    domain: auth0Config.domain,
-    clientId: auth0Config.clientId,
-    authorizationParams: {
-      redirect_uri: auth0Config.redirectUri,
-      scope: auth0Config.scope
-    },
-    cacheLocation: 'localstorage' // Persist auth across page loads
-  };
+  try {
+    auth0Client = await auth0.createAuth0Client({
+      domain: AUTH0_CONFIG.domain,
+      clientId: AUTH0_CONFIG.clientId,
+      authorizationParams: {
+        redirect_uri: AUTH0_CONFIG.redirectUri,
+        scope: AUTH0_CONFIG.scope
+      },
+      cacheLocation: AUTH0_CONFIG.cacheLocation,
+      useRefreshTokens: AUTH0_CONFIG.useRefreshTokens
+    });
 
-  // Only add audience if it exists
-  if (auth0Config.audience) {
-    clientConfig.authorizationParams.audience = auth0Config.audience;
+    return auth0Client;
+  } catch (error) {
+    console.error('Failed to initialize Auth0:', error);
+    throw error;
   }
-
-  auth0Client = await auth0.createAuth0Client(clientConfig);
-
-  // Check if returning from Auth0 callback
-  const query = window.location.search;
-  if (query.includes('code=') && query.includes('state=')) {
-    try {
-      await auth0Client.handleRedirectCallback();
-      // Get the redirect URL from session storage
-      const redirectUrl = sessionStorage.getItem('redirectAfterLogin') || '/';
-      sessionStorage.removeItem('redirectAfterLogin');
-      window.location.replace(redirectUrl);
-      return; // Stop here, we're redirecting
-    } catch (err) {
-      console.error('Callback error:', err);
-      // Show error to user instead of silently failing
-      if (err.error === 'mfa_required') {
-        alert('Multi-factor authentication is required. Please complete the MFA setup.');
-      } else {
-        alert('Login failed: ' + (err.error_description || err.message));
-        window.location.replace('/login.html');
-      }
-      return;
-    }
-  }
-  
-  // Check for error in callback (Auth0 returned an error)
-  if (query.includes('error=')) {
-    const urlParams = new URLSearchParams(query);
-    const error = urlParams.get('error');
-    const errorDesc = urlParams.get('error_description');
-    console.error('Auth0 error:', error, errorDesc);
-    alert('Authentication error: ' + (errorDesc || error));
-    window.location.replace('/login.html');
-    return;
-  }
-
-  // Update UI based on authentication status
-  await updateUI();
 }
 
-// Update UI elements based on login status
-async function updateUI() {
-  const isAuthenticated = await auth0Client.isAuthenticated();
+// Check if user is authenticated
+async function isAuthenticated() {
+  if (!auth0Client) {
+    await initAuth0();
+  }
+  
+  try {
+    return await auth0Client.isAuthenticated();
+  } catch (error) {
+    console.error('Authentication check failed:', error);
+    return false;
+  }
+}
 
-  // Show/hide login/logout buttons
-  document.getElementById('login-btn')?.classList.toggle('hidden', isAuthenticated);
-  document.getElementById('logout-btn')?.classList.toggle('hidden', !isAuthenticated);
-  document.getElementById('user-profile')?.classList.toggle('hidden', !isAuthenticated);
+// Get current user profile
+async function getUser() {
+  if (currentUser) {
+    return currentUser;
+  }
+  
+  if (!auth0Client) {
+    await initAuth0();
+  }
+  
+  try {
+    const authenticated = await auth0Client.isAuthenticated();
+    if (authenticated) {
+      currentUser = await auth0Client.getUser();
+      return currentUser;
+    }
+  } catch (error) {
+    console.error('Failed to get user:', error);
+  }
+  
+  return null;
+}
 
-  if (isAuthenticated) {
-    const user = await auth0Client.getUser();
+// Login with redirect to Auth0
+async function login() {
+  if (!auth0Client) {
+    await initAuth0();
+  }
+  
+  try {
+    // Save current page for redirect after login
+    sessionStorage.setItem('auth_return_url', window.location.href);
+    
+    await auth0Client.loginWithRedirect({
+      authorizationParams: {
+        redirect_uri: AUTH0_CONFIG.redirectUri
+      }
+    });
+  } catch (error) {
+    console.error('Login failed:', error);
+    alert('Login failed. Please try again.');
+  }
+}
 
-    // Display user info
-    const profileElement = document.getElementById('user-profile');
-    if (profileElement && user) {
-      profileElement.innerHTML = `
+// Logout and clear session
+async function logout() {
+  if (!auth0Client) {
+    return;
+  }
+  
+  try {
+    currentUser = null;
+    await auth0Client.logout({
+      logoutParams: {
+        returnTo: window.location.origin
+      }
+    });
+  } catch (error) {
+    console.error('Logout failed:', error);
+    // Force logout anyway
+    window.location.href = '/';
+  }
+}
+
+// Handle Auth0 callback (call this on callback.html)
+async function handleCallback() {
+  if (!auth0Client) {
+    await initAuth0();
+  }
+  
+  try {
+    await auth0Client.handleRedirectCallback();
+    
+    // Get user info
+    currentUser = await auth0Client.getUser();
+    
+    // Get return URL or default to home
+    const returnUrl = sessionStorage.getItem('auth_return_url') || '/';
+    sessionStorage.removeItem('auth_return_url');
+    
+    return {
+      success: true,
+      user: currentUser,
+      returnUrl: returnUrl
+    };
+  } catch (error) {
+    console.error('Callback handling failed:', error);
+    return {
+      success: false,
+      error: error.message,
+      errorDescription: error.error_description
+    };
+  }
+}
+
+// Get access token (for API calls if needed)
+async function getAccessToken() {
+  if (!auth0Client) {
+    await initAuth0();
+  }
+  
+  try {
+    return await auth0Client.getTokenSilently();
+  } catch (error) {
+    console.error('Failed to get access token:', error);
+    return null;
+  }
+}
+
+// Public pages that don't require authentication
+const PUBLIC_PAGES = [
+  '/',
+  '/index.html',
+  '/login.html',
+  '/callback.html',
+  '/auth-debug.html'
+];
+
+// Check if current page is public
+function isPublicPage() {
+  const path = window.location.pathname;
+  return PUBLIC_PAGES.some(page => path === page || path.endsWith(page));
+}
+
+// Protect page - redirect to login if not authenticated
+async function protectPage() {
+  // Skip if on public page
+  if (isPublicPage()) {
+    return;
+  }
+  
+  // Skip if on callback page (it has its own handler)
+  if (window.location.pathname.includes('/callback')) {
+    return;
+  }
+  
+  try {
+    const authenticated = await isAuthenticated();
+    
+    if (!authenticated) {
+      // Save current page
+      sessionStorage.setItem('auth_return_url', window.location.href);
+      // Redirect to login
+      window.location.href = '/login.html';
+    }
+  } catch (error) {
+    console.error('Page protection failed:', error);
+    // On error, redirect to login to be safe
+    window.location.href = '/login.html';
+  }
+}
+
+// Update UI based on authentication state
+async function updateAuthUI() {
+  try {
+    const authenticated = await isAuthenticated();
+    const user = authenticated ? await getUser() : null;
+    
+    // Update login/logout buttons
+    const loginBtn = document.getElementById('login-btn');
+    const logoutBtn = document.getElementById('logout-btn');
+    const userProfile = document.getElementById('user-profile');
+    
+    if (loginBtn) {
+      loginBtn.classList.toggle('hidden', authenticated);
+    }
+    
+    if (logoutBtn) {
+      logoutBtn.classList.toggle('hidden', !authenticated);
+    }
+    
+    if (userProfile && user) {
+      userProfile.classList.toggle('hidden', !authenticated);
+      userProfile.innerHTML = `
         <img src="${user.picture}" alt="${user.name}" class="user-avatar">
         <span class="user-name">${user.name}</span>
       `;
     }
-
-    // Optional: Show protected content
-    document.querySelectorAll('.protected-content').forEach(el => {
-      el.style.display = 'block';
+    
+    // Show/hide protected content
+    const protectedElements = document.querySelectorAll('.protected-content');
+    protectedElements.forEach(el => {
+      el.style.display = authenticated ? 'block' : 'none';
     });
-  } else {
-    // Hide protected content
-    document.querySelectorAll('.protected-content').forEach(el => {
-      el.style.display = 'none';
-    });
+    
+    return { authenticated, user };
+  } catch (error) {
+    console.error('UI update failed:', error);
+    return { authenticated: false, user: null };
   }
 }
 
-// Login function
-async function login() {
-  await auth0Client.loginWithRedirect();
-}
-
-// Logout function
-async function logout() {
-  await auth0Client.logout({
-    logoutParams: {
-      returnTo: window.location.origin
-    }
-  });
-}
-
-// Protect entire site - redirect to login if not authenticated
-async function protectSite() {
-  // Skip protection on login page itself
-  if (window.location.pathname.includes('login.html') || 
-      window.location.pathname.includes('auth-debug.html')) {
-    return;
-  }
-  
-  // Allow front page (index) to be public
-  if (window.location.pathname === '/' || 
-      window.location.pathname === '/index.html' ||
-      window.location.pathname === '/notes.html') {
-    return;
-  }
-  
-  // Skip if we're handling a callback
-  if (window.location.search.includes('code=') && window.location.search.includes('state=')) {
-    return;
-  }
-  
-  // Check authentication
-  if (auth0Client) {
-    try {
-      const isAuthenticated = await auth0Client.isAuthenticated();
-      
-      if (!isAuthenticated) {
-        // Save the page they were trying to visit
-        sessionStorage.setItem('redirectAfterLogin', window.location.href);
-        // Redirect to login
-        window.location.replace('/login.html');
-      }
-    } catch (err) {
-      console.error('Auth check error:', err);
-    }
-  }
-}
-
-// Initialize when DOM is ready
+// Initialize on page load
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', async () => {
     await initAuth0();
-    await protectSite();
+    await protectPage();
+    await updateAuthUI();
   });
 } else {
   (async () => {
     await initAuth0();
-    await protectSite();
+    await protectPage();
+    await updateAuthUI();
   })();
 }
+
+// Export functions for use in other pages
+window.auth0 = {
+  isAuthenticated,
+  getUser,
+  login,
+  logout,
+  handleCallback,
+  getAccessToken,
+  updateAuthUI
+};
