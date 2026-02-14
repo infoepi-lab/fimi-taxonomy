@@ -46,7 +46,26 @@ async function initAuth0() {
       return; // Stop here, we're redirecting
     } catch (err) {
       console.error('Callback error:', err);
+      // Show error to user instead of silently failing
+      if (err.error === 'mfa_required') {
+        alert('Multi-factor authentication is required. Please complete the MFA setup.');
+      } else {
+        alert('Login failed: ' + (err.error_description || err.message));
+        window.location.replace('/login.html');
+      }
+      return;
     }
+  }
+  
+  // Check for error in callback (Auth0 returned an error)
+  if (query.includes('error=')) {
+    const urlParams = new URLSearchParams(query);
+    const error = urlParams.get('error');
+    const errorDesc = urlParams.get('error_description');
+    console.error('Auth0 error:', error, errorDesc);
+    alert('Authentication error: ' + (errorDesc || error));
+    window.location.replace('/login.html');
+    return;
   }
 
   // Update UI based on authentication status
