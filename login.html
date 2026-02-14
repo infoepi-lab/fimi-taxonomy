@@ -279,10 +279,11 @@
   <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
   <script src="auth0-config.js"></script>
   <script>
-    // Override the updateUI function for login page
+    // Wait for auth0-config.js to initialize before updating UI
     async function updateUI() {
       try {
-        const isAuthenticated = await auth0Client.isAuthenticated();
+        // Use the window.auth0 API instead of auth0Client directly
+        const isAuthenticated = await window.auth0.isAuthenticated();
         
         const loading = document.getElementById('loading');
         const loggedOut = document.getElementById('logged-out');
@@ -309,7 +310,7 @@
     }
     
     async function displayLoginPageProfile() {
-      const user = await auth0Client.getUser();
+      const user = await window.auth0.getUser();
       const profileContainer = document.getElementById('profile');
       
       const placeholderImage = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Ccircle cx='48' cy='48' r='48' fill='%23551638'/%3E%3Cpath d='M48 44c7.2 0 13-5.8 13-13s-5.8-13-13-13-13 5.8-13 13 5.8 13 13 13zm0 6.5c-8.7 0-26 4.4-26 13v3.25c0 1.8 1.45 3.25 3.25 3.25h45.5c1.8 0 3.25-1.45 3.25-3.25V63.5c0-8.6-17.3-13-26-13z' fill='%23fff'/%3E%3C/svg%3E`;
@@ -335,9 +336,34 @@
       }
     }
     
-    // Event listeners
-    document.getElementById('login-btn').addEventListener('click', login);
-    document.getElementById('logout-btn').addEventListener('click', logout);
+    // Initialize page when auth0-config.js is ready
+    async function initializePage() {
+      try {
+        // Wait for window.auth0 to be available
+        while (!window.auth0) {
+          await new Promise(resolve => setTimeout(resolve, 100));
+        }
+        
+        // Update UI based on current auth state
+        await updateUI();
+        
+        // Setup event listeners
+        document.getElementById('login-btn').addEventListener('click', window.auth0.login);
+        document.getElementById('logout-btn').addEventListener('click', window.auth0.logout);
+      } catch (err) {
+        console.error('Page initialization error:', err);
+        document.getElementById('loading').classList.add('hidden');
+        document.getElementById('error').classList.remove('hidden');
+        document.getElementById('error-details').textContent = 'Failed to initialize authentication. Please refresh the page.';
+      }
+    }
+    
+    // Start initialization
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializePage);
+    } else {
+      initializePage();
+    }
   </script>
 </body>
 </html>
