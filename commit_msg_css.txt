@@ -1,0 +1,5 @@
+Hide duplicate categories on mechanism pages
+
+Mechanism pages display both Quarto category badges and function badges.
+Added CSS to hide category badges when function-badge div is present.
+Keeps category badges visible on function chapters and notes pages.

@@ -1,14 +1,21 @@
 ---
-title: "Notes"
-description: "Updates and changes to the FIMI Taxonomy"
+title: "Changelog"
+description: "Updates and changes to the Information Manipulation Taxonomy"
 listing:
-  contents: "blog/*.qmd"
+  id: "notes"
+  contents: "notes/*.qmd"
   type: default
   sort: "date desc"
   fields: [date, title, description]
   categories: false
   filter-ui: false
   date-format: "MMMM D, YYYY"
+title-block-banner: true
 ---
 
-This page documents major updates, additions, and changes to the FIMI Taxonomy. Each entry describes what changed and why.
+This changelog documents major updates, additions, and changes to the
+Information Manipulation Taxonomy. Each entry describes what changed and
+why.
+
+::: {#notes}
+:::

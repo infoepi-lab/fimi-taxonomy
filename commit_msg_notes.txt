@@ -1,0 +1,17 @@
+Restructure notes with professional version-based changelog
+
+- Split changelog into focused, professional notes (one major change per note)
+- Renamed all notes to follow v4.x.x naming convention
+- Each note documents a single significant update
+- Removed consolidated summary files in favor of granular updates
+- Added proper frontmatter with categories and descriptions
+
+New notes:
+- v4.0-architecture-launch.qmd - Initial Quarto architecture
+- v4.0.1-configuration-fix.qmd - Quarto config error resolution
+- v4.0.2-bibtex-syntax-fix.qmd - Bibliography parsing fixes
+- v4.0.3-citation-keys-standardization.qmd - 95+ citation key fixes
+- v4.0.4-airtable-integration.qmd - Bidirectional sync tools
+- v4.0.5-blog-listing-fix.qmd - Proper blog listing architecture
+- v4.0.6-terrain-deadlinks-fix.qmd - Removed broken mechanism links
+- v4.1.0-data-labeler-tool.qmd - Interactive annotation interface

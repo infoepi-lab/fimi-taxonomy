@@ -1,0 +1,8 @@
+Add FIMI Taxonomy Data Labeler and Report Builder
+
+- Interactive annotation interface for applying FIMI taxonomy to text
+- Multi-category labeling: Functions, Mechanisms, Terrain, Channels
+- Real-time text highlighting with taxonomy-coded colors
+- Export reports in JSON, CSV, and Markdown formats
+- Visual statistics dashboard
+- Matches site aesthetic with mulberry color palette

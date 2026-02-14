@@ -1,0 +1,20 @@
+Add Auth0 authentication system with social logins
+
+Implemented professional authentication for FIMI Taxonomy with:
+- Auth0 SDK integration for social logins (Google, GitHub, etc.)
+- Login/logout UI in navbar matching site design
+- Protected content blocks for members-only sections
+- User profile display with avatar and name
+- Complete setup guide with step-by-step instructions
+
+New files:
+- auth0-config.js - Authentication logic and session management
+- auth-styles.css - UI styling for login components
+- AUTH0_SETUP_GUIDE.md - Complete configuration instructions
+- notes/v4.2.0-auth0-authentication.qmd - Feature documentation
+
+Updated:
+- _quarto.yml - Added Auth0 SDK, scripts, and navbar buttons
+
+Authentication is optional and ready to activate with Auth0 credentials.
+Site remains fully functional without authentication enabled.

@@ -28,7 +28,12 @@
       "Bash(do sed -i '/^## Related Mechanism$/,/^See also:.*$/d' \"$file\")",
       "Bash(echo:*)",
       "Bash(done)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "mcp__Desktop_Commander__get_recent_tool_calls",
+      "mcp__Desktop_Commander__get_config",
+      "mcp__Desktop_Commander__start_search",
+      "mcp__Desktop_Commander__get_more_search_results"
     ]
   }
 }

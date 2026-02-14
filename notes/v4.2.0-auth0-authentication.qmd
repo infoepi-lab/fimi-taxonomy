@@ -1,0 +1,144 @@
+---
+title: "v4.2.0 Auth0 Authentication"
+description: "Added professional authentication system with social logins"
+date: "2026-02-14"
+categories: [feature, authentication]
+---
+
+## Overview
+
+Implemented Auth0 authentication system for the FIMI Taxonomy, enabling secure access control and member-only content while maintaining the static site architecture.
+
+## Features
+
+### Social Login Support
+
+- Google, GitHub, Microsoft, and other OAuth providers
+- Email/password authentication
+- Multi-factor authentication ready
+- Free tier supports up to 7,000 users
+
+### User Interface
+
+Professional authentication UI integrated into navbar:
+
+- **Login/Logout buttons** - Styled to match FIMI Taxonomy design
+- **User profile display** - Shows avatar and name when authenticated
+- **Protected content blocks** - Content visibility controlled by login status
+- **Smooth transitions** - Maintains site aesthetic during auth flow
+
+### Protected Content
+
+New `.protected-content` CSS class enables members-only sections:
+
+```markdown
+::: {.protected-content}
+## Members Only
+
+This content requires authentication to view.
+:::
+```
+
+Content within these blocks is hidden until user logs in.
+
+## Implementation
+
+### Technology Stack
+
+- **Auth0 SDK** - Industry-standard authentication
+- **Vanilla JavaScript** - No framework dependencies
+- **Static hosting compatible** - Works with GitHub Pages, Netlify, etc.
+- **Session management** - Browser-based, no backend required
+
+### Files Added
+
+1. **`auth0-config.js`** - Authentication logic and UI updates
+2. **`auth-styles.css`** - Styling for login UI components
+3. **`AUTH0_SETUP_GUIDE.md`** - Complete setup instructions
+
+### Configuration Updates
+
+Updated `_quarto.yml` to include:
+
+- Auth0 SDK script in header
+- Authentication JavaScript in footer
+- Login/logout buttons in navbar
+- CSS for authentication UI
+
+## Setup Required
+
+To activate authentication:
+
+1. Create free Auth0 account at [auth0.com](https://auth0.com)
+2. Create Single Page Application
+3. Copy Domain and Client ID
+4. Update `auth0-config.js` with your credentials
+5. Configure allowed URLs in Auth0 dashboard
+
+**See `AUTH0_SETUP_GUIDE.md` for detailed instructions.**
+
+## Use Cases
+
+### Access Control
+
+- Restrict advanced research to members
+- Gate downloadable resources
+- Control access to sensitive taxonomy applications
+
+### User Analytics
+
+- Track who accesses what content
+- Understand user demographics
+- Build community around taxonomy
+
+### Collaboration
+
+- Enable user-submitted annotations
+- Create member forums or discussions
+- Build contributor network
+
+## Design Integration
+
+Authentication UI matches existing FIMI Taxonomy aesthetic:
+
+- **Colors:** Mulberry (#551638) primary, matching site palette
+- **Typography:** Work Sans for buttons, consistent with body text
+- **Layout:** Grid-based, aligned with navbar structure
+- **Dark mode:** Fully supported with appropriate contrast
+
+## Future Enhancements
+
+Potential improvements:
+
+- **Role-based access** - Admin, researcher, member tiers
+- **User annotations** - Logged-in users can save notes
+- **API integration** - Connect to Airtable with user context
+- **Analytics dashboard** - Track user engagement
+- **Contribution system** - Allow members to suggest edits
+
+## Cost
+
+Auth0 Free Tier includes:
+
+- ✅ 7,000 active users
+- ✅ Unlimited logins
+- ✅ All social providers
+- ✅ Email/password auth
+- ✅ MFA support
+- ✅ Custom branding
+
+Perfect for academic and research projects.
+
+## Security
+
+- Industry-standard OAuth 2.0 / OpenID Connect
+- Secure token handling
+- No passwords stored in your application
+- HTTPS required for production
+- Session management via Auth0
+
+## Impact
+
+This addition transforms the FIMI Taxonomy from a public reference into a professional research platform with access control, enabling new use cases while maintaining the benefits of static site hosting.
+
+**Authentication is optional** - the site remains fully functional without it. Enable only if you need access control for specific content.

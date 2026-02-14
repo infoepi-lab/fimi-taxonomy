@@ -52,6 +52,12 @@ website:
     right:
       - file: notes.qmd
         text: "Notes"
+      - text: |
+          <div class="auth-controls">
+            <div id="user-profile" class="hidden"></div>
+            <button id="login-btn" class="auth-btn" onclick="login()">Login</button>
+            <button id="logout-btn" class="auth-btn hidden" onclick="logout()">Logout</button>
+          </div>
   page-footer:
     left: "FIMI Taxonomy"
     right:
@@ -71,7 +77,9 @@ format:
     theme:
       light: [paper, brand]
       dark: darkly
-    css: styles.css
+    css: 
+      - styles.css
+      - auth-styles.css
     toc: true
     toc-location: right
     lang: en
@@ -81,6 +89,12 @@ format:
       body-width: 900px
       margin-width: 260px
       gutter-width: 1.5rem
+    include-in-header:
+      text: |
+        <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    include-after-body:
+      text: |
+        <script src="auth0-config.js"></script>
 
 execute:
   freeze: auto
