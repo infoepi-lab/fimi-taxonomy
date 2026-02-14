@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auth0 Debug - FIMI Taxonomy</title>
+  <style>
+    body {
+      font-family: -apple-system, system-ui, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #f5f5f5;
+    }
+    .debug-panel {
+      background: white;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 { color: #551638; }
+    h2 { color: #666; font-size: 1.2rem; margin-top: 1.5rem; }
+    .info { 
+      background: #e3f2fd;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 1rem 0;
+    }
+    .error {
+      background: #ffebee;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 1rem 0;
+      color: #c62828;
+    }
+    code {
+      background: #f5f5f5;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+    .check {
+      color: #2e7d32;
+      font-weight: bold;
+    }
+    .cross {
+      color: #c62828;
+      font-weight: bold;
+    }
+    button {
+      background: #551638;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin: 0.5rem 0.5rem 0.5rem 0;
+    }
+    button:hover {
+      background: #6d1c47;
+    }
+    pre {
+      background: #f5f5f5;
+      padding: 1rem;
+      border-radius: 4px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="debug-panel">
+    <h1>Auth0 Configuration Debug</h1>
+    <p>This page will help diagnose Auth0 configuration issues.</p>
+    
+    <h2>Current Configuration</h2>
+    <div id="config-info"></div>
+    
+    <h2>Environment Check</h2>
+    <div id="env-info"></div>
+    
+    <h2>Required Auth0 Dashboard Settings</h2>
+    <div class="info">
+      <p><strong>Application Type:</strong> Single Page Application</p>
+      <p><strong>Allowed Callback URLs:</strong></p>
+      <pre id="callback-urls"></pre>
+      <p><strong>Allowed Logout URLs:</strong></p>
+      <pre id="logout-urls"></pre>
+      <p><strong>Allowed Web Origins:</strong></p>
+      <pre id="web-origins"></pre>
+    </div>
+    
+    <h2>Test Authentication</h2>
+    <button onclick="testLogin()">Test Login</button>
+    <button onclick="testConfig()">Test Config Loading</button>
+    <div id="test-results"></div>
+  </div>
+  
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  <script>
+    const currentUrl = window.location.origin;
+    const currentFullUrl = window.location.href;
+    
+    // Display current URL info
+    document.getElementById('env-info').innerHTML = `
+      <p><strong>Current URL:</strong> <code>${currentFullUrl}</code></p>
+      <p><strong>Origin:</strong> <code>${currentUrl}</code></p>
+      <p><strong>Protocol:</strong> <code>${window.location.protocol}</code></p>
+      <p><strong>Hostname:</strong> <code>${window.location.hostname}</code></p>
+      <p><strong>Port:</strong> <code>${window.location.port || '(default)'}</code></p>
+      ${window.location.protocol === 'file:' ? 
+        '<div class="error"><strong>⚠️ ERROR:</strong> You are viewing this page via file:// protocol. Auth0 requires HTTP/HTTPS. Please run a local web server.</div>' :
+        '<div class="info"><span class="check">✓</span> Using HTTP/HTTPS protocol (correct)</div>'}
+    `;
+    
+    // Display required callback URLs
+    document.getElementById('callback-urls').textContent = currentUrl;
+    document.getElementById('logout-urls').textContent = currentUrl;
+    document.getElementById('web-origins').textContent = currentUrl;
+    
+    // Load and display Auth0 config
+    const auth0Config = {
+      domain: 'dev-qpwdmmy00vcxxbp0.eu.auth0.com',
+      clientId: '4w10LIgGMLo4gwukZHRjiNGc0dQ76nm6',
+      audience: 'https://dev-qpwdmmy00vcxxbp0.eu.auth0.com/api/v2/',
+      redirectUri: currentUrl,
+      scope: 'openid profile email'
+    };
+    
+    document.getElementById('config-info').innerHTML = `
+      <p><strong>Domain:</strong> <code>${auth0Config.domain}</code></p>
+      <p><strong>Client ID:</strong> <code>${auth0Config.clientId}</code></p>
+      <p><strong>Redirect URI:</strong> <code>${auth0Config.redirectUri}</code></p>
+      <p><strong>Audience:</strong> <code>${auth0Config.audience}</code></p>
+      <p><strong>Scope:</strong> <code>${auth0Config.scope}</code></p>
+    `;
+    
+    let auth0Client = null;
+    
+    async function testConfig() {
+      const results = document.getElementById('test-results');
+      results.innerHTML = '<p>Testing configuration...</p>';
+      
+      try {
+        auth0Client = await auth0.createAuth0Client({
+          domain: auth0Config.domain,
+          clientId: auth0Config.clientId,
+          authorizationParams: {
+            redirect_uri: auth0Config.redirectUri,
+            audience: auth0Config.audience,
+            scope: auth0Config.scope
+          }
+        });
+        
+        results.innerHTML = '<div class="info"><span class="check">✓</span> Auth0 client created successfully!</div>';
+        
+        const isAuthenticated = await auth0Client.isAuthenticated();
+        results.innerHTML += `<p><strong>Authenticated:</strong> ${isAuthenticated ? 'Yes' : 'No'}</p>`;
+        
+        if (isAuthenticated) {
+          const user = await auth0Client.getUser();
+          results.innerHTML += `<pre>${JSON.stringify(user, null, 2)}</pre>`;
+        }
+      } catch (err) {
+        results.innerHTML = `<div class="error"><span class="cross">✗</span> Error: ${err.message}</div>`;
+        console.error('Full error:', err);
+      }
+    }
+    
+    async function testLogin() {
+      const results = document.getElementById('test-results');
+      
+      if (window.location.protocol === 'file:') {
+        results.innerHTML = '<div class="error"><span class="cross">✗</span> Cannot test login with file:// protocol. Please run a web server.</div>';
+        return;
+      }
+      
+      try {
+        if (!auth0Client) {
+          auth0Client = await auth0.createAuth0Client({
+            domain: auth0Config.domain,
+            clientId: auth0Config.clientId,
+            authorizationParams: {
+              redirect_uri: auth0Config.redirectUri,
+              audience: auth0Config.audience,
+              scope: auth0Config.scope
+            }
+          });
+        }
+        
+        results.innerHTML = '<p>Redirecting to Auth0 login...</p>';
+        await auth0Client.loginWithRedirect();
+      } catch (err) {
+        results.innerHTML = `<div class="error"><span class="cross">✗</span> Error initiating login: ${err.message}</div>`;
+        console.error('Full error:', err);
+      }
+    }
+    
+    // Check if we're returning from Auth0
+    window.addEventListener('load', async function() {
+      const query = window.location.search;
+      if (query.includes('code=') && query.includes('state=')) {
+        const results = document.getElementById('test-results');
+        results.innerHTML = '<p>Processing Auth0 callback...</p>';
+        
+        try {
+          if (!auth0Client) {
+            auth0Client = await auth0.createAuth0Client({
+              domain: auth0Config.domain,
+              clientId: auth0Config.clientId,
+              authorizationParams: {
+                redirect_uri: auth0Config.redirectUri,
+                audience: auth0Config.audience,
+                scope: auth0Config.scope
+              }
+            });
+          }
+          
+          await auth0Client.handleRedirectCallback();
+          const user = await auth0Client.getUser();
+          
+          results.innerHTML = `
+            <div class="info">
+              <span class="check">✓</span> Successfully authenticated!
+              <pre>${JSON.stringify(user, null, 2)}</pre>
+            </div>
+          `;
+          
+          // Clean up URL
+          window.history.replaceState({}, document.title, window.location.pathname);
+        } catch (err) {
+          results.innerHTML = `<div class="error"><span class="cross">✗</span> Callback error: ${err.message}</div>`;
+          console.error('Full callback error:', err);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

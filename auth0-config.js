@@ -7,7 +7,8 @@
 const auth0Config = {
   domain: 'dev-qpwdmmy00vcxxbp0.eu.auth0.com',
   clientId: '4w10LIgGMLo4gwukZHRjiNGc0dQ76nm6',
-  audience: 'https://dev-qpwdmmy00vcxxbp0.eu.auth0.com/api/v2/',
+  // Removed audience - not needed for basic authentication
+  // audience: 'https://dev-qpwdmmy00vcxxbp0.eu.auth0.com/api/v2/',
   redirectUri: window.location.origin,
   scope: 'openid profile email'
 };
@@ -16,15 +17,21 @@ let auth0Client = null;
 
 // Initialize Auth0 client
 async function initAuth0() {
-  auth0Client = await auth0.createAuth0Client({
+  const clientConfig = {
     domain: auth0Config.domain,
     clientId: auth0Config.clientId,
     authorizationParams: {
       redirect_uri: auth0Config.redirectUri,
-      audience: auth0Config.audience,
       scope: auth0Config.scope
     }
-  });
+  };
+  
+  // Only add audience if it exists
+  if (auth0Config.audience) {
+    clientConfig.authorizationParams.audience = auth0Config.audience;
+  }
+  
+  auth0Client = await auth0.createAuth0Client(clientConfig);
 
   // Check if returning from Auth0 callback
   const query = window.location.search;
