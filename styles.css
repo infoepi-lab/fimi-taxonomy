@@ -7,7 +7,12 @@
   --channel-color: #8e44ad;       /* purple for channels */
 }
 
-/* Style category badges — keep visible for function/chapter labels */
+/* Hide category badges on mechanism pages (they have function-badge instead) */
+body:has(.function-badge) .quarto-categories {
+  display: none !important;
+}
+
+/* Keep category badges visible on other pages (function chapters, notes, etc.) */
 .quarto-categories {
   margin-top: 0.5rem;
 }
