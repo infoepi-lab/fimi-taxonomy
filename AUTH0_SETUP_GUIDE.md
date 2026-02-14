@@ -31,28 +31,28 @@ In your new application's settings:
 ### Allowed Callback URLs
 ```
 http://localhost:3000,
-https://fimi.wiki,
+https://fimi.infoepi.org,
 https://your-preview-url.netlify.app
 ```
 
 ### Allowed Logout URLs
 ```
 http://localhost:3000,
-https://fimi.wiki,
+https://fimi.infoepi.org,
 https://your-preview-url.netlify.app
 ```
 
 ### Allowed Web Origins
 ```
 http://localhost:3000,
-https://fimi.wiki,
+https://fimi.infoepi.org,
 https://your-preview-url.netlify.app
 ```
 
 ### Allowed Origins (CORS)
 ```
 http://localhost:3000,
-https://fimi.wiki,
+https://fimi.infoepi.org,
 https://your-preview-url.netlify.app
 ```
 
@@ -183,7 +183,7 @@ async function updateUI() {
   
   if (isAuthenticated) {
     const user = await auth0Client.getUser();
-    const roles = user['https://fimi.wiki/roles'] || [];
+    const roles = user['https://fimi.infoepi.org/roles'] || [];
     
     // Show admin content only to admins
     if (roles.includes('admin')) {
