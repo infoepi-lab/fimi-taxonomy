@@ -2,9 +2,9 @@
 // This file will be populated with your Auth0 credentials
 
 const auth0Config = {
-  domain: 'YOUR_AUTH0_DOMAIN.auth0.com',  // Replace with your Auth0 domain
-  clientId: 'YOUR_CLIENT_ID',              // Replace with your Auth0 client ID
-  audience: 'https://YOUR_AUTH0_DOMAIN.auth0.com/api/v2/',
+  domain: 'dev-qpwdmmy00vcxxbp0.eu.auth0.com',
+  clientId: '4w10LIgGMLo4gwukZHRjiNGc0dQ76nm6',
+  audience: 'https://dev-qpwdmmy00vcxxbp0.eu.auth0.com/api/v2/',
   redirectUri: window.location.origin,
   scope: 'openid profile email'
 };
