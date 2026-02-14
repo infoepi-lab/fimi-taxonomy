@@ -16,7 +16,8 @@ let currentUser = null;
 // Initialize Auth0 client
 async function initAuth0() {
   try {
-    auth0Client = await auth0.createAuth0Client({
+    // Note: The Auth0 SPA SDK exposes createAuth0Client as a global function
+    auth0Client = await createAuth0Client({
       domain: AUTH0_CONFIG.domain,
       clientId: AUTH0_CONFIG.clientId,
       authorizationParams: {
