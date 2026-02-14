@@ -30,30 +30,34 @@ In your new application's settings:
 
 ### Allowed Callback URLs
 ```
-http://localhost:3000,
-https://fimi.infoepi.org,
-https://your-preview-url.netlify.app
+http://127.0.0.1:3000,
+http://127.0.0.1:4200,
+http://127.0.0.1:5500,
+https://fimi.infoepi.org
 ```
 
 ### Allowed Logout URLs
 ```
-http://localhost:3000,
-https://fimi.infoepi.org,
-https://your-preview-url.netlify.app
+http://127.0.0.1:3000,
+http://127.0.0.1:4200,
+http://127.0.0.1:5500,
+https://fimi.infoepi.org
 ```
 
 ### Allowed Web Origins
 ```
-http://localhost:3000,
-https://fimi.infoepi.org,
-https://your-preview-url.netlify.app
+http://127.0.0.1:3000,
+http://127.0.0.1:4200,
+http://127.0.0.1:5500,
+https://fimi.infoepi.org
 ```
 
 ### Allowed Origins (CORS)
 ```
-http://localhost:3000,
-https://fimi.infoepi.org,
-https://your-preview-url.netlify.app
+http://127.0.0.1:3000,
+http://127.0.0.1:4200,
+http://127.0.0.1:5500,
+https://fimi.infoepi.org
 ```
 
 Click **Save Changes** at the bottom.
