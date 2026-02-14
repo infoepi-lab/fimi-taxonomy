@@ -1,6 +1,9 @@
 // Auth0 Configuration for FIMI Taxonomy
 // This file will be populated with your Auth0 credentials
 
+// Auth0 Configuration for FIMI Taxonomy
+// Note: Client ID is safe to expose publicly - security comes from
+// the Allowed Callback URLs configured in your Auth0 dashboard
 const auth0Config = {
   domain: 'dev-qpwdmmy00vcxxbp0.eu.auth0.com',
   clientId: '4w10LIgGMLo4gwukZHRjiNGc0dQ76nm6',

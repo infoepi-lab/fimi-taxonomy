@@ -1,0 +1,5 @@
+Revert to safe Auth0 configuration
+
+Client ID is safe to expose publicly in static sites.
+Security comes from Allowed Callback URLs in Auth0 dashboard.
+This is the recommended approach per Auth0 documentation.
